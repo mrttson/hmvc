@@ -7,9 +7,9 @@
         <link rel="shortcut icon" href="<?php echo base_url(); ?>public/images/icon.png" />
         <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/all.css" type="text/css" />
         <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/sample_pages/gallery.css" type="text/css" />
+        <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/sample_pages/stream.css" type="text/css" />
         <script src="<?php echo base_url(); ?>public/js/jquery-1.7.2.js"></script>
         <script src="<?php echo base_url(); ?>public/js/all.js"></script>
-        <script src="<?php echo base_url(); ?>public/js/layout.js"></script>
     </head>
 
     <body>

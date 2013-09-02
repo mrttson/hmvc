@@ -8,6 +8,7 @@ class User extends CommonController {
         parent::__construct();
         $this->_layout = 'web';
         $this->load->Model('UserModel');
+        $this->_data['moduleTitle'] = 'Người Dùng';
     }
 
     function index($id = NULL) {
@@ -33,16 +34,16 @@ class User extends CommonController {
             $username = $_POST['username'];
             $password = $_POST['password'];
             $res = $this->UserModel->getUserInfo(NULL, $username, $password);
-//            if ($res) {
-//                if (mysql_num_rows($res) > 0) {
-//                    //Set user info to session
-//                    $_SESSION['user_id'] = $res['user_id'];
-//                    $_SESSION['fullname'] = $res['fullname'];
-//                } else {
-//                    redirect('user/login');
-//                }
-//            }
-            var_dump($res);
+            if ($res) {
+                if (mysql_num_rows($res) > 0) {
+                    //Set user info to session
+                    $_SESSION['user_id'] = $res['id'];
+                    $_SESSION['user_role'] = $res['role'];
+                    redirect(site_url('index'));
+                } else {
+                    redirect('login');
+                }
+            }
         }
     }
 
@@ -69,7 +70,44 @@ class User extends CommonController {
             }
         }
     }
-
+    
+    function logout(){
+        if (isset($_SESSION)){
+            session_destroy();
+        }
+        redirect(site_url('user/login'));
+    }
+    
+    function add(){
+        if (!isset($_POST) || empty($_POST)){
+            $this->_layout = 'admin';
+            $this->_data['pageTitle'] = 'Add User';
+            $this->_data['page'] = 'add';
+            $contentData['listRole'] = $this->UserModel->getListRole();
+            $this->_data['content'] = $contentData;
+            $this->loadPage();
+        } else {
+            $data['username'] = $_POST['username'];
+            $data['password'] = $_POST['password'];
+            $data['fullname'] = $_POST['fullname'];
+            $data['email'] = $_POST['email'];
+            $data['role'] = $_POST['role'];
+            if ($this->UserModel->add($data)){
+                redirect(site_url('user/list'));
+            } else {
+                redirect(site_url('user/add'));
+            }
+        }
+    }
+    
+    function view(){
+        $this->_layout = 'admin';
+        $this->_data['pageTitle'] = 'List User';
+        $this->_data['page'] = 'list';
+        $contentData['listUser'] = $this->UserModel->getListUserInfo();
+        $this->_data['content'] = $contentData;
+        $this->loadPage();
+    }
 }
 
 ?>

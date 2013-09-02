@@ -24,11 +24,49 @@ class UserModel extends CommonModel {
     }
     
     function getIdMax(){
-        $sql = "SELECT MAX(id) AS maxid FROM users";
+        $sql = "SELECT 
+                    MAX(id) AS maxid 
+                FROM users";
         $res = $this->getData($sql);
         return $res[0]['maxid'];
     }
 
+    function getListRole(){
+        $sql = 'SELECT 
+                    id, role_name
+                FROM roles';
+        $res = $this->getData($sql);
+        if($res){
+            return $res;
+        } else {
+            return FALSE;
+        }
+    }
+    
+    function add($data){
+        $sql = "INSERT INTO users(username, password, fullname, email, role)
+                VALUES('". $data['username'] ."', '". md5($data['password']) ."', '". $data['fullname'] ."', '". $data['email'] ."', '". $data['role'] ."')";
+        if($this->Execute($sql)){
+            return $this->getIdMax();
+        } else {
+            return FALSE;
+        }
+    }
+    
+    function getListUserInfo(){
+        $sql = "SELECT 
+                    u.id, u.username, u.fullname, u.email, r.role_name
+                FROM users u
+                LEFT JOIN roles r ON u.role = r.id";
+        $res = $this->getData($sql);
+        if ($res){
+            return $res;
+        }  else {
+            return FALSE;
+        }
+        
+    }
+        
 }
 
 ?>

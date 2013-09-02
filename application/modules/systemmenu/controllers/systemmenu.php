@@ -2,7 +2,7 @@
 
 require_once(APPPATH . 'controllers/CommonController.php');
 
-class Admin extends CommonController {
+class Systemmenu extends CommonController {
 
     public $contentData = array();
 

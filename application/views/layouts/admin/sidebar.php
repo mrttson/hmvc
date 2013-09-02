@@ -13,7 +13,7 @@
                     foreach ($sideBar as $submenu) {
                         if ($submenu['parent_id'] == $menu['id']) {
                             ?>
-                            <li><a href="<?php echo $submenu['url']; ?>"><?php echo $submenu['title']; ?></a></li>
+                    <li><a href="<?php echo site_url($submenu['url']); ?>"><?php echo $submenu['title']; ?></a></li>
                             <?php
                         }
                     }

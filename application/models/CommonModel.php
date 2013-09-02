@@ -5,6 +5,7 @@ class CommonModel extends CI_Model {
     public function __construct() {
         parent::__construct();
         $this->load->database();
+        $this->Execute('set charset utf8');
     }
 
     /*
@@ -21,6 +22,35 @@ class CommonModel extends CI_Model {
         }
     }
     
+    function get1Row($sql){
+        $tmp = $this->db->query($sql);
+        if ($tmp) {
+            $data = $tmp->result_array();
+            if (count($data) > 0){
+                return $data[0];
+            } else {
+                return FALSE;
+            }
+        } else {
+            return FALSE;
+        }
+    }
+    
+    function get1Cell($sql){
+        $tmp = $this->db->query($sql);
+        if ($tmp) {
+            $data = $tmp->result_array();
+            if (count($data) > 0){
+                return $data[0][0];
+            } else {
+                return FALSE;
+            }
+        } else {
+            return FALSE;
+        }
+    }
+
+
     /*
      * Get User Info Data Function
      */
@@ -69,8 +99,8 @@ class CommonModel extends CI_Model {
     }
     
     function getFooterData() {
-        $res = $this->getData('select * from config');
-        return $res[0];
+        $res = $this->get1Row('select * from config');
+        return $res;
     }
 
 }

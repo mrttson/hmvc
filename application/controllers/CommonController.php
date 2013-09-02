@@ -1,4 +1,12 @@
 <?php
+ob_start();
+if (!isset($_SESSION)){
+    session_start();
+}
+//Define Roles
+define('ADMIN_ROLE', '1');
+define('SUPER_USER_ROLES', '2');
+define('USER_ROLE', '3');
 
 class CommonController extends MX_Controller {
 
@@ -44,7 +52,7 @@ class CommonController extends MX_Controller {
         
     }
 
-    function checkpermisson() {
+    function checkPermisson() {
         if (!isset($_SESSION['user_id'])) {
             $this->session->sess_destroy();
             redirect('user/login');
