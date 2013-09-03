@@ -2,7 +2,7 @@
 
 require_once(APPPATH . 'controllers/CommonController.php');
 
-class User extends CommonController {
+class UserController extends CommonController {
 
     public function __construct() {
         parent::__construct();

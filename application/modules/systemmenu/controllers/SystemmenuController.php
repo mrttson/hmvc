@@ -2,18 +2,18 @@
 
 require_once(APPPATH . 'controllers/CommonController.php');
 
-class Admin extends CommonController {
+class SystemmenuController extends CommonController {
+
 
     public function __construct() {
         parent::__construct();
-        $this->checkPermisson();
-        $this->_contentData['moduleTitle'] = 'Bộ Sưu Tập';
+        $this->_contentData['moduleTitle'] = 'System Menu';
         $this->_layout = 'admin';
     }
 
     function index() {
         $this->_data['pageTitle'] = 'ADMIN';
-        $this->_data['page'] = 'admin_view';
+        $this->_data['page'] = 'index';
         $this->_contentData['data'] = 'ADMIN PAGE';
         $this->_data['content'] = $this->_contentData;
         $this->loadPage();
