@@ -13,6 +13,7 @@ class CommonController extends MX_Controller {
     public $_layout = null;
     public $_data = array();
     public $_userInfo = array();
+    public $_contentData = array();
 
     public function __construct() {
         parent::__construct();

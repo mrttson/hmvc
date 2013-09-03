@@ -83,8 +83,8 @@ class User extends CommonController {
             $this->_layout = 'admin';
             $this->_data['pageTitle'] = 'Add User';
             $this->_data['page'] = 'add';
-            $contentData['listRole'] = $this->UserModel->getListRole();
-            $this->_data['content'] = $contentData;
+            $_contentData['listRole'] = $this->UserModel->getListRole();
+            $this->_data['content'] = $_contentData;
             $this->loadPage();
         } else {
             $data['username'] = $_POST['username'];
@@ -104,8 +104,8 @@ class User extends CommonController {
         $this->_layout = 'admin';
         $this->_data['pageTitle'] = 'List User';
         $this->_data['page'] = 'list';
-        $contentData['listUser'] = $this->UserModel->getListUserInfo();
-        $this->_data['content'] = $contentData;
+        $_contentData['listUser'] = $this->UserModel->getListUserInfo();
+        $this->_data['content'] = $_contentData;
         $this->loadPage();
     }
 }
