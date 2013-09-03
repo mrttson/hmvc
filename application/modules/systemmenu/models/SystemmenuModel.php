@@ -8,25 +8,13 @@ class SystemmenuModel extends CommonModel {
         parent::__construct();
     }
 
-    function getUserInfo($username = NULL, $password = NULL) {
-        if (!empty($username) && !empty($password)) {
-            $sql = "SELECT * FROM users
-                    WHERE
-                        username = '" . $username . "'
-                        and password = '" . md5($password) . "'";
-            return $res = $this->get1Row($sql);
-        } else {
-            return FALSE;
-        }
-    }
-
-    function getUserInfoById($id = NULL) {
+    function getSystemMenuInfoById($id = NULL) {
         if (!empty($id)) {
             $sql = "SELECT 
-                        u.id, u.username, u.fullname, u.email, u.role, u.avatar, u.slogan, r.role_name
-                    FROM users u
-                    LEFT JOIN roles r ON u.role = r.id
-                    WHERE u.id = '" . $id . "'";
+                        s1.id, s1.title, s1.url, s1.parent_id, s2.title as parent_title, s1.orderno, s1.icon_path, s1.`status`
+                    FROM systemmenu s1
+                    LEFT JOIN systemmenu s2 ON s1.parent_id = s2.id
+                    WHERE s1.id = '" . $id . "'";
             return $res = $this->get1Row($sql);
         } else {
             return FALSE;
@@ -36,15 +24,16 @@ class SystemmenuModel extends CommonModel {
     function getIdMax() {
         $sql = "SELECT 
                     MAX(id) AS maxid 
-                FROM users";
-        $res = $this->getData($sql);
-        return $res[0]['maxid'];
+                FROM systemmenu";
+        $res = $this->get1Cell($sql);
+        return $res;
     }
 
-    function getListRole() {
-        $sql = 'SELECT 
-                    id, role_name
-                FROM roles';
+    function getListParentMenu() {
+        $sql = "SELECT
+                    id, title 
+                FROM systemmenu 
+                WHERE parent_id = '0'";
         $res = $this->getData($sql);
         if ($res) {
             return $res;
@@ -54,8 +43,8 @@ class SystemmenuModel extends CommonModel {
     }
 
     function add($data) {
-        $sql = "INSERT INTO users(username, password, fullname, email, role)
-                VALUES('" . $data['username'] . "', '" . md5($data['password']) . "', '" . $data['fullname'] . "', '" . $data['email'] . "', '" . $data['role'] . "')";
+        $sql = "INSERT INTO systemmenu(title, url, parent_id, orderno, icon_path, status)
+                VALUES('" . $data['title'] . "', '" . $data['url'] . "', '" . $data['parent_id'] . "', '" . $data['orderno'] . "', '" . $data['icon_path'] . "', '" . $data['status'] . "')";
         if ($this->Execute($sql)) {
             return $this->getIdMax();
         } else {
@@ -63,11 +52,14 @@ class SystemmenuModel extends CommonModel {
         }
     }
 
-    function getListUserInfo() {
+    function getListSystemMenu() {
         $sql = "SELECT 
-                    u.id, u.username, u.fullname, u.email, r.role_name
-                FROM users u
-                LEFT JOIN roles r ON u.role = r.id";
+                    s1.id, s1.title, s1.url, s1.parent_id, s2.title as parent_title, s1.orderno, s1.icon_path, s1.`status`
+                FROM 
+                    systemmenu s1
+                LEFT JOIN systemmenu s2 ON s1.parent_id = s2.id
+                ORDER BY 
+                    s1.parent_id";
         $res = $this->getData($sql);
         if ($res) {
             return $res;
@@ -77,14 +69,19 @@ class SystemmenuModel extends CommonModel {
     }
 
     function update($data){
-        $sql = "UPDATE users 
+        var_dump($data);
+        $sql = "UPDATE systemmenu 
                 SET 
-                    fullname = '".$data['fullname']."',
-                    email = '".$data['email']."',
-                    role = '".$data['role']."'
+                    title = '".$data['title']."',
+                    url = '".$data['url']."',
+                    parent_id = '".$data['parent_id']."',
+                    orderno = '".$data['orderno']."',
+                    icon_path = '".$data['icon_path']."',
+                    `status` = '".$data['status']."'
                 WHERE
                     id = '".$data['id']."'
                     ";
+        var_dump($sql);
         if($this->Execute($sql)){
             return $data['id'];
         } else {

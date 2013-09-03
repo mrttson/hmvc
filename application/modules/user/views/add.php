@@ -67,7 +67,8 @@
                             </select>
                         </div>		
                     </div> <!-- .field-group -->
-                    <input class="btn btn-small btn-blue" type="submit" value="Add User"/>
+                    <input class="btn btn-small btn-blue" type="submit" value="Save"/>
+                    <a href="<?php echo site_url('user'); ?>"><button type="button" id="btn_user_add_back" class="btn btn-small btn-teal">&nbsp;Back&nbsp;</button></a>
                 </div> <!-- .widget-content -->
 
             </div> <!-- .widget -->

@@ -59,8 +59,8 @@
                                 </select>
                             </div>		
                         </div> <!-- .field-group -->
-                        <input class="btn btn-small btn-blue" type="submit" value="Edit User"/>
-                        <a href="<?php echo site_url('user/index'); ?>"><button id="btn_user_edit_back" class="btn btn-small btn-teal">&nbsp;Back&nbsp;</button></a>
+                        <input class="btn btn-small btn-blue" type="submit" value="Save"/>
+                        <a href="<?php echo site_url('user'); ?>"><button type="button" id="btn_user_edit_back" class="btn btn-small btn-teal">&nbsp;Back&nbsp;</button></a>
                     </div> <!-- .widget-content -->
 
                 </div> <!-- .widget -->

@@ -15,8 +15,8 @@ class User extends CommonController {
         $this->_layout = 'admin';
         $this->_data['pageTitle'] = 'List User';
         $this->_data['page'] = 'index';
-        $_contentData['listUser'] = $this->UserModel->getListUserInfo();
-        $this->_data['content'] = $_contentData;
+        $this->_contentData['listUser'] = $this->UserModel->getListUserInfo();
+        $this->_data['content'] = $this->_contentData;
         $this->loadPage();
     }
 
@@ -84,8 +84,8 @@ class User extends CommonController {
             $this->_layout = 'admin';
             $this->_data['pageTitle'] = 'Add User';
             $this->_data['page'] = 'add';
-            $_contentData['listRole'] = $this->UserModel->getListRole();
-            $this->_data['content'] = $_contentData;
+            $this->_contentData['listRole'] = $this->UserModel->getListRole();
+            $this->_data['content'] = $this->_contentData;
             $this->loadPage();
         } else {
             $data['username'] = $_POST['username'];
@@ -106,9 +106,9 @@ class User extends CommonController {
             if (!isset($_POST) || empty($_POST)) {
                 $this->_data['pageTitle'] = 'Edit User';
                 $this->_data['page'] = 'edit';
-                $_contentData['userInfo'] = $this->UserModel->getUserInfoById($id);
-                $_contentData['listRole'] = $this->UserModel->getListRole();
-                $this->_data['content'] = $_contentData;
+                $this->_contentData['userInfo'] = $this->UserModel->getUserInfoById($id);
+                $this->_contentData['listRole'] = $this->UserModel->getListRole();
+                $this->_data['content'] = $this->_contentData;
                 $this->loadPage();
             } else {
                 //update User Info
