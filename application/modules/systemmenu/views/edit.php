@@ -64,8 +64,8 @@
                             <label>Icon:</label>
                             <div class="field">
                                 <!--<input type="text" name="icon_path" id="icon_path" size="50" value="<?php echo $systemMenuInfo['icon_path']; ?>"/>-->
-                                <input type='file' name="icon_path" id="icon_path" size="50" value="<?php echo $systemMenuInfo['icon_path']; ?>" onchange="readURL(this);" />
-                                <img id="img_prev" src="<?php echo base_url(). 'public/images/default_img_thumb.gif'; ?>" alt="your image" width="50px" height="50px"/>
+                                <input type='file' name="icon_path" id="icon_path" size="50" value="<?php echo $systemMenuInfo['icon_path']; ?>" />
+                                <img id="img_prev" src="<?php echo base_url(). 'public/images/default_img_thumb.gif'; ?>" alt="your image" width="50px" height="50px" style="position: relative; top: 10px;"/>
                             </div>
                         </div> <!-- .field-group -->
 
@@ -98,6 +98,12 @@
                     reader.readAsDataURL(input.files[0]);
                 }
             }
+            $(document).ready(function (){
+                $('#icon_path').change(function (){
+                    console.log(this);
+                     readURL(this);
+                });
+            });
         </script>
     </div>
 </div>

@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/sample_pages/gallery.css" type="text/css" />
         <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/sample_pages/stream.css" type="text/css" />
         <script src="<?php echo base_url(); ?>public/js/jquery-1.7.2.js"></script>
-        <script src="<?php echo base_url(); ?>public/js/all.js"></script>
+        
     </head>
 
     <body>
@@ -43,6 +43,7 @@
         <div id="footer">
             <?php $this->load->view("layouts/admin/footer", $footer); ?>
         </div>
+        <script src="<?php echo base_url(); ?>public/js/all.js"></script>
         <script src="<?php echo base_url(); ?>public/js/layout.js"></script>
     </body>
 </html>
