@@ -6,16 +6,17 @@ class User extends CommonController {
 
     public function __construct() {
         parent::__construct();
-        $this->_layout = 'web';
+        $this->_layout = 'admin';
         $this->load->Model('UserModel');
         $this->_data['moduleTitle'] = 'Người Dùng';
     }
 
-    function index($id = NULL) {
-        $this->_data['pageTitle'] = "User Page";
-        $this->_data['page'] = 'user_view';
-        $this->_data['content'] = "<h1>User Page</h1>";
-        //log_message($this->_data);
+    function index() {
+        $this->_layout = 'admin';
+        $this->_data['pageTitle'] = 'List User';
+        $this->_data['page'] = 'index';
+        $_contentData['listUser'] = $this->UserModel->getListUserInfo();
+        $this->_data['content'] = $_contentData;
         $this->loadPage();
     }
 
@@ -70,16 +71,16 @@ class User extends CommonController {
             }
         }
     }
-    
-    function logout(){
-        if (isset($_SESSION)){
+
+    function logout() {
+        if (isset($_SESSION)) {
             session_destroy();
         }
         redirect(site_url('user/login'));
     }
-    
-    function add(){
-        if (!isset($_POST) || empty($_POST)){
+
+    function add() {
+        if (!isset($_POST) || empty($_POST)) {
             $this->_layout = 'admin';
             $this->_data['pageTitle'] = 'Add User';
             $this->_data['page'] = 'add';
@@ -92,22 +93,40 @@ class User extends CommonController {
             $data['fullname'] = $_POST['fullname'];
             $data['email'] = $_POST['email'];
             $data['role'] = $_POST['role'];
-            if ($this->UserModel->add($data)){
+            if ($this->UserModel->add($data)) {
                 redirect(site_url('user/list'));
             } else {
                 redirect(site_url('user/add'));
             }
         }
     }
-    
-    function view(){
-        $this->_layout = 'admin';
-        $this->_data['pageTitle'] = 'List User';
-        $this->_data['page'] = 'list';
-        $_contentData['listUser'] = $this->UserModel->getListUserInfo();
-        $this->_data['content'] = $_contentData;
-        $this->loadPage();
+
+    function edit($id = NULL) {
+        if (!empty($id)) {
+            if (!isset($_POST) || empty($_POST)) {
+                $this->_data['pageTitle'] = 'Edit User';
+                $this->_data['page'] = 'edit';
+                $_contentData['userInfo'] = $this->UserModel->getUserInfoById($id);
+                $_contentData['listRole'] = $this->UserModel->getListRole();
+                $this->_data['content'] = $_contentData;
+                $this->loadPage();
+            } else {
+                //update User Info
+                $data['fullname'] = $_POST['fullname'];
+                $data['email'] = $_POST['email'];
+                $data['role'] = $_POST['role'];
+                $data['id'] = $id;
+                if ($this->UserModel->update($data)) {
+                    redirect(site_url('user/index'));
+                } else {
+                    echo 'Die when Edit User';
+                }
+            }
+        } else {
+            redirect(site_url('user/index'));
+        }
     }
+
 }
 
 ?>

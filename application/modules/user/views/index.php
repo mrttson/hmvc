@@ -39,8 +39,8 @@
                                     <td><?php echo $user['email']; ?></td>
                                     <td><?php echo $user['role_name']; ?></td>
                                     <td style="text-align: center;">
-                                        <a href=""><img style="border: 1px solid #000;" src="<?php echo base_url(). 'public/images/pencil.png'; ?>" title="Edit User"/></a>
-                                        <a href=""><img style="border: 1px solid #000;" src="<?php echo base_url(). 'public/images/remove.png'; ?>" title="Delete User"/></a>
+                                        <a href="<?php echo site_url('user/edit/'.$user['id']); ?>"><img style="border: 1px solid #000;" src="<?php echo base_url(). 'public/images/pencil.png'; ?>" title="Edit User"/></a>
+                                        <a href="<?php echo site_url('user/delete/'.$user['id']); ?>"><img style="border: 1px solid #000;" src="<?php echo base_url(). 'public/images/remove.png'; ?>" title="Delete User"/></a>
                                     </td>
                                 </tr>
                                 <?php
@@ -48,7 +48,6 @@
                         ?>
                     </tbody>
                 </table>
-
 
             </div> <!-- .widget-content -->
 

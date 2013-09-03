@@ -4,13 +4,17 @@ class Usercp extends CommonController {
 
     public function __construct() {
         parent::__construct();
-        $this->_contentData['moduleTitle'] = 'Bộ Sưu Tập';
+        $this->_data['moduleTitle'] = 'Tài Khoản';
         $this->_layout = 'admin';
     }
     
     
-    function index() {
-        
+    function index($id) {
+        $this->_data['pageTitle'] = 'User Account';
+        $this->_data['page'] = 'index';
+        $_contentData['listUser'] = $this->UserModel->getListUserInfo();
+        $this->_data['content'] = $_contentData;
+        $this->loadPage();
     }
 
 }
