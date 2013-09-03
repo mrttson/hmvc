@@ -42,7 +42,7 @@
                                     <?php
                                     foreach ($listParentMenu as $parentMenu) {
                                         $option = '<option value="' . $parentMenu['id'] . '"';
-                                        if ($systemMenuInfo['parent_id'] == $parentMenu['id']){
+                                        if ($systemMenuInfo['parent_id'] == $parentMenu['id']) {
                                             $option .= ' selected="selected"';
                                         }
                                         $option .= '>' . $parentMenu['title'] . '</option>';
@@ -63,7 +63,9 @@
                         <div class="field-group">
                             <label>Icon:</label>
                             <div class="field">
-                                <input type="text" name="icon_path" id="icon_path" size="50" value="<?php echo $systemMenuInfo['icon_path']; ?>"/>
+                                <!--<input type="text" name="icon_path" id="icon_path" size="50" value="<?php echo $systemMenuInfo['icon_path']; ?>"/>-->
+                                <input type='file' name="icon_path" id="icon_path" size="50" value="<?php echo $systemMenuInfo['icon_path']; ?>" onchange="readURL(this);" />
+                                <img id="img_prev" src="<?php echo base_url(). 'public/images/default_img_thumb.gif'; ?>" alt="your image" width="50px" height="50px"/>
                             </div>
                         </div> <!-- .field-group -->
 
@@ -81,5 +83,21 @@
                 </div> <!-- .widget -->
             </form>
         <?php } ?>
+        <script>
+            function readURL(input) {
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    reader.onload = function(e) {
+                        $('#img_prev')
+                                .attr('src', e.target.result)
+                                .width(50)
+                                .height(50);
+                    };
+
+                    reader.readAsDataURL(input.files[0]);
+                }
+            }
+        </script>
     </div>
 </div>

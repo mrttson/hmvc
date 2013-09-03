@@ -12,7 +12,7 @@
 
             <div class="widget-header">
                 <span class="icon-list"></span>
-                <h3 class="icon chart"><?php echo $pageTitle; ?></h3>	
+                <h3 class="icon chart"><?php echo $pageTitle; ?></h3>
             </div>
 
             <div class="widget-content">
@@ -40,7 +40,7 @@
                                     <td><?php echo $menu['url']; ?></td>
                                     <td><?php echo $menu['parent_title']; ?></td>
                                     <td><?php echo $menu['orderno']; ?></td>
-                                    <td><?php echo $menu['icon_path']; ?></td>
+                                    <td><img src="<?php echo $menu['icon_path']; ?>" width="16px" height="16px"/></td>
                                     <td style="text-align: center;">
                                         <input type="checkbox" <?php if($menu['status'] == 1) echo 'checked'; ?>/>
                                     </td>

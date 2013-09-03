@@ -43,5 +43,6 @@
         <div id="footer">
             <?php $this->load->view("layouts/admin/footer", $footer); ?>
         </div>
+        <script src="<?php echo base_url(); ?>public/js/layout.js"></script>
     </body>
 </html>
