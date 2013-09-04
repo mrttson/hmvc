@@ -57,15 +57,17 @@ class Systemmenu extends CommonController {
                 $data['url'] = $_POST['url'];
                 $data['parent_id'] = $_POST['parent_id'];
                 $data['orderno'] = $_POST['orderno'];
-                $data['icon_path'] = $_POST['icon_path'];
+                $data['icon_path'] = $_FILES['icon_path'];
                 $data['status'] = $_POST['status'];
                 $data['id'] = $id;
-                var_dump($_POST['icon_path']);
-                                die();
-                if ($this->SystemmenuModel->update($data)) {
+                $uploadImgSuccess = $this->upload($data['icon_path']);
+                var_dump($uploadImgSuccess);die();
+                if ($uploadImgSuccess && $this->SystemmenuModel->update($data)) {
                     redirect(site_url('systemmenu'));
                 } else {
                     echo 'Die when Edit Systen Menu';
+                    sleep(5);
+                    redirect('systemmenu');
                 }
             }
         } else {

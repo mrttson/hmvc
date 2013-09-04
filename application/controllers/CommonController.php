@@ -69,18 +69,18 @@ class CommonController extends MX_Controller {
         return $this->CommonModel->getFooterData();
     }
 
-    function upload() {
-        $temp = explode(".", $_FILES["file"]["name"]);
+    function upload($imgInfo) {
+        $temp = explode(".", $imgInfo["name"]);
         $extension = end($temp);
-        if ($_FILES["file"]["size"] < 5000000) {
-            if ($_FILES["file"]["error"] > 0) {
+        if ($imgInfo["size"] < 5000000) {
+            if ($imgInfo["error"] > 0) {
                 return FALSE;
             } else {
                 if (!file_exists(base_url() . 'public/images')) {
                     mkdir(base_url() . 'public/images', 0777, true);
                 }
-                $fileName = $_SERVER['REQUEST_TIME'] . '_' . $_FILES['file']['name'];
-                move_uploaded_file($_FILES["file"]["tmp_name"], base_url() . 'public/images/' . $fileName);
+                $fileName = $_SERVER['REQUEST_TIME'] . '_' . $imgInfo['name'];
+                move_uploaded_file($imgInfo["tmp_name"], base_url() . 'public/images/' . $fileName);
                 return $fileName;
             }
         } else {

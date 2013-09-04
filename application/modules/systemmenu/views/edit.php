@@ -8,7 +8,7 @@
 
     <div class="grid-16">
         <?php if (count($systemMenuInfo) > 0) { ?>
-            <form method="POST" action="<?php echo site_url('systemmenu/edit/' . $systemMenuInfo['id']); ?>" class="form uniformForm">					
+            <form method="POST" action="<?php echo site_url('systemmenu/edit/' . $systemMenuInfo['id']); ?>" class="form uniformForm" enctype="multipart/form-data">					
 
                 <div class="widget">
 
@@ -69,7 +69,7 @@
                             </div>
                         </div> <!-- .field-group -->
 
-                        <div class="field-group">		
+                        <div class="field-group">
                             <label for="cfpassword">Status:</label>
 
                             <div class="field">
