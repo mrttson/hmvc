@@ -53,7 +53,12 @@
                                 <select name="role" id="role" style="width: 383px;">
                                     <?php
                                     foreach ($listRole as $role) {
-                                        echo '<option value="' . $role['id'] . '">' . $role['role_name'] . '</option>';
+                                        $option = '<option value="' . $role['id'] . '"';
+                                        if ($userInfo['role'] == $role['id']){
+                                            $option .= ' selected';
+                                        }
+                                        $option .= '>' . $role['role_name'] . '</option>';
+                                        echo $option;
                                     }
                                     ?>
                                 </select>

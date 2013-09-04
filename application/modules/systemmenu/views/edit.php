@@ -83,26 +83,5 @@
                 </div> <!-- .widget -->
             </form>
         <?php } ?>
-        <script>
-            function readURL(input) {
-                if (input.files && input.files[0]) {
-                    var reader = new FileReader();
-
-                    reader.onload = function(e) {
-                        $('#img_prev')
-                                .attr('src', e.target.result)
-                                .width(50)
-                                .height(50);
-                    };
-
-                    reader.readAsDataURL(input.files[0]);
-                }
-            }
-            $(document).ready(function() {
-                $('#icon_path').change(function() {
-                    readURL(this);
-                });
-            });
-        </script>
     </div>
 </div>

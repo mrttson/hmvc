@@ -60,7 +60,8 @@ class Systemmenu extends CommonController {
                 $data['icon_path'] = $_POST['icon_path'];
                 $data['status'] = $_POST['status'];
                 $data['id'] = $id;
-                var_dump($data);
+                var_dump($_POST['icon_path']);
+                                die();
                 if ($this->SystemmenuModel->update($data)) {
                     redirect(site_url('systemmenu'));
                 } else {
@@ -75,7 +76,7 @@ class Systemmenu extends CommonController {
     function delete($id = NULL){
         if(!empty($id)){
             if($this->SystemmenuModel->delete($id)){
-                redirect();
+                redirect('systemmenu');
             } else {
                 echo 'Error SQL [DELETE systemmenu]';
             }

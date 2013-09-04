@@ -126,6 +126,18 @@ class User extends CommonController {
             redirect(site_url('user/index'));
         }
     }
+    
+    function delete($id = NULL){
+        if(!empty($id)){
+            if($this->UserModel->delete($id)){
+                redirect('user');
+            } else {
+                echo 'Error SQL [DELETE user]';
+            }
+        } else {
+            echo 'Empty Id [delete user]';
+        }
+    }
 
 }
 

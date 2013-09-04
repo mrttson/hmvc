@@ -59,7 +59,7 @@ class SystemmenuModel extends CommonModel {
                     systemmenu s1
                 LEFT JOIN systemmenu s2 ON s1.parent_id = s2.id
                 ORDER BY 
-                    s1.parent_id";
+                    s1.parent_id ASC, s1.orderno ASC";
         $res = $this->getData($sql);
         if ($res) {
             return $res;

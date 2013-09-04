@@ -91,6 +91,19 @@ class UserModel extends CommonModel {
             return FALSE;
         }
     }
+    
+    function delete($id){
+        $sql = "DELETE FROM 
+                        users
+                    WHERE
+                        id = '".$id."'";
+        if($this->Execute($sql)){
+            return $id;
+        } else {
+            return FALSE;
+        }
+    }
+    
 }
 
 ?>

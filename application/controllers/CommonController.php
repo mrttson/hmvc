@@ -1,6 +1,7 @@
 <?php
+
 ob_start();
-if (!isset($_SESSION)){
+if (!isset($_SESSION)) {
     session_start();
 }
 //Define Roles
@@ -46,7 +47,7 @@ class CommonController extends MX_Controller {
     }
 
     function log($message) {
-        return log_message('error',$message);
+        return log_message('error', $message);
     }
 
     function getUserInfo() {
@@ -68,6 +69,24 @@ class CommonController extends MX_Controller {
         return $this->CommonModel->getFooterData();
     }
 
-}
+    function upload() {
+        $temp = explode(".", $_FILES["file"]["name"]);
+        $extension = end($temp);
+        if ($_FILES["file"]["size"] < 5000000) {
+            if ($_FILES["file"]["error"] > 0) {
+                return FALSE;
+            } else {
+                if (!file_exists(base_url() . 'public/images')) {
+                    mkdir(base_url() . 'public/images', 0777, true);
+                }
+                $fileName = $_SERVER['REQUEST_TIME'] . '_' . $_FILES['file']['name'];
+                move_uploaded_file($_FILES["file"]["tmp_name"], base_url() . 'public/images/' . $fileName);
+                return $fileName;
+            }
+        } else {
+            echo FALSE;
+        }
+    }
 
+}
 ?>
