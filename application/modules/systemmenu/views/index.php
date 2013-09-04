@@ -36,17 +36,26 @@
                                 ?>
                                 <tr>
                                     <td><?php echo $menu['id']; ?></td>
-                                    <td><?php if ($menu['parent_id'] == '0') echo '<b><u>'.$menu['title'].'</u></b>'; else echo $menu['title']; ?></td>
+                                    <td><?php if ($menu['parent_id'] == '0') echo '<h4>'.$menu['title'].'</h4>'; else echo $menu['title']; ?></td>
                                     <td><?php echo $menu['url']; ?></td>
                                     <td><?php echo $menu['parent_title']; ?></td>
                                     <td><?php echo $menu['orderno']; ?></td>
-                                    <td><img src="<?php echo $menu['icon_path']; ?>" width="16px" height="16px"/></td>
+                                    <td style="text-align: center;">
+                                        <?php
+                                            if (file_exists(base_url() . $menu['icon_path'])) {
+                                                $srcImg = base_url() . $menu['icon_path'];
+                                            } else {
+                                                $srcImg = base_url() . 'public/images/default_img_thumb.gif';
+                                            }
+                                        ?>
+                                        <img src="<?php echo $srcImg; ?>" width="16px" height="16px"/>
+                                    </td>
                                     <td style="text-align: center;">
                                         <input type="checkbox" <?php if($menu['status'] == 1) echo 'checked'; ?>/>
                                     </td>
                                     <td style="text-align: center;">
-                                        <a href="<?php echo site_url('systemmenu/edit/'.$menu['id']); ?>"><img style="border: 1px solid #000;" src="<?php echo base_url(). 'public/images/pencil.png'; ?>" title="Edit"/></a>
-                                        <a href="<?php echo site_url('systemmenu/delete/'.$menu['id']); ?>"><img style="border: 1px solid #000;" src="<?php echo base_url(). 'public/images/remove.png'; ?>" title="Delete"/></a>
+                                        <a href="<?php echo site_url('systemmenu/edit/'.$menu['id']); ?>"><img class="tooltip" title="Edit" style="border: 1px solid #000;" src="<?php echo base_url(). 'public/images/pencil.png'; ?>"/></a>
+                                        <a href="<?php echo site_url('systemmenu/delete/'.$menu['id']); ?>"><img class="tooltip" title="Delete" style="border: 1px solid #000;" src="<?php echo base_url(). 'public/images/remove.png'; ?>"/></a>
                                     </td>
                                 </tr>
                                 <?php

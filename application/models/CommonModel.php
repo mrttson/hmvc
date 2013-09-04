@@ -11,6 +11,7 @@ class CommonModel extends CI_Model {
     /*
      * Common function
      */
+
     function Execute($sql) {
         return $this->db->query($sql);
     }
@@ -21,12 +22,12 @@ class CommonModel extends CI_Model {
             return $tmp->result_array();
         }
     }
-    
-    function get1Row($sql){
+
+    function get1Row($sql) {
         $tmp = $this->db->query($sql);
         if ($tmp) {
             $data = $tmp->result_array();
-            if (count($data) > 0){
+            if (count($data) > 0) {
                 return $data[0];
             } else {
                 return FALSE;
@@ -35,15 +36,14 @@ class CommonModel extends CI_Model {
             return FALSE;
         }
     }
-    
-    function get1Cell($sql){
+
+    function get1Cell($sql) {
         $tmp = $this->db->query($sql);
         if ($tmp) {
-            $data = $tmp->first_row('array');
-            if (count($data) > 0){
-                var_dump($data);
-                echo $data[0];
-                return $data[0][0];
+            $data = $tmp->result_array();
+            if (count($data) > 0) {
+                $res = array_shift($data[0]); //get first element
+                return $res;
             } else {
                 return FALSE;
             }
@@ -52,20 +52,18 @@ class CommonModel extends CI_Model {
         }
     }
 
-
     /*
      * Get User Info Data Function
      */
-    function getUserInfoData(){
+
+    function getUserInfoData() {
         
     }
-
-
-
 
     /*
      * Get Layout Data Function
      */
+
     function getSideBarData() {
         $res = $this->getData('select * from menu');
         $data = array();
@@ -99,7 +97,7 @@ class CommonModel extends CI_Model {
         }
         return $data;
     }
-    
+
     function getFooterData() {
         $res = $this->get1Row('select * from config');
         return $res;
