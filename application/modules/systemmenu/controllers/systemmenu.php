@@ -68,7 +68,19 @@ class Systemmenu extends CommonController {
                 }
             }
         } else {
-            //redirect(site_url('systemmenu'));
+            echo 'Empty Id [Edit Systemmenu]';
+        }
+    }
+    
+    function delete($id = NULL){
+        if(!empty($id)){
+            if($this->SystemmenuModel->delete($id)){
+                redirect();
+            } else {
+                echo 'Error SQL [DELETE systemmenu]';
+            }
+        } else {
+            echo 'Empty Id [delete systemmenu]';
         }
     }
 

@@ -39,8 +39,10 @@ class CommonModel extends CI_Model {
     function get1Cell($sql){
         $tmp = $this->db->query($sql);
         if ($tmp) {
-            $data = $tmp->result_array();
+            $data = $tmp->first_row('array');
             if (count($data) > 0){
+                var_dump($data);
+                echo $data[0];
                 return $data[0][0];
             } else {
                 return FALSE;

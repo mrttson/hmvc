@@ -88,6 +88,18 @@ class SystemmenuModel extends CommonModel {
             return FALSE;
         }
     }
+    
+    function delete($id){
+        $sql = "DELETE FROM 
+                        systemmenu
+                    WHERE
+                        id = '".$id."'";
+        if($this->Execute($sql)){
+            return $id;
+        } else {
+            return FALSE;
+        }
+    }
 }
 
 ?>
