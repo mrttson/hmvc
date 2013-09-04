@@ -16803,3 +16803,1349 @@ DEBUG - 2013-09-03 18:23:27 --> File loaded: application/views/layouts/admin/foo
 DEBUG - 2013-09-03 18:23:27 --> File loaded: application/views/layouts/admin/layout.php
 DEBUG - 2013-09-03 18:23:27 --> Final output sent to browser
 DEBUG - 2013-09-03 18:23:27 --> Total execution time: 0.1065
+DEBUG - 2013-09-03 23:24:26 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:24:26 --> URI Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Router Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> No URI present. Default controller set.
+DEBUG - 2013-09-03 23:24:26 --> Output Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Security Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Input Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:24:26 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Admin MX_Controller Initialized
+DEBUG - 2013-09-03 23:24:26 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Session Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:24:26 --> Session routines successfully run
+DEBUG - 2013-09-03 23:24:26 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:24:26 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:24:26 --> URI Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Router Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Output Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Security Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Input Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:24:26 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> User MX_Controller Initialized
+DEBUG - 2013-09-03 23:24:26 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Session Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:24:26 --> A session cookie was not found.
+DEBUG - 2013-09-03 23:24:26 --> Session routines successfully run
+DEBUG - 2013-09-03 23:24:26 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:24:26 --> File loaded: application/modules/user/models/usermodel.php
+DEBUG - 2013-09-03 23:24:26 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:26 --> File loaded: application/modules/user/views/login.php
+DEBUG - 2013-09-03 23:24:26 --> Final output sent to browser
+DEBUG - 2013-09-03 23:24:26 --> Total execution time: 0.1093
+DEBUG - 2013-09-03 23:24:27 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:24:27 --> URI Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Router Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Output Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Security Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Input Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:24:27 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> User MX_Controller Initialized
+DEBUG - 2013-09-03 23:24:27 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Session Class Initialized
+DEBUG - 2013-09-03 23:24:27 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:24:27 --> Session routines successfully run
+DEBUG - 2013-09-03 23:24:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:24:27 --> File loaded: application/modules/user/models/usermodel.php
+DEBUG - 2013-09-03 23:24:27 --> Model Class Initialized
+ERROR - 2013-09-03 23:24:27 --> 404 Page Not Found --> user/javascripts
+DEBUG - 2013-09-03 23:24:33 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:24:33 --> URI Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Router Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Output Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Security Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Input Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:24:33 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:24:33 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Session Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:24:33 --> Session routines successfully run
+DEBUG - 2013-09-03 23:24:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:24:33 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:24:33 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:33 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:24:33 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:24:33 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:24:33 --> File loaded: application/modules/systemmenu/views/index.php
+DEBUG - 2013-09-03 23:24:33 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:24:33 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:24:33 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:24:33 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:24:33 --> Final output sent to browser
+DEBUG - 2013-09-03 23:24:33 --> Total execution time: 0.1908
+DEBUG - 2013-09-03 23:24:51 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:24:51 --> URI Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Router Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> No URI present. Default controller set.
+DEBUG - 2013-09-03 23:24:51 --> Output Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Security Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Input Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:24:51 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Admin MX_Controller Initialized
+DEBUG - 2013-09-03 23:24:51 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Session Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:24:51 --> Session routines successfully run
+DEBUG - 2013-09-03 23:24:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:24:51 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:24:51 --> URI Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Router Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Output Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Security Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Input Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:24:51 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> User MX_Controller Initialized
+DEBUG - 2013-09-03 23:24:51 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Session Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:24:51 --> A session cookie was not found.
+DEBUG - 2013-09-03 23:24:51 --> Session routines successfully run
+DEBUG - 2013-09-03 23:24:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:24:51 --> File loaded: application/modules/user/models/usermodel.php
+DEBUG - 2013-09-03 23:24:51 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> File loaded: application/modules/user/views/login.php
+DEBUG - 2013-09-03 23:24:51 --> Final output sent to browser
+DEBUG - 2013-09-03 23:24:51 --> Total execution time: 0.0678
+DEBUG - 2013-09-03 23:24:51 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:24:51 --> URI Class Initialized
+DEBUG - 2013-09-03 23:24:51 --> Router Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> Output Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> Security Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> Input Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:24:52 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> Language Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> Config Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> User MX_Controller Initialized
+DEBUG - 2013-09-03 23:24:52 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> Model Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> Session Class Initialized
+DEBUG - 2013-09-03 23:24:52 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:24:52 --> Session routines successfully run
+DEBUG - 2013-09-03 23:24:52 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:24:52 --> File loaded: application/modules/user/models/usermodel.php
+DEBUG - 2013-09-03 23:24:52 --> Model Class Initialized
+ERROR - 2013-09-03 23:24:52 --> 404 Page Not Found --> user/javascripts
+DEBUG - 2013-09-03 23:25:16 --> Config Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:25:16 --> URI Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Router Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> No URI present. Default controller set.
+DEBUG - 2013-09-03 23:25:16 --> Output Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Security Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Input Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:25:16 --> Language Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Language Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Config Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Admin MX_Controller Initialized
+DEBUG - 2013-09-03 23:25:16 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Session Class Initialized
+DEBUG - 2013-09-03 23:25:16 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:25:16 --> Session routines successfully run
+DEBUG - 2013-09-03 23:25:16 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:25:16 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:25:16 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:25:16 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:25:16 --> File loaded: application/modules/admin/views/admin_view.php
+DEBUG - 2013-09-03 23:25:16 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:25:16 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:25:16 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:25:16 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:25:16 --> Final output sent to browser
+DEBUG - 2013-09-03 23:25:16 --> Total execution time: 0.1570
+DEBUG - 2013-09-03 23:25:29 --> Config Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:25:29 --> URI Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Router Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> No URI present. Default controller set.
+DEBUG - 2013-09-03 23:25:29 --> Output Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Security Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Input Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:25:29 --> Language Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Language Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Config Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Admin MX_Controller Initialized
+DEBUG - 2013-09-03 23:25:29 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Session Class Initialized
+DEBUG - 2013-09-03 23:25:29 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:25:29 --> Session routines successfully run
+DEBUG - 2013-09-03 23:25:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:25:29 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:25:29 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:25:29 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:25:29 --> File loaded: application/modules/admin/views/admin_view.php
+DEBUG - 2013-09-03 23:25:29 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:25:29 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:25:29 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:25:29 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:25:29 --> Final output sent to browser
+DEBUG - 2013-09-03 23:25:29 --> Total execution time: 0.0854
+DEBUG - 2013-09-03 23:25:42 --> Config Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:25:42 --> URI Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Router Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Output Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Security Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Input Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:25:42 --> Language Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Language Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Config Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:25:42 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Session Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:25:42 --> Session routines successfully run
+DEBUG - 2013-09-03 23:25:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:25:42 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:25:42 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:42 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:25:42 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:25:42 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:25:42 --> File loaded: application/modules/systemmenu/views/index.php
+DEBUG - 2013-09-03 23:25:42 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:25:42 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:25:42 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:25:42 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:25:42 --> Final output sent to browser
+DEBUG - 2013-09-03 23:25:42 --> Total execution time: 0.0864
+DEBUG - 2013-09-03 23:25:51 --> Config Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:25:51 --> URI Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Router Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Output Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Security Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Input Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:25:51 --> Language Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Language Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Config Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:25:51 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Session Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:25:51 --> Session routines successfully run
+DEBUG - 2013-09-03 23:25:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:25:51 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:25:51 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:51 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:25:51 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:25:51 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:25:51 --> File loaded: application/modules/systemmenu/views/edit.php
+DEBUG - 2013-09-03 23:25:51 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:25:51 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:25:51 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:25:51 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:25:51 --> Final output sent to browser
+DEBUG - 2013-09-03 23:25:51 --> Total execution time: 0.0830
+DEBUG - 2013-09-03 23:25:58 --> Config Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:25:58 --> URI Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Router Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Output Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Security Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Input Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:25:58 --> Language Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Language Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Config Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:25:58 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Session Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:25:58 --> Session routines successfully run
+DEBUG - 2013-09-03 23:25:58 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:25:58 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:25:58 --> Model Class Initialized
+ERROR - 2013-09-03 23:25:58 --> Severity: Notice  --> Undefined index:  icon_path C:\xampp\htdocs\hmvc\application\modules\systemmenu\controllers\systemmenu.php 60
+DEBUG - 2013-09-03 23:25:58 --> Config Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:25:58 --> URI Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Router Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Output Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Security Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Input Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:25:58 --> Language Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Language Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Config Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:25:58 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Session Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:25:58 --> Session routines successfully run
+DEBUG - 2013-09-03 23:25:58 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:25:58 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:25:58 --> Model Class Initialized
+DEBUG - 2013-09-03 23:25:58 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:25:58 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:25:58 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:25:58 --> File loaded: application/modules/systemmenu/views/index.php
+DEBUG - 2013-09-03 23:25:58 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:25:58 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:25:58 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:25:58 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:25:58 --> Final output sent to browser
+DEBUG - 2013-09-03 23:25:58 --> Total execution time: 0.0942
+DEBUG - 2013-09-03 23:26:07 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:26:07 --> URI Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Router Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Output Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Security Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Input Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:26:07 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:26:07 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Session Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:26:07 --> Session routines successfully run
+DEBUG - 2013-09-03 23:26:07 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:26:07 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:26:07 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:07 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:26:07 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:26:07 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:26:07 --> File loaded: application/modules/systemmenu/views/edit.php
+DEBUG - 2013-09-03 23:26:07 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:26:07 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:26:07 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:26:07 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:26:07 --> Final output sent to browser
+DEBUG - 2013-09-03 23:26:07 --> Total execution time: 0.0828
+DEBUG - 2013-09-03 23:26:11 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:26:11 --> URI Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Router Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Output Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Security Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Input Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:26:11 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:26:11 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Session Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:26:11 --> Session routines successfully run
+DEBUG - 2013-09-03 23:26:11 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:26:11 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:26:11 --> Model Class Initialized
+ERROR - 2013-09-03 23:26:11 --> Severity: Notice  --> Undefined index:  icon_path C:\xampp\htdocs\hmvc\application\modules\systemmenu\controllers\systemmenu.php 60
+DEBUG - 2013-09-03 23:26:11 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:26:11 --> URI Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Router Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Output Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Security Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Input Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:26:11 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:26:11 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Session Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:26:11 --> Session routines successfully run
+DEBUG - 2013-09-03 23:26:11 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:26:11 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:26:11 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:11 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:26:11 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:26:11 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:26:11 --> File loaded: application/modules/systemmenu/views/index.php
+DEBUG - 2013-09-03 23:26:11 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:26:11 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:26:11 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:26:11 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:26:11 --> Final output sent to browser
+DEBUG - 2013-09-03 23:26:11 --> Total execution time: 0.0982
+DEBUG - 2013-09-03 23:26:18 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:26:18 --> URI Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Router Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Output Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Security Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Input Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:26:18 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> User MX_Controller Initialized
+DEBUG - 2013-09-03 23:26:18 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Session Class Initialized
+DEBUG - 2013-09-03 23:26:18 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:26:18 --> Session routines successfully run
+DEBUG - 2013-09-03 23:26:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:26:18 --> File loaded: application/modules/user/models/usermodel.php
+DEBUG - 2013-09-03 23:26:18 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:19 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:26:19 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:26:19 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:26:19 --> File loaded: application/modules/user/views/index.php
+DEBUG - 2013-09-03 23:26:19 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:26:19 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:26:19 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:26:19 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:26:19 --> Final output sent to browser
+DEBUG - 2013-09-03 23:26:19 --> Total execution time: 0.3727
+DEBUG - 2013-09-03 23:26:20 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:26:20 --> URI Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> Router Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> Output Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> Security Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> Input Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:26:20 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> User MX_Controller Initialized
+DEBUG - 2013-09-03 23:26:20 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:20 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:21 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:26:21 --> Session Class Initialized
+DEBUG - 2013-09-03 23:26:21 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:26:21 --> Session routines successfully run
+DEBUG - 2013-09-03 23:26:21 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:26:21 --> File loaded: application/modules/user/models/usermodel.php
+DEBUG - 2013-09-03 23:26:21 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:21 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:26:21 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:26:21 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:26:21 --> File loaded: application/modules/user/views/add.php
+DEBUG - 2013-09-03 23:26:21 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:26:21 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:26:21 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:26:21 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:26:21 --> Final output sent to browser
+DEBUG - 2013-09-03 23:26:21 --> Total execution time: 0.0845
+DEBUG - 2013-09-03 23:26:23 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:26:23 --> URI Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Router Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Output Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Security Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Input Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:26:23 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> User MX_Controller Initialized
+DEBUG - 2013-09-03 23:26:23 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Session Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:26:23 --> Session routines successfully run
+DEBUG - 2013-09-03 23:26:23 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:26:23 --> File loaded: application/modules/user/models/usermodel.php
+DEBUG - 2013-09-03 23:26:23 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:23 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:26:23 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:26:23 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:26:23 --> File loaded: application/modules/user/views/index.php
+DEBUG - 2013-09-03 23:26:23 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:26:23 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:26:23 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:26:23 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:26:23 --> Final output sent to browser
+DEBUG - 2013-09-03 23:26:23 --> Total execution time: 0.0958
+DEBUG - 2013-09-03 23:26:32 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:26:32 --> URI Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Router Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Output Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Security Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Input Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:26:32 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Language Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Config Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:26:32 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Session Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:26:32 --> Session routines successfully run
+DEBUG - 2013-09-03 23:26:32 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:26:32 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:26:32 --> Model Class Initialized
+DEBUG - 2013-09-03 23:26:32 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:26:32 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:26:32 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:26:32 --> File loaded: application/modules/systemmenu/views/index.php
+DEBUG - 2013-09-03 23:26:32 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:26:32 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:26:32 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:26:32 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:26:32 --> Final output sent to browser
+DEBUG - 2013-09-03 23:26:32 --> Total execution time: 0.0892
+DEBUG - 2013-09-03 23:28:24 --> Config Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:28:24 --> URI Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Router Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Output Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Security Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Input Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:28:24 --> Language Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Language Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Config Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:28:24 --> Model Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Model Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Session Class Initialized
+DEBUG - 2013-09-03 23:28:24 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:28:24 --> Session routines successfully run
+DEBUG - 2013-09-03 23:28:24 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:28:24 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:28:24 --> Model Class Initialized
+ERROR - 2013-09-03 23:28:24 --> 404 Page Not Found --> systemmenu/delete
+DEBUG - 2013-09-03 23:34:38 --> Config Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:34:38 --> URI Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Router Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Output Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Security Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Input Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:34:38 --> Language Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Language Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Config Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:34:38 --> Model Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Model Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Session Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:34:38 --> Session routines successfully run
+DEBUG - 2013-09-03 23:34:38 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:34:38 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:34:38 --> Model Class Initialized
+DEBUG - 2013-09-03 23:34:38 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:34:38 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:34:38 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:34:38 --> File loaded: application/modules/systemmenu/views/index.php
+DEBUG - 2013-09-03 23:34:38 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:34:38 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:34:38 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:34:38 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:34:38 --> Final output sent to browser
+DEBUG - 2013-09-03 23:34:38 --> Total execution time: 0.0898
+DEBUG - 2013-09-03 23:34:39 --> Config Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:34:39 --> URI Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Router Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Output Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Security Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Input Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:34:39 --> Language Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Language Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Config Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:34:39 --> Model Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Model Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Session Class Initialized
+DEBUG - 2013-09-03 23:34:39 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:34:40 --> Session routines successfully run
+DEBUG - 2013-09-03 23:34:40 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:34:40 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:34:40 --> Model Class Initialized
+DEBUG - 2013-09-03 23:34:40 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:34:40 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:34:40 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:34:40 --> File loaded: application/modules/systemmenu/views/index.php
+DEBUG - 2013-09-03 23:34:40 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:34:40 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:34:40 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:34:40 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:34:40 --> Final output sent to browser
+DEBUG - 2013-09-03 23:34:40 --> Total execution time: 0.0963
+DEBUG - 2013-09-03 23:34:43 --> Config Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:34:43 --> URI Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Router Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Output Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Security Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Input Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:34:43 --> Language Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Language Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Config Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:34:43 --> Model Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Model Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Session Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:34:43 --> Session routines successfully run
+DEBUG - 2013-09-03 23:34:43 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:34:43 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:34:43 --> Model Class Initialized
+DEBUG - 2013-09-03 23:34:43 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:34:43 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:34:43 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:34:43 --> File loaded: application/modules/systemmenu/views/add.php
+DEBUG - 2013-09-03 23:34:43 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:34:43 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:34:43 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:34:43 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:34:43 --> Final output sent to browser
+DEBUG - 2013-09-03 23:34:43 --> Total execution time: 0.0886
+DEBUG - 2013-09-03 23:34:59 --> Config Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:34:59 --> URI Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Router Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Output Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Security Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Input Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:34:59 --> Language Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Language Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Config Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:34:59 --> Model Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Model Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Session Class Initialized
+DEBUG - 2013-09-03 23:34:59 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:34:59 --> Session routines successfully run
+DEBUG - 2013-09-03 23:34:59 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:34:59 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:34:59 --> Model Class Initialized
+ERROR - 2013-09-03 23:34:59 --> Severity: Notice  --> Undefined offset:  0 C:\xampp\htdocs\hmvc\application\models\CommonModel.php 44
+DEBUG - 2013-09-03 23:34:59 --> Final output sent to browser
+DEBUG - 2013-09-03 23:34:59 --> Total execution time: 0.0973
+DEBUG - 2013-09-03 23:36:33 --> Config Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:36:33 --> URI Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Router Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Output Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Security Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Input Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:36:33 --> Language Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Language Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Config Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:36:33 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Session Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:36:33 --> Session routines successfully run
+DEBUG - 2013-09-03 23:36:33 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:36:33 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:36:33 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:33 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:36:33 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:36:33 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:36:33 --> File loaded: application/modules/systemmenu/views/add.php
+DEBUG - 2013-09-03 23:36:33 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:36:33 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:36:33 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:36:33 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:36:33 --> Final output sent to browser
+DEBUG - 2013-09-03 23:36:33 --> Total execution time: 0.0855
+DEBUG - 2013-09-03 23:36:36 --> Config Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:36:36 --> URI Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Router Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Output Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Security Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Input Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:36:36 --> Language Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Language Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Config Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:36:36 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Session Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:36:36 --> Session routines successfully run
+DEBUG - 2013-09-03 23:36:36 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:36:36 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:36:36 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:36:36 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:36:36 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:36:36 --> File loaded: application/modules/systemmenu/views/add.php
+DEBUG - 2013-09-03 23:36:36 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:36:36 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:36:36 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:36:36 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:36:36 --> Final output sent to browser
+DEBUG - 2013-09-03 23:36:36 --> Total execution time: 0.0862
+DEBUG - 2013-09-03 23:36:36 --> Config Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:36:36 --> URI Class Initialized
+DEBUG - 2013-09-03 23:36:36 --> Router Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Output Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Security Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Input Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:36:37 --> Language Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Language Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Config Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:36:37 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Session Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:36:37 --> Session routines successfully run
+DEBUG - 2013-09-03 23:36:37 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:36:37 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:36:37 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:36:37 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:36:37 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:36:37 --> File loaded: application/modules/systemmenu/views/index.php
+DEBUG - 2013-09-03 23:36:37 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:36:37 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:36:37 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:36:37 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:36:37 --> Final output sent to browser
+DEBUG - 2013-09-03 23:36:37 --> Total execution time: 0.0914
+DEBUG - 2013-09-03 23:36:37 --> Config Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:36:37 --> URI Class Initialized
+DEBUG - 2013-09-03 23:36:37 --> Router Class Initialized
+ERROR - 2013-09-03 23:36:37 --> 404 Page Not Found --> 
+DEBUG - 2013-09-03 23:36:38 --> Config Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:36:38 --> URI Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Router Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Output Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Security Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Input Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:36:38 --> Language Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Language Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Config Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:36:38 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Session Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:36:38 --> Session routines successfully run
+DEBUG - 2013-09-03 23:36:38 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:36:38 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:36:38 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:38 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:36:38 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:36:38 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:36:38 --> File loaded: application/modules/systemmenu/views/add.php
+DEBUG - 2013-09-03 23:36:38 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:36:38 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:36:38 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:36:38 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:36:38 --> Final output sent to browser
+DEBUG - 2013-09-03 23:36:38 --> Total execution time: 0.0961
+DEBUG - 2013-09-03 23:36:39 --> Config Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:36:39 --> URI Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Router Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Output Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Security Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Input Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:36:39 --> Language Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Language Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Config Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:36:39 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Model Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Session Class Initialized
+DEBUG - 2013-09-03 23:36:39 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:36:39 --> Session routines successfully run
+DEBUG - 2013-09-03 23:36:39 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:36:39 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:36:39 --> Model Class Initialized
+ERROR - 2013-09-03 23:36:39 --> Severity: Notice  --> Undefined offset:  0 C:\xampp\htdocs\hmvc\application\models\CommonModel.php 44
+DEBUG - 2013-09-03 23:36:39 --> Final output sent to browser
+DEBUG - 2013-09-03 23:36:39 --> Total execution time: 0.0710
+DEBUG - 2013-09-03 23:41:18 --> Config Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:41:18 --> URI Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Router Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Output Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Security Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Input Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:41:18 --> Language Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Language Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Config Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:41:18 --> Model Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Model Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Session Class Initialized
+DEBUG - 2013-09-03 23:41:18 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:41:18 --> Session routines successfully run
+DEBUG - 2013-09-03 23:41:18 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:41:18 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:41:18 --> Model Class Initialized
+ERROR - 2013-09-03 23:41:18 --> Severity: Notice  --> Undefined offset:  0 C:\xampp\htdocs\hmvc\application\models\CommonModel.php 45
+DEBUG - 2013-09-03 23:41:18 --> Final output sent to browser
+DEBUG - 2013-09-03 23:41:18 --> Total execution time: 0.0728
+DEBUG - 2013-09-03 23:47:07 --> Config Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:47:07 --> URI Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Router Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Output Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Security Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Input Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:47:07 --> Language Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Language Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Config Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:47:07 --> Model Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Model Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Session Class Initialized
+DEBUG - 2013-09-03 23:47:07 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:47:07 --> Session routines successfully run
+DEBUG - 2013-09-03 23:47:07 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:47:07 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:47:07 --> Model Class Initialized
+ERROR - 2013-09-03 23:47:07 --> Severity: Notice  --> Undefined offset:  0 C:\xampp\htdocs\hmvc\application\models\CommonModel.php 45
+ERROR - 2013-09-03 23:47:07 --> Severity: Notice  --> Undefined offset:  0 C:\xampp\htdocs\hmvc\application\models\CommonModel.php 46
+DEBUG - 2013-09-03 23:47:07 --> Final output sent to browser
+DEBUG - 2013-09-03 23:47:07 --> Total execution time: 0.0732
+DEBUG - 2013-09-03 23:51:47 --> Config Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:51:47 --> URI Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Router Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Output Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Security Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Input Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:51:47 --> Language Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Language Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Config Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:51:47 --> Model Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Model Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Session Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:51:47 --> Session routines successfully run
+DEBUG - 2013-09-03 23:51:47 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:51:47 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:51:47 --> Model Class Initialized
+DEBUG - 2013-09-03 23:51:47 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:51:47 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:51:47 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:51:47 --> File loaded: application/modules/systemmenu/views/add.php
+DEBUG - 2013-09-03 23:51:47 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:51:47 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:51:47 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:51:47 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:51:47 --> Final output sent to browser
+DEBUG - 2013-09-03 23:51:47 --> Total execution time: 0.0867
+DEBUG - 2013-09-03 23:51:56 --> Config Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:51:56 --> URI Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Router Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Output Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Security Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Input Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:51:56 --> Language Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Language Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Config Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:51:56 --> Model Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Model Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Session Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:51:56 --> Session routines successfully run
+DEBUG - 2013-09-03 23:51:56 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:51:56 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:51:56 --> Model Class Initialized
+DEBUG - 2013-09-03 23:51:56 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:51:56 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:51:56 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:51:56 --> File loaded: application/modules/systemmenu/views/add.php
+DEBUG - 2013-09-03 23:51:56 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:51:56 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:51:56 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:51:56 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:51:56 --> Final output sent to browser
+DEBUG - 2013-09-03 23:51:56 --> Total execution time: 0.0887
+DEBUG - 2013-09-03 23:51:59 --> Config Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:51:59 --> URI Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Router Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Output Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Security Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Input Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:51:59 --> Language Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Language Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Config Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:51:59 --> Model Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Model Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Session Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:51:59 --> Session routines successfully run
+DEBUG - 2013-09-03 23:51:59 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:51:59 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:51:59 --> Model Class Initialized
+DEBUG - 2013-09-03 23:51:59 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:51:59 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:51:59 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:51:59 --> File loaded: application/modules/systemmenu/views/add.php
+DEBUG - 2013-09-03 23:51:59 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:51:59 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:51:59 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:51:59 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:51:59 --> Final output sent to browser
+DEBUG - 2013-09-03 23:51:59 --> Total execution time: 0.0914
+DEBUG - 2013-09-03 23:52:01 --> Config Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:52:01 --> URI Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Router Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Output Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Security Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Input Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:52:01 --> Language Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Language Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Config Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:52:01 --> Model Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Model Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Session Class Initialized
+DEBUG - 2013-09-03 23:52:01 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:52:01 --> Session routines successfully run
+DEBUG - 2013-09-03 23:52:01 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:52:01 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:52:01 --> Model Class Initialized
+DEBUG - 2013-09-03 23:52:24 --> Config Class Initialized
+DEBUG - 2013-09-03 23:52:24 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:52:24 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:52:24 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:52:24 --> URI Class Initialized
+DEBUG - 2013-09-03 23:52:24 --> Router Class Initialized
+DEBUG - 2013-09-03 23:52:24 --> Output Class Initialized
+DEBUG - 2013-09-03 23:52:25 --> Security Class Initialized
+DEBUG - 2013-09-03 23:52:25 --> Input Class Initialized
+DEBUG - 2013-09-03 23:52:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:52:25 --> Language Class Initialized
+DEBUG - 2013-09-03 23:52:25 --> Language Class Initialized
+DEBUG - 2013-09-03 23:52:25 --> Config Class Initialized
+DEBUG - 2013-09-03 23:52:25 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:52:25 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:52:25 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:52:25 --> Model Class Initialized
+DEBUG - 2013-09-03 23:52:25 --> Model Class Initialized
+DEBUG - 2013-09-03 23:52:25 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:52:25 --> Session Class Initialized
+DEBUG - 2013-09-03 23:52:25 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:52:25 --> Session routines successfully run
+DEBUG - 2013-09-03 23:52:25 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:52:25 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:52:25 --> Model Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Config Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:52:28 --> URI Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Router Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Output Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Security Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Input Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:52:28 --> Language Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Language Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Config Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:52:28 --> Model Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Model Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Session Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:52:28 --> Session routines successfully run
+DEBUG - 2013-09-03 23:52:28 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:52:28 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:52:28 --> Model Class Initialized
+DEBUG - 2013-09-03 23:52:28 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-03 23:52:28 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-03 23:52:28 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-03 23:52:28 --> File loaded: application/modules/systemmenu/views/add.php
+DEBUG - 2013-09-03 23:52:28 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-03 23:52:28 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-03 23:52:28 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-03 23:52:28 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-03 23:52:28 --> Final output sent to browser
+DEBUG - 2013-09-03 23:52:28 --> Total execution time: 0.0919
+DEBUG - 2013-09-03 23:52:29 --> Config Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:52:29 --> URI Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Router Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Output Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Security Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Input Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:52:29 --> Language Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Language Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Config Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:52:29 --> Model Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Model Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Session Class Initialized
+DEBUG - 2013-09-03 23:52:29 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:52:29 --> Session routines successfully run
+DEBUG - 2013-09-03 23:52:29 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:52:29 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:52:29 --> Model Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Config Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:53:01 --> URI Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Router Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Output Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Security Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Input Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:53:01 --> Language Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Language Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Config Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:53:01 --> Model Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Model Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Session Class Initialized
+DEBUG - 2013-09-03 23:53:01 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:53:01 --> Session routines successfully run
+DEBUG - 2013-09-03 23:53:01 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:53:01 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:53:01 --> Model Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Config Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:54:44 --> URI Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Router Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Output Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Security Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Input Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:54:44 --> Language Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Language Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Config Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:54:44 --> Model Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Model Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Session Class Initialized
+DEBUG - 2013-09-03 23:54:44 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:54:44 --> Session routines successfully run
+DEBUG - 2013-09-03 23:54:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:54:44 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:54:44 --> Model Class Initialized
+ERROR - 2013-09-03 23:54:44 --> Severity: Notice  --> Undefined offset:  0 C:\xampp\htdocs\hmvc\application\models\CommonModel.php 45
+ERROR - 2013-09-03 23:54:44 --> Severity: Notice  --> Undefined offset:  0 C:\xampp\htdocs\hmvc\application\models\CommonModel.php 46
+DEBUG - 2013-09-03 23:54:44 --> Final output sent to browser
+DEBUG - 2013-09-03 23:54:44 --> Total execution time: 0.0880
+DEBUG - 2013-09-03 23:55:59 --> Config Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:55:59 --> URI Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Router Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Output Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Security Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Input Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:55:59 --> Language Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Language Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Config Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:55:59 --> Model Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Model Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Session Class Initialized
+DEBUG - 2013-09-03 23:55:59 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:55:59 --> Session routines successfully run
+DEBUG - 2013-09-03 23:55:59 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:55:59 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:55:59 --> Model Class Initialized
+ERROR - 2013-09-03 23:55:59 --> Severity: Notice  --> Undefined offset:  0 C:\xampp\htdocs\hmvc\application\models\CommonModel.php 45
+ERROR - 2013-09-03 23:55:59 --> Severity: Notice  --> Undefined offset:  0 C:\xampp\htdocs\hmvc\application\models\CommonModel.php 46
+DEBUG - 2013-09-03 23:55:59 --> Final output sent to browser
+DEBUG - 2013-09-03 23:55:59 --> Total execution time: 0.0738
+DEBUG - 2013-09-03 23:56:15 --> Config Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Hooks Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-03 23:56:15 --> URI Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Router Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Output Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Security Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Input Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-03 23:56:15 --> Language Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Language Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Config Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Loader Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Controller Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Systemmenu MX_Controller Initialized
+DEBUG - 2013-09-03 23:56:15 --> Model Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Model Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Database Driver Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Session Class Initialized
+DEBUG - 2013-09-03 23:56:15 --> Helper loaded: string_helper
+DEBUG - 2013-09-03 23:56:15 --> Session routines successfully run
+DEBUG - 2013-09-03 23:56:15 --> Helper loaded: url_helper
+DEBUG - 2013-09-03 23:56:15 --> File loaded: application/modules/systemmenu/models/systemmenumodel.php
+DEBUG - 2013-09-03 23:56:15 --> Model Class Initialized
+ERROR - 2013-09-03 23:56:15 --> Severity: Notice  --> Undefined offset:  0 C:\xampp\htdocs\hmvc\application\models\CommonModel.php 45
+ERROR - 2013-09-03 23:56:15 --> Severity: Notice  --> Undefined offset:  0 C:\xampp\htdocs\hmvc\application\models\CommonModel.php 46
+DEBUG - 2013-09-03 23:56:15 --> Final output sent to browser
+DEBUG - 2013-09-03 23:56:15 --> Total execution time: 0.0747

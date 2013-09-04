@@ -6,7 +6,7 @@ class Admin extends CommonController {
 
     public function __construct() {
         parent::__construct();
-        $this->checkPermisson();
+        //$this->checkPermisson();
         $this->_contentData['moduleTitle'] = 'Bộ Sưu Tập';
         $this->_layout = 'admin';
     }
