@@ -45,7 +45,6 @@ class Systemmenu extends CommonController {
     function edit($id = NULL) {
         if (!empty($id)) {
             if (!isset($_POST) || empty($_POST)) {
-                var_dump($_SERVER['DOCUMENT_ROOT']);
                 $this->_data['pageTitle'] = 'Edit System Menu';
                 $this->_data['page'] = 'edit';
                 $this->_contentData['systemMenuInfo'] = $this->SystemmenuModel->getSystemMenuInfoById($id);
@@ -61,7 +60,7 @@ class Systemmenu extends CommonController {
                 $data['status'] = $_POST['status'];
                 $data['id'] = $id;
                 $uploadFileInfo = $_FILES['icon_path'];
-                $uploadImgSuccess = $this->upload($uploadFileInfo);
+                $uploadImgSuccess = $this->uploadImg($uploadFileInfo);
                 if ($uploadImgSuccess) {
                     $data['icon_path'] = $uploadImgSuccess;
                     if ($this->SystemmenuModel->update($data)) {

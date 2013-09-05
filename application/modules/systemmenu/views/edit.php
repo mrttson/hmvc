@@ -1,5 +1,4 @@
 <div id="contentHeader">
-    <?php //var_dump($this->_ci_cached_vars); ?>
     <h1><?php echo $moduleTitle; ?></h1>
 </div> <!-- #contentHeader -->	
 

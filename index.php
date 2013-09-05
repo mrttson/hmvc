@@ -121,6 +121,7 @@ if (defined('ENVIRONMENT'))
  *
  */
 	// $assign_to_config['name_of_config_item'] = 'value of config item';
+    $public_folder = 'public';
 
 
 
@@ -165,7 +166,7 @@ if (defined('ENVIRONMENT'))
 	// The PHP file extension
 	// this global constant is deprecated.
 	define('EXT', '.php');
-
+    
 	// Path to the system folder
 	define('BASEPATH', str_replace("\\", "/", $system_path));
 
@@ -176,7 +177,7 @@ if (defined('ENVIRONMENT'))
 	define('SYSDIR', trim(strrchr(trim(BASEPATH, '/'), '/'), '/'));
 
 
-	// The path to the "application" folder
+    // The path to the "application" folder
 	if (is_dir($application_folder))
 	{
 		define('APPPATH', $application_folder.'/');
@@ -191,6 +192,7 @@ if (defined('ENVIRONMENT'))
 		define('APPPATH', BASEPATH.$application_folder.'/');
 	}
 
+        define('PUBLIC_PATH', $public_folder.'/');
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE

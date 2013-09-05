@@ -9,7 +9,7 @@ define('ADMIN_ROLE', '1');
 define('SUPER_USER_ROLES', '2');
 define('USER_ROLE', '3');
 define('UPLOAD_FILE_PATH', 'public/images/');
-define('APP_PATH', $_SERVER['DOCUMENT_ROOT'] . 'hmvc/');
+define('APP_PATH', $_SERVER['DOCUMENT_ROOT'] . '/hmvc/');
 
 class CommonController extends MX_Controller {
 
@@ -71,7 +71,7 @@ class CommonController extends MX_Controller {
         return $this->CommonModel->getFooterData();
     }
 
-    function upload($imgInfo) {
+    function uploadImg($imgInfo) {
         $temp = explode(".", $imgInfo["name"]);
         $extension = end($temp);
         if ($imgInfo["size"] < 5000000) {

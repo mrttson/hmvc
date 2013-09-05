@@ -69,7 +69,6 @@ class SystemmenuModel extends CommonModel {
     }
 
     function update($data){
-        var_dump($data);
         $sql = "UPDATE systemmenu 
                 SET 
                     title = '".$data['title']."',
@@ -81,7 +80,6 @@ class SystemmenuModel extends CommonModel {
                 WHERE
                     id = '".$data['id']."'
                     ";
-        var_dump($sql);
         if($this->Execute($sql)){
             return $data['id'];
         } else {

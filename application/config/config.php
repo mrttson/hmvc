@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= $_SERVER['HTTP_HOST'];
+$config['base_url']	= 'http://localhost/hmvc/';
 
 /*
 |--------------------------------------------------------------------------
