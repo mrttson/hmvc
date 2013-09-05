@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <title><?php echo $pageTitle; ?></title>
         <link rel="shortcut icon" href="<?php echo PUBLIC_PATH; ?>images/icon.png" />
-        <link rel="stylesheet" href="<?php echo PUBLIC_PATH; ?>css/all.css" type="text/css" />
-        <link rel="stylesheet" href="<?php echo PUBLIC_PATH; ?>css/sample_pages/gallery.css" type="text/css" />
-        <link rel="stylesheet" href="<?php echo PUBLIC_PATH; ?>css/sample_pages/stream.css" type="text/css" />
+        <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/all.css" type="text/css" />
+        <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/sample_pages/gallery.css" type="text/css" />
+        <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/sample_pages/stream.css" type="text/css" />
         <script src="<?php echo base_url(); ?>js/jquery-1.7.2.js"></script>
         
     </head>

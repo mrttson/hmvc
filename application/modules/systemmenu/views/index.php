@@ -42,7 +42,7 @@
                                     <td><?php echo $menu['orderno']; ?></td>
                                     <td style="text-align: center;">
                                         <?php
-                                            if (file_exists( PUBLIC_PATH . 'images/' . $menu['icon_path'])) {
+                                            if (!empty($menu['icon_path']) && file_exists( PUBLIC_PATH . 'images/' . $menu['icon_path'])) {
                                                 $srcImg = PUBLIC_PATH . 'images/' . $menu['icon_path'];
                                             } else {
                                                 $srcImg = PUBLIC_PATH . 'images/default_img_thumb.gif';
