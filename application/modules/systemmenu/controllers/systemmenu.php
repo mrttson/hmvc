@@ -33,18 +33,19 @@ class Systemmenu extends CommonController {
             $data['orderno'] = $_POST['orderno'];
             $data['icon_path'] = $_POST['icon_path'];
             $data['status'] = $_POST['status'];
-            
-            if ($this->SystemmenuModel->add($data)){
+
+            if ($this->SystemmenuModel->add($data)) {
                 redirect(site_url('systemmenu'));
             } else {
                 echo 'Error when add systemmenu';
             }
         }
     }
-    
+
     function edit($id = NULL) {
         if (!empty($id)) {
             if (!isset($_POST) || empty($_POST)) {
+                var_dump($_SERVER['DOCUMENT_ROOT']);
                 $this->_data['pageTitle'] = 'Edit System Menu';
                 $this->_data['page'] = 'edit';
                 $this->_contentData['systemMenuInfo'] = $this->SystemmenuModel->getSystemMenuInfoById($id);
@@ -57,27 +58,29 @@ class Systemmenu extends CommonController {
                 $data['url'] = $_POST['url'];
                 $data['parent_id'] = $_POST['parent_id'];
                 $data['orderno'] = $_POST['orderno'];
-                $data['icon_path'] = $_FILES['icon_path'];
                 $data['status'] = $_POST['status'];
                 $data['id'] = $id;
-                $uploadImgSuccess = $this->upload($data['icon_path']);
-                var_dump($uploadImgSuccess);die();
-                if ($uploadImgSuccess && $this->SystemmenuModel->update($data)) {
-                    redirect(site_url('systemmenu'));
-                } else {
-                    echo 'Die when Edit Systen Menu';
-                    sleep(5);
-                    redirect('systemmenu');
+                $uploadFileInfo = $_FILES['icon_path'];
+                $uploadImgSuccess = $this->upload($uploadFileInfo);
+                if ($uploadImgSuccess) {
+                    $data['icon_path'] = $uploadImgSuccess;
+                    if ($this->SystemmenuModel->update($data)) {
+                        redirect(site_url('systemmenu'));
+                    } else {
+                        echo 'Die when Edit Systen Menu';
+                        sleep(5);
+                        redirect('systemmenu');
+                    }
                 }
             }
         } else {
             echo 'Empty Id [Edit Systemmenu]';
         }
     }
-    
-    function delete($id = NULL){
-        if(!empty($id)){
-            if($this->SystemmenuModel->delete($id)){
+
+    function delete($id = NULL) {
+        if (!empty($id)) {
+            if ($this->SystemmenuModel->delete($id)) {
                 redirect('systemmenu');
             } else {
                 echo 'Error SQL [DELETE systemmenu]';

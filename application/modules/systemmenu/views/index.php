@@ -42,10 +42,10 @@
                                     <td><?php echo $menu['orderno']; ?></td>
                                     <td style="text-align: center;">
                                         <?php
-                                            if (file_exists(base_url() . $menu['icon_path'])) {
-                                                $srcImg = base_url() . $menu['icon_path'];
+                                            if (file_exists('public/images/' . $menu['icon_path'])) {
+                                                $srcImg = 'public/images/' . $menu['icon_path'];
                                             } else {
-                                                $srcImg = base_url() . 'public/images/default_img_thumb.gif';
+                                                $srcImg = 'public/images/default_img_thumb.gif';
                                             }
                                         ?>
                                         <img src="<?php echo $srcImg; ?>" width="16px" height="16px"/>

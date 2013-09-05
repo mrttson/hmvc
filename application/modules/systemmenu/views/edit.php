@@ -63,9 +63,8 @@
                         <div class="field-group">
                             <label>Icon:</label>
                             <div class="field">
-                                <!--<input type="text" name="icon_path" id="icon_path" size="50" value="<?php echo $systemMenuInfo['icon_path']; ?>"/>-->
-                                <input type='file' name="icon_path" id="icon_path" size="50" value="<?php echo $systemMenuInfo['icon_path']; ?>" />
-                                <img id="img_prev" src="<?php echo base_url() . 'public/images/default_img_thumb.gif'; ?>" alt="your image" width="50px" height="50px" style="position: relative; top: 10px;"/>
+                                <input type='file' name="icon_path" id="icon_path" size="50" />
+                                <img id="img_prev" src="<?php if(!empty($systemMenuInfo['icon_path'])) echo base_url() . 'public/images/' . $systemMenuInfo['icon_path']; else echo base_url() . 'public/images/default_img_thumb.gif'; ?>" alt="your image" width="50px" height="50px" style="position: relative; top: 10px;"/>
                             </div>
                         </div> <!-- .field-group -->
 

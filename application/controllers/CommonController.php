@@ -8,6 +8,8 @@ if (!isset($_SESSION)) {
 define('ADMIN_ROLE', '1');
 define('SUPER_USER_ROLES', '2');
 define('USER_ROLE', '3');
+define('UPLOAD_FILE_PATH', 'public/images/');
+define('APP_PATH', $_SERVER['DOCUMENT_ROOT'] . 'hmvc/');
 
 class CommonController extends MX_Controller {
 
@@ -80,7 +82,7 @@ class CommonController extends MX_Controller {
                     mkdir(base_url() . 'public/images', 0777, true);
                 }
                 $fileName = $_SERVER['REQUEST_TIME'] . '_' . $imgInfo['name'];
-                move_uploaded_file($imgInfo["tmp_name"], base_url() . 'public/images/' . $fileName);
+                move_uploaded_file($imgInfo["tmp_name"], UPLOAD_FILE_PATH . $fileName);
                 return $fileName;
             }
         } else {
