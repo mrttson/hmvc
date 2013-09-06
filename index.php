@@ -193,6 +193,8 @@ if (defined('ENVIRONMENT'))
 	}
 
         define('PUBLIC_PATH', $public_folder.'/');
+        
+        define('APP_FOLDER_PATH', str_replace('system/','',BASEPATH));
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE
