@@ -65,7 +65,7 @@
                                 <input type='file' name="icon_path" id="icon_path" size="50" />
                                 <?php
                                 $srcImg = "";
-                                if (!empty($systemMenuInfo['icon_path']) && file_exists(base_url() . 'public/images/' . $systemMenuInfo['icon_path'])) {
+                                if (!empty($systemMenuInfo['icon_path']) && file_exists(PUBLIC_PATH . 'images/' . $systemMenuInfo['icon_path'])) {
                                     $srcImg = base_url() . 'public/images/' . $systemMenuInfo['icon_path'];
                                 } else {
                                     $srcImg = base_url() . 'public/images/default_img_thumb.gif';
