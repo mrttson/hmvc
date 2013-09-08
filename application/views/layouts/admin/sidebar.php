@@ -4,7 +4,7 @@
         if ($menu['parent_id'] == '0' || empty($menu['parent_id'])) {
             ?>
             <li class="nav">
-                <span style="background-image: url(<?php echo PUBLIC_PATH . 'images/' . $menu['icon_path']; ?>)"></span>
+                <span style="background-image: url(<?php echo base_url() . 'public/images/' . $menu['icon_path']; ?>)"></span>
                 <a href="<?php echo $menu['url']; ?>"><?php echo $menu['title']; ?></a>
                 <?php 
                 if($menu['countSub'] > 0){ ?>

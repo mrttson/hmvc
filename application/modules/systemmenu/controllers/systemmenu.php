@@ -31,13 +31,22 @@ class Systemmenu extends CommonController {
             $data['url'] = $_POST['url'];
             $data['parent_id'] = $_POST['parent_id'];
             $data['orderno'] = $_POST['orderno'];
-            $data['icon_path'] = $_POST['icon_path'];
             $data['status'] = $_POST['status'];
-
-            if ($this->SystemmenuModel->add($data)) {
-                redirect(site_url('systemmenu'));
+            $uploadFileInfo = $_FILES['icon_path'];
+            $uploadImgSuccess = $this->uploadImg($uploadFileInfo);
+            if ($uploadImgSuccess) {
+                $data['icon_path'] = $uploadImgSuccess;
+                if ($this->SystemmenuModel->add($data)) {
+                    redirect(site_url('systemmenu'));
+                } else {
+                    echo 'Error when add systemmenu';
+                    sleep(5);
+                    redirect('systemmenu');
+                }
             } else {
-                echo 'Error when add systemmenu';
+                echo 'Error when add UploadImg[Add systemmenu]';
+                sleep(5);
+                redirect('systemmenu');
             }
         }
     }

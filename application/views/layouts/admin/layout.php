@@ -9,17 +9,29 @@
         <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/sample_pages/gallery.css" type="text/css" />
         <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/sample_pages/stream.css" type="text/css" />
         <script src="<?php echo base_url(); ?>public/js/jquery-1.7.2.js"></script>
-        
-    </head>
 
+    </head>
+    <?php
+
+    function getImgPath($curentFilePath, $imgName) {
+        $cPath = str_replace('\\', '/', $curentFilePath);
+        $nPath = str_replace(APP_FOLDER_PATH, '', $cPath);
+        $arr = explode("/", $nPath);
+        for ($i = 0; $i < count($arr); $i++) {
+            $arr[$i] = '..';
+        }
+        $res = implode('/', $arr);
+        return $res . '/public/images/' . $imgName;
+    }
+    ?>
     <body>
         <div id="wrapper">
             <div id="header">
-                <?php $this->load->view("layouts/admin/header",$header); ?>
+                <?php $this->load->view("layouts/admin/header", $header); ?>
             </div> <!-- #header -->
 
             <div id="search">
-                <?php $this->load->view("layouts/admin/search",$search); ?>
+                <?php $this->load->view("layouts/admin/search", $search); ?>
             </div> <!-- #search -->
 
             <div id="sidebar">
@@ -28,16 +40,16 @@
 
             <div id="content">
                 <?php
-                    $this->load->view($page, $content); 
+                $this->load->view($page, $content);
                 ?>
             </div> <!-- #content -->
 
             <div id="topNav">
-                <?php $this->load->view("layouts/admin/topNav",$topNav); ?>
+                <?php $this->load->view("layouts/admin/topNav", $topNav); ?>
             </div><!-- #topNav -->
 
             <div id="quickNav">
-                <?php $this->load->view("layouts/admin/quickNav",$quickNav); ?>
+                <?php $this->load->view("layouts/admin/quickNav", $quickNav); ?>
             </div><!-- #quickNav -->  
         </div>
         <div id="footer">

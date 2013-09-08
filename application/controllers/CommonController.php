@@ -37,16 +37,16 @@ class CommonController extends MX_Controller {
         $this->_data['footer'] = $this->getFooter();
     }
 
-    function getImgPath($curentFilePath, $imgName) {
-        $cPath = str_replace('\\', '/', $curentFilePath);
-        $nPath = str_replace(APP_FOLDER_PATH, '', $cPath);
-        $arr = explode("/", $nPath);
-        for ($i = 0; $i < count($arr); $i++) {
-            $arr[$i] = '..';
-        }
-        $res = implode('/', $arr);
-        return $res . '/public/images/' . $imgName;
-    }
+//    function getImgPath($curentFilePath, $imgName) {
+//        $cPath = str_replace('\\', '/', $curentFilePath);
+//        $nPath = str_replace(APP_FOLDER_PATH, '', $cPath);
+//        $arr = explode("/", $nPath);
+//        for ($i = 0; $i < count($arr); $i++) {
+//            $arr[$i] = '..';
+//        }
+//        $res = implode('/', $arr);
+//        return $res . '/public/images/' . $imgName;
+//    }
 
     function loadPage() {
         if ($this->_layout != NULL) {

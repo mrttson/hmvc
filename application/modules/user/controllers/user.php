@@ -126,10 +126,10 @@ class User extends CommonController {
             redirect(site_url('user/index'));
         }
     }
-    
-    function delete($id = NULL){
-        if(!empty($id)){
-            if($this->UserModel->delete($id)){
+
+    function delete($id = NULL) {
+        if (!empty($id)) {
+            if ($this->UserModel->delete($id)) {
                 redirect('user');
             } else {
                 echo 'Error SQL [DELETE user]';
@@ -139,6 +139,30 @@ class User extends CommonController {
         }
     }
 
-}
+    function userCp($id = NULL) {
+        if (!empty($id)) {
+            if (!isset($_POST) || empty($_POST)) {
+                $this->_data['pageTitle'] = 'UserCP';
+                $this->_data['page'] = 'usercp';
+                $this->_contentData['userInfo'] = $this->UserModel->getUserInfoById($id);
+                $this->_data['content'] = $this->_contentData;
+                $this->loadPage();
+            } else {
+                //update User Info
+                $data['fullname'] = $_POST['fullname'];
+                $data['email'] = $_POST['email'];
+                $data['role'] = $_POST['role'];
+                $data['id'] = $id;
+                if ($this->UserModel->update($data)) {
+                    redirect(site_url('user/index'));
+                } else {
+                    echo 'Die when Edit User';
+                }
+            }
+        } else {
+            redirect(site_url('user/index'));
+        }
+    }
 
+}
 ?>
