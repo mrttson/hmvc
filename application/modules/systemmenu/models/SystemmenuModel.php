@@ -68,36 +68,41 @@ class SystemmenuModel extends CommonModel {
         }
     }
 
-    function update($data){
+    function update($data) {
         $sql = "UPDATE systemmenu 
                 SET 
-                    title = '".$data['title']."',
-                    url = '".$data['url']."',
-                    parent_id = '".$data['parent_id']."',
-                    orderno = '".$data['orderno']."',
-                    icon_path = '".$data['icon_path']."',
-                    `status` = '".$data['status']."'
+                    title = '" . $data['title'] . "',
+                    url = '" . $data['url'] . "',
+                    parent_id = '" . $data['parent_id'] . "',
+                    orderno = '" . $data['orderno'] . "',";
+        if ($data['icon_path'] != '') {
+            $sql .= "icon_path = '" . $data['icon_path'] . "',";
+        } else {
+            $sql .= "icon_path = NULL,";
+        }
+        $sql .= "`status` = '" . $data['status'] . "'
                 WHERE
-                    id = '".$data['id']."'
-                    ";
-        if($this->Execute($sql)){
+                id = '" . $data['id'] . "'
+                ";
+        if ($this->Execute($sql)) {
             return $data['id'];
         } else {
             return FALSE;
         }
     }
-    
-    function delete($id){
-        $sql = "DELETE FROM 
-                        systemmenu
-                    WHERE
-                        id = '".$id."'";
-        if($this->Execute($sql)){
+
+    function delete($id) {
+        $sql = "DELETE FROM
+                systemmenu
+                WHERE
+                id = '" . $id . "'";
+        if ($this->Execute($sql)) {
             return $id;
         } else {
             return FALSE;
         }
     }
+
 }
 
 ?>

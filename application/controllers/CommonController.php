@@ -37,17 +37,6 @@ class CommonController extends MX_Controller {
         $this->_data['footer'] = $this->getFooter();
     }
 
-//    function getImgPath($curentFilePath, $imgName) {
-//        $cPath = str_replace('\\', '/', $curentFilePath);
-//        $nPath = str_replace(APP_FOLDER_PATH, '', $cPath);
-//        $arr = explode("/", $nPath);
-//        for ($i = 0; $i < count($arr); $i++) {
-//            $arr[$i] = '..';
-//        }
-//        $res = implode('/', $arr);
-//        return $res . '/public/images/' . $imgName;
-//    }
-
     function loadPage() {
         if ($this->_layout != NULL) {
             return $this->load->view('layouts/' . $this->_layout . '/layout', $this->_data);
@@ -83,21 +72,27 @@ class CommonController extends MX_Controller {
     }
 
     function uploadImg($imgInfo) {
-        $temp = explode(".", $imgInfo["name"]);
-        $extension = end($temp);
-        if ($imgInfo["size"] < 5000000) {
-            if ($imgInfo["error"] > 0) {
-                return FALSE;
-            } else {
-                if (!file_exists(base_url() . 'public/images')) {
-                    mkdir(base_url() . 'public/images', 0777, true);
+        if ($imgInfo['size'] != 0) {
+            $temp = explode(".", $imgInfo["name"]);
+            $extension = end($temp);
+            if ($imgInfo["size"] < 5000000) {
+                if ($imgInfo["error"] > 0) {
+                    return FALSE;
+                } else {
+                    if (!file_exists(base_url() . 'public/images')) {
+                        mkdir(base_url() . 'public/images', 0777, true);
+                    }
+                    $fileName = $_SERVER['REQUEST_TIME'] . '_' . $imgInfo['name'];
+                    move_uploaded_file($imgInfo["tmp_name"], UPLOAD_FILE_PATH . $fileName);
+                    return $fileName;
                 }
-                $fileName = $_SERVER['REQUEST_TIME'] . '_' . $imgInfo['name'];
-                move_uploaded_file($imgInfo["tmp_name"], UPLOAD_FILE_PATH . $fileName);
-                return $fileName;
+            } else {
+                echo 'Error Size Image upload >5MB';
+                sleep(5);
+                echo FALSE;
             }
         } else {
-            echo FALSE;
+            return NULL;
         }
     }
 

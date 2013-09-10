@@ -70,15 +70,17 @@ class Systemmenu extends CommonController {
                 $data['id'] = $id;
                 $uploadFileInfo = $_FILES['icon_path'];
                 $uploadImgSuccess = $this->uploadImg($uploadFileInfo);
-                if ($uploadImgSuccess) {
+                if ($uploadImgSuccess && $uploadImgSuccess != NULL) {
                     $data['icon_path'] = $uploadImgSuccess;
-                    if ($this->SystemmenuModel->update($data)) {
-                        redirect(site_url('systemmenu'));
-                    } else {
-                        echo 'Die when Edit Systen Menu';
-                        sleep(5);
-                        redirect('systemmenu');
-                    }
+                } else if ($uploadImgSuccess == NULL){
+                    $data['icon_path'] = '';
+                }
+                if ($this->SystemmenuModel->update($data)) {
+                    redirect(site_url('systemmenu'));
+                } else {
+                    echo 'Die when Edit Systen Menu';
+                    sleep(5);
+                    redirect('systemmenu');
                 }
             }
         } else {
