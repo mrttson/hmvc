@@ -1726,7 +1726,7 @@ body {
 	
 }	
 
-.table td { vertical-align: top; }
+.table td { vertical-align: middle; }
 
 .table tbody tr td { background: #FFF; border-bottom: 1px solid #E3E3E3; }
 

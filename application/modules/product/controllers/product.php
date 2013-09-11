@@ -43,6 +43,7 @@ class Product extends CommonController {
             }
         }
     }
+
     function editCat($id = NULL) {
         if (!empty($id)) {
             if (!isset($_POST) || empty($_POST)) {
@@ -69,7 +70,7 @@ class Product extends CommonController {
             echo 'Empty Id [Edit Cat]';
         }
     }
-    
+
     function deleteCat($id = NULL) {
         if (!empty($id)) {
             if ($this->ProductModel->deleteCat($id)) {
@@ -79,6 +80,49 @@ class Product extends CommonController {
             }
         } else {
             echo 'Empty Id [delete Cat]';
+        }
+    }
+
+    function index($catId = NULL) {
+        $this->_data['pageTitle'] = 'Danh Sách Sản Phẩm';
+        $this->_data['page'] = 'index';
+        if (is_null($catId)) {
+            $this->_contentData['listProduct'] = $this->ProductModel->getListProduct();
+        } else {
+            $this->_contentData['listProduct'] = $this->ProductModel->getListProductByCatId($catId);
+        }
+        $this->_contentData['listParentCat'] = $this->ProductModel->getListParentCat();
+        $this->_data['content'] = $this->_contentData;
+        $this->loadPage();
+    }
+
+    function getProductInfoById() {
+        $req = $_POST['data'];
+        if ($req['pId']) {
+            $data = $this->ProductModel->getProductInfoById($req['pId']);
+        }
+        if ($data) {
+            $data['error'] = '0';
+            echo json_encode($data);
+        } else {
+            echo json_encode(array('error' => '0'));
+        }
+    }
+    
+    function ajaxUpdate(){
+        sleep(1);
+        $req = $_POST['data'];
+        if ($req['pId']){
+            $res = $this->ProductModel->update($req);
+            if ($res){
+//                $this->session->set_flashdata('feedback', 'Success message for client to see');
+//                echo $this->session->flashdata('feedback');
+                echo json_encode(array('error' => '0'));
+            } else {
+                echo json_encode(array('error' => '1'));
+            }
+        } else {
+            echo json_encode(array('error' => '0'));
         }
     }
 
