@@ -89,62 +89,77 @@ class ProductModel extends CommonModel {
         }
     }
 
-    function getListProduct(){
+    function getListProduct() {
         $sql = "SELECT 
                     p.id, p.`name`, p.`desc`, p.attrs, p.image_path, p.`status`, pc.title
                 FROM product p
                 LEFT JOIN product_category pc ON p.category_id = pc.id";
         $res = $this->getData($sql);
-        if ($res){
+        if ($res) {
             return $res;
         } else {
             return FALSE;
         }
     }
-    
-    function getListProductByCatId($catId){
+
+    function getListProductByCatId($catId) {
         $sql = "SELECT p.id, p.`name`, p.`desc`, p.attrs, p.image_path, p.`status`, pc.title
                 FROM product p
                 LEFT JOIN product_category pc ON p.category_id = pc.id
                 WHERE 
-                    pc.id = '".$catId."'";
+                    pc.id = '" . $catId . "'";
         $res = $this->getData($sql);
-        if ($res){
+        if ($res) {
             return $res;
         } else {
             return FALSE;
         }
     }
-    
-    function getProductInfoById($id){
+
+    function getProductInfoById($id) {
         $sql = "SELECT 
                     p.id, p.`name`, p.`desc`, p.attrs, p.image_path, p.`status`, pc.title
                 FROM product p
                 LEFT JOIN product_category pc ON p.category_id = pc.id
                 WHERE 
-                    p.id = '".$id."'";
+                    p.id = '" . $id . "'";
         $res = $this->get1Row($sql);
-        if ($res){
+        if ($res) {
             return $res;
         } else {
             return FALSE;
         }
     }
-    
-    function update($data){
+
+    function update($data) {
         $sql = "UPDATE product 
                 SET 
-                    `name` = '".$data['pName']."',
-                    category_id = '".$data['pCatId']."',
-                    `status` = '".$data['pStatus']."'
+                    `name` = '" . $data['pName'] . "',
+                    category_id = '" . $data['pCatId'] . "',
+                    `status` = '" . $data['pStatus'] . "'
                 WHERE
-                    id='".$data['pId']."'";
-        if ($this->Execute($sql)){
+                    id='" . $data['pId'] . "'";
+        if ($this->Execute($sql)) {
             return $data['pId'];
         } else {
             return FALSE;
         }
     }
+
+    function updateImgProduct($data) {
+        $sql = "UPDATE product 
+                SET 
+                    image_path = '" . $data['image_path'] . "'
+                WHERE
+                    id='" . $data['pId'] . "'";
+        //var_dump($sql);die();
+        if ($this->Execute($sql)) {
+            return $data['pId'];
+        } else {
+            return FALSE;
+        }
+    }
+
 }
 
 ?>

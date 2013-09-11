@@ -108,13 +108,13 @@ class Product extends CommonController {
             echo json_encode(array('error' => '0'));
         }
     }
-    
-    function ajaxUpdate(){
+
+    function ajaxUpdate() {
         sleep(1);
         $req = $_POST['data'];
-        if ($req['pId']){
+        if ($req['pId']) {
             $res = $this->ProductModel->update($req);
-            if ($res){
+            if ($res) {
 //                $this->session->set_flashdata('feedback', 'Success message for client to see');
 //                echo $this->session->flashdata('feedback');
                 echo json_encode(array('error' => '0'));
@@ -123,6 +123,22 @@ class Product extends CommonController {
             }
         } else {
             echo json_encode(array('error' => '0'));
+        }
+    }
+
+    function ajaxUpdateImgProduct() {
+        $imgInfo = $_FILES['image'];
+        $uploadImgSuccess = $this->uploadImg($imgInfo);
+        $data['pId'] = $_POST['pId'];
+        if ($uploadImgSuccess && $uploadImgSuccess != NULL) {
+            $data['image_path'] = $uploadImgSuccess;
+            if ($this->ProductModel->updateImgProduct($data)) {
+                echo json_encode(array('error' => '0'));
+            } else {
+                echo json_encode(array('error' => '1'));
+            }
+        } else if ($uploadImgSuccess == NULL) {
+            echo json_encode(array('error' => '1'));
         }
     }
 

@@ -17,8 +17,7 @@ $(function() {
                 }
             });
         });
-        
-        function ajaxUpdate(){
+        function ajaxUpdate() {
             $('#ajaxLoader').show();
             var pId = $('#product_id').val();
             var pName = $('#product_name').val();
@@ -39,17 +38,17 @@ $(function() {
                     success: function(res) {
                         console.log(res);
                         res = JSON.parse(res);
-                        if(res['error'] == '0'){
-                            
+                        if (res['error'] == '0') {
+
                         } else {
-                            
+
                         }
                         $('#ajaxLoader').hide();
                     }
                 });
             }
         }
-        
+
         $('#product_name').change(function() {
             ajaxUpdate();
         });
@@ -58,6 +57,38 @@ $(function() {
         });
         $('#product_status').change(function() {
             ajaxUpdate();
+        });
+        function ajaxUploadImg(Object) {
+            var formdata = new FormData();
+            var file = Object.files[0];
+            var pId = $('#product_id').val();
+            if (pId != '') {
+                if (!!file.type.match(/image.*/)) {
+                    if (formdata) {
+                        formdata.append("image", file);
+                        formdata.append("pId", pId);
+                    }
+                }
+
+                if (formdata) {
+                    $.ajax({
+                        url: "product/ajaxUpdateImgProduct",
+                        type: "POST",
+                        data: formdata,
+                        processData: false,
+                        contentType: false,
+                        success: function(res) {
+                            //document.getElementById("response").innerHTML = res;
+                        }
+                    });
+                }
+            } else {
+                return false;
+            }
+        }
+
+        $('#icon_path').change(function() {
+            ajaxUploadImg(this);
         });
     });
 });
