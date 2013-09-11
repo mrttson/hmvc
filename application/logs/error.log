@@ -49262,3 +49262,1325 @@ DEBUG - 2013-09-11 18:12:09 --> File loaded: application/modules/product/models/
 DEBUG - 2013-09-11 18:12:09 --> Model Class Initialized
 DEBUG - 2013-09-11 18:12:09 --> Final output sent to browser
 DEBUG - 2013-09-11 18:12:09 --> Total execution time: 0.0787
+DEBUG - 2013-09-11 18:21:12 --> Config Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:21:12 --> URI Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Router Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Output Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Security Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Input Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:21:12 --> Language Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Language Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Config Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:21:12 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Session Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:21:12 --> Session routines successfully run
+DEBUG - 2013-09-11 18:21:12 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:21:12 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:21:12 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Final output sent to browser
+DEBUG - 2013-09-11 18:21:12 --> Total execution time: 0.0465
+DEBUG - 2013-09-11 18:21:12 --> Config Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:21:12 --> URI Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Router Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Output Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Security Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Input Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:21:12 --> Language Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Language Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Config Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:21:12 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Session Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:21:12 --> Session routines successfully run
+DEBUG - 2013-09-11 18:21:12 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:21:12 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:21:12 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:12 --> Final output sent to browser
+DEBUG - 2013-09-11 18:21:12 --> Total execution time: 0.0429
+DEBUG - 2013-09-11 18:21:13 --> Config Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:21:13 --> URI Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Router Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Output Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Security Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Input Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:21:13 --> Language Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Language Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Config Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:21:13 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Session Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:21:13 --> Session routines successfully run
+DEBUG - 2013-09-11 18:21:13 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:21:13 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:21:13 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:13 --> Final output sent to browser
+DEBUG - 2013-09-11 18:21:13 --> Total execution time: 0.0484
+DEBUG - 2013-09-11 18:21:14 --> Config Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:21:14 --> URI Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Router Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Output Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Security Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Input Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:21:14 --> Language Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Language Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Config Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:21:14 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Session Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:21:14 --> Session routines successfully run
+DEBUG - 2013-09-11 18:21:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:21:14 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:21:14 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:14 --> Final output sent to browser
+DEBUG - 2013-09-11 18:21:14 --> Total execution time: 0.0501
+DEBUG - 2013-09-11 18:21:15 --> Config Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:21:15 --> URI Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Router Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Output Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Security Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Input Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:21:15 --> Language Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Language Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Config Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:21:15 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Session Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:21:15 --> Session routines successfully run
+DEBUG - 2013-09-11 18:21:15 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:21:15 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:21:15 --> Model Class Initialized
+DEBUG - 2013-09-11 18:21:15 --> Final output sent to browser
+DEBUG - 2013-09-11 18:21:15 --> Total execution time: 0.0455
+DEBUG - 2013-09-11 18:23:55 --> Config Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:23:55 --> URI Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Router Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Output Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Security Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Input Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:23:55 --> Language Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Language Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Config Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:23:55 --> Model Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Model Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Session Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:23:55 --> Session routines successfully run
+DEBUG - 2013-09-11 18:23:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:23:55 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:23:55 --> Model Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-11 18:23:55 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-11 18:23:55 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-11 18:23:55 --> File loaded: application/modules/product/views/index.php
+DEBUG - 2013-09-11 18:23:55 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-11 18:23:55 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-11 18:23:55 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-11 18:23:55 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-11 18:23:55 --> Final output sent to browser
+DEBUG - 2013-09-11 18:23:55 --> Total execution time: 0.0597
+DEBUG - 2013-09-11 18:23:55 --> Config Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:23:55 --> URI Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Router Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Output Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Security Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Input Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:23:55 --> Language Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Language Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Config Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:23:55 --> Model Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Model Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Session Class Initialized
+DEBUG - 2013-09-11 18:23:55 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:23:55 --> Session routines successfully run
+DEBUG - 2013-09-11 18:23:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:23:55 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:23:55 --> Model Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Config Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:24:04 --> URI Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Router Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Output Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Security Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Input Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:24:04 --> Language Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Language Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Config Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:24:04 --> Model Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Model Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Session Class Initialized
+DEBUG - 2013-09-11 18:24:04 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:24:04 --> Session routines successfully run
+DEBUG - 2013-09-11 18:24:04 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:24:04 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:24:04 --> Model Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Config Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:33:50 --> URI Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Router Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Output Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Security Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Input Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:33:50 --> Language Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Language Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Config Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:33:50 --> Model Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Model Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Session Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:33:50 --> Session routines successfully run
+DEBUG - 2013-09-11 18:33:50 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:33:50 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:33:50 --> Model Class Initialized
+DEBUG - 2013-09-11 18:33:50 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-11 18:33:50 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-11 18:33:50 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-11 18:33:50 --> File loaded: application/modules/product/views/index.php
+DEBUG - 2013-09-11 18:33:50 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-11 18:33:50 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-11 18:33:50 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-11 18:33:50 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-11 18:33:50 --> Final output sent to browser
+DEBUG - 2013-09-11 18:33:50 --> Total execution time: 0.0440
+DEBUG - 2013-09-11 18:33:51 --> Config Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:33:51 --> URI Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Router Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Output Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Security Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Input Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:33:51 --> Language Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Language Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Config Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:33:51 --> Model Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Model Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Session Class Initialized
+DEBUG - 2013-09-11 18:33:51 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:33:51 --> Session routines successfully run
+DEBUG - 2013-09-11 18:33:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:33:51 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:33:51 --> Model Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Config Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:34:03 --> URI Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Router Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Output Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Security Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Input Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:34:03 --> Language Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Language Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Config Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:34:03 --> Model Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Model Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Session Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:34:03 --> Session routines successfully run
+DEBUG - 2013-09-11 18:34:03 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:34:03 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:34:03 --> Model Class Initialized
+DEBUG - 2013-09-11 18:34:03 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-11 18:34:03 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-11 18:34:03 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-11 18:34:03 --> File loaded: application/modules/product/views/index.php
+DEBUG - 2013-09-11 18:34:03 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-11 18:34:03 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-11 18:34:03 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-11 18:34:03 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-11 18:34:03 --> Final output sent to browser
+DEBUG - 2013-09-11 18:34:03 --> Total execution time: 0.0584
+DEBUG - 2013-09-11 18:34:04 --> Config Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:34:04 --> URI Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Router Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Output Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Security Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Input Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:34:04 --> Language Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Language Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Config Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:34:04 --> Model Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Model Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Session Class Initialized
+DEBUG - 2013-09-11 18:34:04 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:34:04 --> Session routines successfully run
+DEBUG - 2013-09-11 18:34:04 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:34:04 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:34:04 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:38:04 --> URI Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Router Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Output Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Security Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Input Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:38:04 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:38:04 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Session Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:38:04 --> Session routines successfully run
+DEBUG - 2013-09-11 18:38:04 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:38:04 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:38:04 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:04 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-11 18:38:04 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-11 18:38:04 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-11 18:38:04 --> File loaded: application/modules/product/views/index.php
+DEBUG - 2013-09-11 18:38:04 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-11 18:38:04 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-11 18:38:04 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-11 18:38:04 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-11 18:38:04 --> Final output sent to browser
+DEBUG - 2013-09-11 18:38:04 --> Total execution time: 0.0601
+DEBUG - 2013-09-11 18:38:05 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:38:05 --> URI Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Router Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Output Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Security Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Input Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:38:05 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:38:05 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Session Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:38:05 --> Session routines successfully run
+DEBUG - 2013-09-11 18:38:05 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:38:05 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:38:05 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:05 --> Final output sent to browser
+DEBUG - 2013-09-11 18:38:05 --> Total execution time: 0.0456
+DEBUG - 2013-09-11 18:38:07 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:38:07 --> URI Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Router Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Output Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Security Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Input Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:38:07 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:38:07 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Session Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:38:07 --> Session routines successfully run
+DEBUG - 2013-09-11 18:38:07 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:38:07 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:38:07 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:07 --> Final output sent to browser
+DEBUG - 2013-09-11 18:38:07 --> Total execution time: 0.0548
+DEBUG - 2013-09-11 18:38:08 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:38:08 --> URI Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Router Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Output Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Security Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Input Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:38:08 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:38:08 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Session Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:38:08 --> Session routines successfully run
+DEBUG - 2013-09-11 18:38:08 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:38:08 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:38:08 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:08 --> Final output sent to browser
+DEBUG - 2013-09-11 18:38:08 --> Total execution time: 0.0466
+DEBUG - 2013-09-11 18:38:14 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:38:14 --> URI Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Router Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Output Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Security Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Input Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:38:14 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:38:14 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Session Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:38:14 --> Session routines successfully run
+DEBUG - 2013-09-11 18:38:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:38:14 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:38:14 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:14 --> Final output sent to browser
+DEBUG - 2013-09-11 18:38:14 --> Total execution time: 0.0382
+DEBUG - 2013-09-11 18:38:44 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:38:44 --> URI Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Router Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Output Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Security Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Input Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:38:44 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:38:44 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Session Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:38:44 --> Session routines successfully run
+DEBUG - 2013-09-11 18:38:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:38:44 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:38:44 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:44 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-11 18:38:44 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-11 18:38:44 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-11 18:38:44 --> File loaded: application/modules/product/views/index.php
+DEBUG - 2013-09-11 18:38:44 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-11 18:38:44 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-11 18:38:44 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-11 18:38:44 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-11 18:38:44 --> Final output sent to browser
+DEBUG - 2013-09-11 18:38:44 --> Total execution time: 0.0473
+DEBUG - 2013-09-11 18:38:45 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:38:45 --> URI Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Router Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Output Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Security Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Input Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:38:45 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:38:45 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Session Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:38:45 --> Session routines successfully run
+DEBUG - 2013-09-11 18:38:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:38:45 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:38:45 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:45 --> Final output sent to browser
+DEBUG - 2013-09-11 18:38:45 --> Total execution time: 0.0428
+DEBUG - 2013-09-11 18:38:48 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:38:48 --> URI Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Router Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Output Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Security Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Input Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:38:48 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Language Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Config Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:38:48 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Session Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:38:48 --> Session routines successfully run
+DEBUG - 2013-09-11 18:38:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:38:48 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:38:48 --> Model Class Initialized
+DEBUG - 2013-09-11 18:38:48 --> Final output sent to browser
+DEBUG - 2013-09-11 18:38:48 --> Total execution time: 0.0394
+DEBUG - 2013-09-11 18:39:54 --> Config Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:39:54 --> URI Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Router Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Output Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Security Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Input Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:39:54 --> Language Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Language Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Config Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:39:54 --> Model Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Model Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Session Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:39:54 --> Session routines successfully run
+DEBUG - 2013-09-11 18:39:54 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:39:54 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:39:54 --> Model Class Initialized
+DEBUG - 2013-09-11 18:39:54 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-11 18:39:54 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-11 18:39:54 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-11 18:39:54 --> File loaded: application/modules/product/views/index.php
+DEBUG - 2013-09-11 18:39:54 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-11 18:39:54 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-11 18:39:54 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-11 18:39:54 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-11 18:39:54 --> Final output sent to browser
+DEBUG - 2013-09-11 18:39:54 --> Total execution time: 0.0526
+DEBUG - 2013-09-11 18:39:55 --> Config Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:39:55 --> URI Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Router Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Output Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Security Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Input Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:39:55 --> Language Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Language Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Config Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:39:55 --> Model Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Model Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Session Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:39:55 --> Session routines successfully run
+DEBUG - 2013-09-11 18:39:55 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:39:55 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:39:55 --> Model Class Initialized
+DEBUG - 2013-09-11 18:39:55 --> Final output sent to browser
+DEBUG - 2013-09-11 18:39:55 --> Total execution time: 0.0447
+DEBUG - 2013-09-11 18:40:11 --> Config Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:40:11 --> URI Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Router Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Output Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Security Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Input Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:40:11 --> Language Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Language Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Config Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:40:11 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Session Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:40:11 --> Session routines successfully run
+DEBUG - 2013-09-11 18:40:11 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:40:11 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:40:11 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:11 --> Final output sent to browser
+DEBUG - 2013-09-11 18:40:11 --> Total execution time: 0.0426
+DEBUG - 2013-09-11 18:40:26 --> Config Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:40:26 --> URI Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Router Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Output Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Security Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Input Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:40:26 --> Language Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Language Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Config Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:40:26 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Session Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:40:26 --> Session routines successfully run
+DEBUG - 2013-09-11 18:40:26 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:40:26 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:40:26 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:26 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-11 18:40:26 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-11 18:40:26 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-11 18:40:26 --> File loaded: application/modules/product/views/index.php
+DEBUG - 2013-09-11 18:40:26 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-11 18:40:26 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-11 18:40:26 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-11 18:40:26 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-11 18:40:26 --> Final output sent to browser
+DEBUG - 2013-09-11 18:40:26 --> Total execution time: 0.0826
+DEBUG - 2013-09-11 18:40:27 --> Config Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:40:27 --> URI Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Router Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Output Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Security Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Input Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:40:27 --> Language Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Language Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Config Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:40:27 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Session Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:40:27 --> Session routines successfully run
+DEBUG - 2013-09-11 18:40:27 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:40:27 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:40:27 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:27 --> Final output sent to browser
+DEBUG - 2013-09-11 18:40:27 --> Total execution time: 0.0551
+DEBUG - 2013-09-11 18:40:38 --> Config Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:40:38 --> URI Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Router Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Output Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Security Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Input Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:40:38 --> Language Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Language Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Config Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:40:38 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Session Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:40:38 --> Session routines successfully run
+DEBUG - 2013-09-11 18:40:38 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:40:38 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:40:38 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:38 --> Final output sent to browser
+DEBUG - 2013-09-11 18:40:38 --> Total execution time: 0.0450
+DEBUG - 2013-09-11 18:40:47 --> Config Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:40:47 --> URI Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Router Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Output Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Security Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Input Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:40:47 --> Language Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Language Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Config Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:40:47 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Session Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:40:47 --> Session routines successfully run
+DEBUG - 2013-09-11 18:40:47 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:40:47 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:40:47 --> Model Class Initialized
+DEBUG - 2013-09-11 18:40:47 --> Final output sent to browser
+DEBUG - 2013-09-11 18:40:47 --> Total execution time: 0.0444
+DEBUG - 2013-09-11 18:41:14 --> Config Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:41:14 --> URI Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Router Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Output Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Security Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Input Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:41:14 --> Language Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Language Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Config Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:41:14 --> Model Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Model Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Session Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:41:14 --> Session routines successfully run
+DEBUG - 2013-09-11 18:41:14 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:41:14 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:41:14 --> Model Class Initialized
+DEBUG - 2013-09-11 18:41:14 --> Final output sent to browser
+DEBUG - 2013-09-11 18:41:14 --> Total execution time: 0.0463
+DEBUG - 2013-09-11 18:41:21 --> Config Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:41:21 --> URI Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Router Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Output Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Security Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Input Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:41:21 --> Language Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Language Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Config Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:41:21 --> Model Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Model Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Session Class Initialized
+DEBUG - 2013-09-11 18:41:21 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:41:22 --> Session routines successfully run
+DEBUG - 2013-09-11 18:41:22 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:41:22 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:41:22 --> Model Class Initialized
+DEBUG - 2013-09-11 18:41:22 --> Final output sent to browser
+DEBUG - 2013-09-11 18:41:22 --> Total execution time: 0.0388
+DEBUG - 2013-09-11 18:41:42 --> Config Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:41:42 --> URI Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Router Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Output Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Security Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Input Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:41:42 --> Language Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Language Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Config Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:41:42 --> Model Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Model Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Session Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:41:42 --> Session routines successfully run
+DEBUG - 2013-09-11 18:41:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:41:42 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:41:42 --> Model Class Initialized
+DEBUG - 2013-09-11 18:41:42 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-11 18:41:42 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-11 18:41:42 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-11 18:41:42 --> File loaded: application/modules/product/views/index.php
+DEBUG - 2013-09-11 18:41:42 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-11 18:41:42 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-11 18:41:42 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-11 18:41:42 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-11 18:41:42 --> Final output sent to browser
+DEBUG - 2013-09-11 18:41:42 --> Total execution time: 0.0627
+DEBUG - 2013-09-11 18:41:44 --> Config Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:41:44 --> URI Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Router Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Output Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Security Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Input Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:41:44 --> Language Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Language Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Config Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:41:44 --> Model Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Model Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Session Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:41:44 --> Session routines successfully run
+DEBUG - 2013-09-11 18:41:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:41:44 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:41:44 --> Model Class Initialized
+DEBUG - 2013-09-11 18:41:44 --> Final output sent to browser
+DEBUG - 2013-09-11 18:41:44 --> Total execution time: 0.0479
+DEBUG - 2013-09-11 18:42:44 --> Config Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:42:44 --> URI Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Router Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Output Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Security Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Input Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:42:44 --> Language Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Language Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Config Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:42:44 --> Model Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Model Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Session Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:42:44 --> Session routines successfully run
+DEBUG - 2013-09-11 18:42:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:42:44 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:42:44 --> Model Class Initialized
+DEBUG - 2013-09-11 18:42:44 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-11 18:42:44 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-11 18:42:44 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-11 18:42:44 --> File loaded: application/modules/product/views/index.php
+DEBUG - 2013-09-11 18:42:44 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-11 18:42:44 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-11 18:42:44 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-11 18:42:44 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-11 18:42:44 --> Final output sent to browser
+DEBUG - 2013-09-11 18:42:44 --> Total execution time: 0.0642
+DEBUG - 2013-09-11 18:43:05 --> Config Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:43:05 --> URI Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Router Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Output Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Security Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Input Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:43:05 --> Language Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Language Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Config Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:43:05 --> Model Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Model Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Session Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:43:05 --> Session routines successfully run
+DEBUG - 2013-09-11 18:43:05 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:43:05 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:43:05 --> Model Class Initialized
+DEBUG - 2013-09-11 18:43:05 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-11 18:43:05 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-11 18:43:05 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-11 18:43:05 --> File loaded: application/modules/product/views/index.php
+DEBUG - 2013-09-11 18:43:05 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-11 18:43:05 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-11 18:43:05 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-11 18:43:05 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-11 18:43:05 --> Final output sent to browser
+DEBUG - 2013-09-11 18:43:05 --> Total execution time: 0.0467
+DEBUG - 2013-09-11 18:43:06 --> Config Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:43:06 --> URI Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Router Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Output Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Security Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Input Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:43:06 --> Language Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Language Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Config Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:43:06 --> Model Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Model Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Session Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:43:06 --> Session routines successfully run
+DEBUG - 2013-09-11 18:43:06 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:43:06 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:43:06 --> Model Class Initialized
+DEBUG - 2013-09-11 18:43:06 --> Final output sent to browser
+DEBUG - 2013-09-11 18:43:06 --> Total execution time: 0.0458
+DEBUG - 2013-09-11 18:44:41 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:44:41 --> URI Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Router Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Output Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Security Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Input Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:44:41 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:44:41 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Session Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:44:41 --> Session routines successfully run
+DEBUG - 2013-09-11 18:44:41 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:44:41 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:44:41 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:41 --> File loaded: application/views/layouts/admin/header.php
+DEBUG - 2013-09-11 18:44:41 --> File loaded: application/views/layouts/admin/search.php
+DEBUG - 2013-09-11 18:44:41 --> File loaded: application/views/layouts/admin/sidebar.php
+DEBUG - 2013-09-11 18:44:41 --> File loaded: application/modules/product/views/index.php
+DEBUG - 2013-09-11 18:44:41 --> File loaded: application/views/layouts/admin/topNav.php
+DEBUG - 2013-09-11 18:44:41 --> File loaded: application/views/layouts/admin/quickNav.php
+DEBUG - 2013-09-11 18:44:41 --> File loaded: application/views/layouts/admin/footer.php
+DEBUG - 2013-09-11 18:44:41 --> File loaded: application/views/layouts/admin/layout.php
+DEBUG - 2013-09-11 18:44:41 --> Final output sent to browser
+DEBUG - 2013-09-11 18:44:41 --> Total execution time: 0.0510
+DEBUG - 2013-09-11 18:44:42 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:44:42 --> URI Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Router Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Output Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Security Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Input Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:44:42 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:44:42 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Session Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:44:42 --> Session routines successfully run
+DEBUG - 2013-09-11 18:44:42 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:44:42 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:44:42 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:42 --> Final output sent to browser
+DEBUG - 2013-09-11 18:44:42 --> Total execution time: 0.0405
+DEBUG - 2013-09-11 18:44:44 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:44:44 --> URI Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Router Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Output Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Security Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Input Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:44:44 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:44:44 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Session Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:44:44 --> Session routines successfully run
+DEBUG - 2013-09-11 18:44:44 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:44:44 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:44:44 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:44 --> Final output sent to browser
+DEBUG - 2013-09-11 18:44:44 --> Total execution time: 0.0447
+DEBUG - 2013-09-11 18:44:45 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:44:45 --> URI Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Router Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Output Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Security Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Input Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:44:45 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:44:45 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Session Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:44:45 --> Session routines successfully run
+DEBUG - 2013-09-11 18:44:45 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:44:45 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:44:45 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:45 --> Final output sent to browser
+DEBUG - 2013-09-11 18:44:45 --> Total execution time: 0.0496
+DEBUG - 2013-09-11 18:44:46 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:44:46 --> URI Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Router Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Output Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Security Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Input Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:44:46 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:44:46 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Session Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:44:46 --> Session routines successfully run
+DEBUG - 2013-09-11 18:44:46 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:44:46 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:44:46 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:46 --> Final output sent to browser
+DEBUG - 2013-09-11 18:44:46 --> Total execution time: 0.0509
+DEBUG - 2013-09-11 18:44:47 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:44:47 --> URI Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Router Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Output Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Security Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Input Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:44:47 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:44:47 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Session Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:44:47 --> Session routines successfully run
+DEBUG - 2013-09-11 18:44:47 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:44:47 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:44:47 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:47 --> Final output sent to browser
+DEBUG - 2013-09-11 18:44:47 --> Total execution time: 0.0487
+DEBUG - 2013-09-11 18:44:48 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:44:48 --> URI Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Router Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Output Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Security Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Input Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:44:48 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:44:48 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Session Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:44:48 --> Session routines successfully run
+DEBUG - 2013-09-11 18:44:48 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:44:48 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:44:48 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:48 --> Final output sent to browser
+DEBUG - 2013-09-11 18:44:48 --> Total execution time: 0.0529
+DEBUG - 2013-09-11 18:44:49 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:44:49 --> URI Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Router Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Output Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Security Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Input Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:44:49 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:44:49 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Session Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:44:49 --> Session routines successfully run
+DEBUG - 2013-09-11 18:44:49 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:44:49 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:44:49 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:49 --> Final output sent to browser
+DEBUG - 2013-09-11 18:44:49 --> Total execution time: 0.0471
+DEBUG - 2013-09-11 18:44:50 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:44:50 --> URI Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Router Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Output Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Security Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Input Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:44:50 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:44:50 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Session Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:44:50 --> Session routines successfully run
+DEBUG - 2013-09-11 18:44:50 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:44:50 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:44:50 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:50 --> Final output sent to browser
+DEBUG - 2013-09-11 18:44:50 --> Total execution time: 0.0462
+DEBUG - 2013-09-11 18:44:51 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:44:51 --> URI Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Router Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Output Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Security Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Input Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:44:51 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:44:51 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Session Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:44:51 --> Session routines successfully run
+DEBUG - 2013-09-11 18:44:51 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:44:51 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:44:51 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:51 --> Final output sent to browser
+DEBUG - 2013-09-11 18:44:51 --> Total execution time: 0.0458
+DEBUG - 2013-09-11 18:44:52 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:44:52 --> URI Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Router Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Output Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Security Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Input Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:44:52 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:44:52 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Session Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:44:52 --> Session routines successfully run
+DEBUG - 2013-09-11 18:44:52 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:44:52 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:44:52 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:52 --> Final output sent to browser
+DEBUG - 2013-09-11 18:44:52 --> Total execution time: 0.0471
+DEBUG - 2013-09-11 18:44:53 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Hooks Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Utf8 Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> UTF-8 Support Enabled
+DEBUG - 2013-09-11 18:44:53 --> URI Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Router Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Output Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Security Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Input Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-09-11 18:44:53 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Language Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Config Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Loader Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Controller Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Product MX_Controller Initialized
+DEBUG - 2013-09-11 18:44:53 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Database Driver Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Session Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Helper loaded: string_helper
+DEBUG - 2013-09-11 18:44:53 --> Session routines successfully run
+DEBUG - 2013-09-11 18:44:53 --> Helper loaded: url_helper
+DEBUG - 2013-09-11 18:44:53 --> File loaded: application/modules/product/models/productmodel.php
+DEBUG - 2013-09-11 18:44:53 --> Model Class Initialized
+DEBUG - 2013-09-11 18:44:53 --> Final output sent to browser
+DEBUG - 2013-09-11 18:44:53 --> Total execution time: 0.0528

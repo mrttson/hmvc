@@ -103,6 +103,11 @@ class Product extends CommonController {
         }
         if ($data) {
             $data['error'] = '0';
+            if (file_exists(PUBLIC_PATH . 'images/' . $data['image_path'])){
+                $data['image_path'] = base_url() . 'public/images/' . $data['image_path'];
+            } else {
+                $data['image_path'] = base_url() . 'public/images/default_img_thumb.gif';
+            }
             echo json_encode($data);
         } else {
             echo json_encode(array('error' => '0'));

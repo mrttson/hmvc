@@ -121,7 +121,7 @@
 
                 <div class="field-group" id="ajaxLoader" style="display: none; text-align: center;">
                     <div class="field">
-                        <img id="img_prev" src="<?php echo base_url() . 'public/images/loader.gif'; ?>" alt="your image" style="max-width: 100%; height: 100%; text-align: center"/>
+                        <img src="<?php echo base_url() . 'public/images/loader.gif'; ?>" alt="your image" style="max-width: 100%; height: 100%; text-align: center"/>
                     </div> <!-- .field -->
                 </div> <!-- .field-group -->
 

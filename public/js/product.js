@@ -10,6 +10,7 @@ $(function() {
                 data: {data: data},
                 success: function(res) {
                     res = JSON.parse(res);
+                    document.getElementById("img_prev").src = res['image_path'];
                     $('#product_id').val(res['id']);
                     $('#product_name').val(res['name']);
                     $('#product_id').val(res['id']);
