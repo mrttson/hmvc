@@ -96,14 +96,14 @@ class Product extends CommonController {
         $this->loadPage();
     }
 
-    function getProductInfoById() {
+    function ajaxGetProductInfoById() {
         $req = $_POST['data'];
         if ($req['pId']) {
             $data = $this->ProductModel->getProductInfoById($req['pId']);
         }
         if ($data) {
             $data['error'] = '0';
-            if (file_exists(PUBLIC_PATH . 'images/' . $data['image_path'])){
+            if (file_exists(PUBLIC_PATH . 'images/' . $data['image_path'])) {
                 $data['image_path'] = base_url() . 'public/images/' . $data['image_path'];
             } else {
                 $data['image_path'] = base_url() . 'public/images/default_img_thumb.gif';
@@ -113,16 +113,30 @@ class Product extends CommonController {
             echo json_encode(array('error' => '0'));
         }
     }
-
+    
+    /*
+     * update product info by ajax
+     * 
+     * return product info
+     */
     function ajaxUpdate() {
         sleep(1);
         $req = $_POST['data'];
-        if ($req['pId']) {
+        if ($req['pId'] > 0) {
             $res = $this->ProductModel->update($req);
             if ($res) {
-//                $this->session->set_flashdata('feedback', 'Success message for client to see');
-//                echo $this->session->flashdata('feedback');
-                echo json_encode(array('error' => '0'));
+                $pInfo = $this->ProductModel->getProductInfoById($res);
+                if ($pInfo){
+                    $pInfo['error'] = '0';
+                    if (file_exists(PUBLIC_PATH . 'images/' . $pInfo['image_path'])) {
+                        $pInfo['image_path'] = base_url() . 'public/images/' . $data['image_path'];
+                    } else {
+                        $pInfo['image_path'] = base_url() . 'public/images/default_img_thumb.gif';
+                    }
+                    echo json_encode($pInfo);
+                } else {
+                    echo json_encode(array('error' => '1'));
+                }
             } else {
                 echo json_encode(array('error' => '1'));
             }
@@ -130,15 +144,28 @@ class Product extends CommonController {
             echo json_encode(array('error' => '0'));
         }
     }
-
+    /*
+     * Update image product by Ajax
+     * 
+     * return prodcuct info
+     */
     function ajaxUpdateImgProduct() {
+        sleep(1);
         $imgInfo = $_FILES['image'];
         $uploadImgSuccess = $this->uploadImg($imgInfo);
         $data['pId'] = $_POST['pId'];
         if ($uploadImgSuccess && $uploadImgSuccess != NULL) {
             $data['image_path'] = $uploadImgSuccess;
-            if ($this->ProductModel->updateImgProduct($data)) {
-                echo json_encode(array('error' => '0'));
+            $pid = $this->ProductModel->updateImgProduct($data);
+            if ($pid > 0) {
+                $pInfo = $this->ProductModel->getProductInfoById($pid);
+                $pInfo['error'] = '0';
+                if (file_exists(PUBLIC_PATH . 'images/' . $pInfo['image_path'])) {
+                    $pInfo['image_path'] = base_url() . 'public/images/' . $data['image_path'];
+                } else {
+                    $pInfo['image_path'] = base_url() . 'public/images/default_img_thumb.gif';
+                }
+                echo json_encode($pInfo);
             } else {
                 echo json_encode(array('error' => '1'));
             }

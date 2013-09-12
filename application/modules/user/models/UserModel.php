@@ -33,13 +33,6 @@ class UserModel extends CommonModel {
         }
     }
 
-    function getIdMax() {
-        $sql = "SELECT 
-                    MAX(id) AS maxid 
-                FROM users";
-        $res = $this->getData($sql);
-        return $res[0]['maxid'];
-    }
 
     function getListRole() {
         $sql = 'SELECT 
@@ -57,7 +50,7 @@ class UserModel extends CommonModel {
         $sql = "INSERT INTO users(username, password, fullname, email, role)
                 VALUES('" . $data['username'] . "', '" . md5($data['password']) . "', '" . $data['fullname'] . "', '" . $data['email'] . "', '" . $data['role'] . "')";
         if ($this->Execute($sql)) {
-            return $this->getIdMax();
+            return $this->getIdMax('users');
         } else {
             return FALSE;
         }

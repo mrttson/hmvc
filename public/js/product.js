@@ -1,11 +1,15 @@
 $(function() {
     $(document).ready(function() {
+
+        //Show product info when click on row
         $('#product_tbl tbody tr').click(function() {
             var pId = $(this).attr('pid');
             var data = {'pId': pId};
+            $('#product_tbl tbody tr.chosen').removeClass('chosen');
+            $(this).addClass('chosen');
             $.ajax({
                 datatype: 'json',
-                url: "product/getProductInfoById",
+                url: "product/ajaxGetProductInfoById",
                 type: "POST",
                 data: {data: data},
                 success: function(res) {
@@ -18,6 +22,8 @@ $(function() {
                 }
             });
         });
+
+        //Update product info
         function ajaxUpdate() {
             $('#ajaxLoader').show();
             var pId = $('#product_id').val();
@@ -37,12 +43,13 @@ $(function() {
                     type: "POST",
                     data: {data: data},
                     success: function(res) {
-                        console.log(res);
-                        res = JSON.parse(res);
-                        if (res['error'] == '0') {
-
-                        } else {
-
+                        data2 = JSON.parse(res);
+                        console.log(data2);
+                        if (data2['error'] == '0') {
+                            $('#product_tbl tbody tr.chosen td[rel=id]').html(data2['id']);
+                            $('#product_tbl tbody tr.chosen td[rel=image_path] img').attr('src', data2['image_path']);
+                            $('#product_tbl tbody tr.chosen td[rel=pname]').html(data2['name']);
+                            $('#product_tbl tbody tr.chosen td[rel=title]').html(data2['title']);
                         }
                         $('#ajaxLoader').hide();
                     }
@@ -59,7 +66,10 @@ $(function() {
         $('#product_status').change(function() {
             ajaxUpdate();
         });
+
+        //Update Img product
         function ajaxUploadImg(Object) {
+            $('#ajaxLoader').show();
             var formdata = new FormData();
             var file = Object.files[0];
             var pId = $('#product_id').val();
@@ -79,7 +89,12 @@ $(function() {
                         processData: false,
                         contentType: false,
                         success: function(res) {
-                            //document.getElementById("response").innerHTML = res;
+                            var data2 = JSON.parse(res);
+                            console.log(data2);
+                            if (data2['error'] == '0') {
+                                $('#product_tbl tbody tr.chosen td[rel=image_path] img').attr('src', data2['image_path']);
+                            }
+                            $('#ajaxLoader').hide();
                         }
                     });
                 }
@@ -91,5 +106,8 @@ $(function() {
         $('#icon_path').change(function() {
             ajaxUploadImg(this);
         });
+
+
+
     });
 });

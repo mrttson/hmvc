@@ -32,24 +32,22 @@
                         foreach ($listProduct as $product) {
                             ?>
                             <tr pid="<?php echo $product['id']; ?>">
-                                <td><?php echo $product['id']; ?></td>
-                                <td style="text-align: center;">
+                                <td rel="pid"><?php echo $product['id']; ?></td>
+                                <td rel="image_path" style="text-align: center;">
                                     <?php
                                     $srcImg = "";
-                                    if (!empty($product['icon_path']) && file_exists(PUBLIC_PATH . 'images/' . $product['icon_path'])) {
-                                        $srcImg = base_url() . 'public/images/' . $product['icon_path'];
+//                                    var_dump(!empty($product['image_path']));
+//                                    var_dump(file_exists(PUBLIC_PATH . 'images/' . $product['image_path']));die();
+                                    if (!empty($product['image_path']) && file_exists(PUBLIC_PATH . 'images/' . $product['image_path'])) {
+                                        $srcImg = base_url() . 'public/images/' . $product['image_path'];
                                     } else {
                                         $srcImg = base_url() . 'public/images/default_img_thumb.gif';
                                     }
                                     ?>
-                                    <img src="<?php echo $srcImg; ?>" alt="your image" width="50px" height="50px"/>
+                                    <img class="product_image" src="<?php echo $srcImg; ?>" alt="your image" width="50px" height="50px"/>
                                 </td>
-                                <td><?php echo $product['name']; ?></td>
-                                <td><?php echo $product['title']; ?></td>
-    <!--                                <td style="text-align: center;">
-                                    <a href="<?php echo site_url('product/edit/' . $product['id']); ?>"><img class="tooltip" title="Edit" style="border: 1px solid #000;" src="<?php echo base_url() . 'public/images/pencil.png'; ?>"/></a>
-                                    <a href="<?php echo site_url('product/delete/' . $product['id']); ?>"><img class="tooltip" title="Delete" style="border: 1px solid #000;" src="<?php echo base_url() . 'public/images/remove.png'; ?>"/></a>
-                                </td>-->
+                                <td rel="pname"><?php echo $product['name']; ?></td>
+                                <td rel="ptitle"><?php echo $product['title']; ?></td>
                             </tr>
                             <?php
                         }

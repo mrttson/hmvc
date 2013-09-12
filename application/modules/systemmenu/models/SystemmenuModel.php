@@ -21,13 +21,6 @@ class SystemmenuModel extends CommonModel {
         }
     }
 
-    function getIdMax() {
-        $sql = "SELECT 
-                    MAX(id) AS maxid 
-                FROM systemmenu";
-        $res = $this->get1Cell($sql);
-        return $res;
-    }
 
     function getListParentMenu() {
         $sql = "SELECT
@@ -46,7 +39,7 @@ class SystemmenuModel extends CommonModel {
         $sql = "INSERT INTO systemmenu(title, url, parent_id, orderno, icon_path, status)
                 VALUES('" . $data['title'] . "', '" . $data['url'] . "', '" . $data['parent_id'] . "', '" . $data['orderno'] . "', '" . $data['icon_path'] . "', '" . $data['status'] . "')";
         if ($this->Execute($sql)) {
-            return $this->getIdMax();
+            return $this->getIdMax('systemmenu');
         } else {
             return FALSE;
         }

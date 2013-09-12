@@ -8,6 +8,11 @@ class ProductModel extends CommonModel {
         parent::__construct();
     }
 
+    /*
+     * Get list product category
+     * 
+     * return Array
+     */
     function getListCat() {
         $sql = "SELECT 
                     p1.id, p1.title, p1.parent_id, p2.title as parent_title, p1.orderno, p1.alias
@@ -23,7 +28,12 @@ class ProductModel extends CommonModel {
             return FALSE;
         }
     }
-
+    
+    /*
+     * Get list parent product category
+     * 
+     * return Array
+     */
     function getListParentCat() {
         $sql = "SELECT
                     id, title 
@@ -37,6 +47,12 @@ class ProductModel extends CommonModel {
         }
     }
 
+    /*
+     * Get product category info by Id
+     * param string id
+     * 
+     * return Array
+     */
     function getCatInfoById($id = NULL) {
         if (!empty($id)) {
             $sql = "SELECT 
@@ -49,17 +65,29 @@ class ProductModel extends CommonModel {
             return FALSE;
         }
     }
-
+    
+    /*
+     * Add product category to DB
+     * param Array data
+     * 
+     * return string id
+     */
     function addCat($data) {
         $sql = "INSERT INTO product_category(title, parent_id, orderno, alias)
                 VALUES('" . $data['title'] . "', '" . $data['parent_id'] . "', '" . $data['orderno'] . "', '" . $data['alias'] . "')";
         if ($this->Execute($sql)) {
-            return $this->getIdMax();
+            return $this->getIdMax('product_category');
         } else {
             return FALSE;
         }
     }
 
+    /*
+     * Edit product category
+     * param Array data
+     * 
+     * return string id
+     */
     function updateCat($data) {
         $sql = "UPDATE product_category 
                 SET 
@@ -77,6 +105,12 @@ class ProductModel extends CommonModel {
         }
     }
 
+    /*
+     * Delete product category
+     * param string id
+     * 
+     * return string id
+     */
     function deleteCat($id) {
         $sql = "DELETE FROM
                 product_category
@@ -89,6 +123,11 @@ class ProductModel extends CommonModel {
         }
     }
 
+    /*
+     * Get list product
+     * 
+     * return Array
+     */
     function getListProduct() {
         $sql = "SELECT 
                     p.id, p.`name`, p.`desc`, p.attrs, p.image_path, p.`status`, pc.title
@@ -102,6 +141,12 @@ class ProductModel extends CommonModel {
         }
     }
 
+    /*
+     * Get list product belong to product category
+     * param catId
+     * 
+     * return Array product
+     */
     function getListProductByCatId($catId) {
         $sql = "SELECT p.id, p.`name`, p.`desc`, p.attrs, p.image_path, p.`status`, pc.title
                 FROM product p
@@ -116,6 +161,12 @@ class ProductModel extends CommonModel {
         }
     }
 
+    /*
+     * Get product info by Id
+     * param string Id
+     * 
+     * return Array productInfo
+     */
     function getProductInfoById($id) {
         $sql = "SELECT 
                     p.id, p.`name`, p.`desc`, p.attrs, p.image_path, p.`status`, pc.title
@@ -131,6 +182,12 @@ class ProductModel extends CommonModel {
         }
     }
 
+    /*
+     * Update product info
+     * param Array data
+     * 
+     * return productId
+     */
     function update($data) {
         $sql = "UPDATE product 
                 SET 
@@ -146,13 +203,18 @@ class ProductModel extends CommonModel {
         }
     }
 
+    /*
+     * update image of product
+     * param Array data
+     * 
+     * return productId
+     */
     function updateImgProduct($data) {
         $sql = "UPDATE product 
                 SET 
                     image_path = '" . $data['image_path'] . "'
                 WHERE
                     id='" . $data['pId'] . "'";
-        //var_dump($sql);die();
         if ($this->Execute($sql)) {
             return $data['pId'];
         } else {

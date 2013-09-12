@@ -52,6 +52,14 @@ class CommonModel extends CI_Model {
         }
     }
 
+    function getIdMax($table_name) {
+        $sql = "SELECT 
+                    MAX(id) AS maxid 
+                FROM " . $table_name;
+        $res = $this->get1Cell($sql);
+        return $res;
+    }
+    
     /*
      * Get User Info Data Function
      */
