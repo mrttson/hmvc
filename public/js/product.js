@@ -44,7 +44,6 @@ $(function() {
                     data: {data: data},
                     success: function(res) {
                         data2 = JSON.parse(res);
-                        console.log(data2);
                         if (data2['error'] == '0') {
                             $('#product_tbl tbody tr.chosen td[rel=id]').html(data2['id']);
                             $('#product_tbl tbody tr.chosen td[rel=image_path] img').attr('src', data2['image_path']);
@@ -90,7 +89,6 @@ $(function() {
                         contentType: false,
                         success: function(res) {
                             var data2 = JSON.parse(res);
-                            console.log(data2);
                             if (data2['error'] == '0') {
                                 $('#product_tbl tbody tr.chosen td[rel=image_path] img').attr('src', data2['image_path']);
                             }

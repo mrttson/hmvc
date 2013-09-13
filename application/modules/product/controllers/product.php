@@ -129,7 +129,7 @@ class Product extends CommonController {
                 if ($pInfo){
                     $pInfo['error'] = '0';
                     if (file_exists(PUBLIC_PATH . 'images/' . $pInfo['image_path'])) {
-                        $pInfo['image_path'] = base_url() . 'public/images/' . $data['image_path'];
+                        $pInfo['image_path'] = base_url() . 'public/images/' . $pInfo['image_path'];
                     } else {
                         $pInfo['image_path'] = base_url() . 'public/images/default_img_thumb.gif';
                     }
