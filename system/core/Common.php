@@ -356,7 +356,10 @@ if ( ! function_exists('log_message'))
 		}
 
 		$_log =& load_class('Log');
-		$_log->write_log($level, $message, $php_error);
+        if ($level == 'error') {
+            $_log->write_log($level, $message, $php_error);
+        }
+		//$_log->write_log($level, $message, $php_error);
 	}
 }
 
