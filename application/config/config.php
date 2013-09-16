@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/hmvc/';
+$config['base_url']	= 'http://sontrt.tk/hmvc/';
 
 /*
 |--------------------------------------------------------------------------
