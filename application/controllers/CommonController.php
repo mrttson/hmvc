@@ -75,7 +75,7 @@ class CommonController extends MX_Controller {
         if ($imgInfo['size'] != 0) {
             $temp = explode(".", $imgInfo["name"]);
             $extension = end($temp);
-            if ($imgInfo["size"] < 5000000) {
+            if ($imgInfo["size"] < 2000000) {
                 if ($imgInfo["error"] > 0) {
                     return FALSE;
                 } else {
