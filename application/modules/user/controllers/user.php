@@ -7,7 +7,7 @@ class User extends CommonController {
     public function __construct() {
         parent::__construct();
         $this->_layout = 'admin';
-        $this->load->Model('UserModel');
+        $this->load->Model('usermodel');
         $this->_data['moduleTitle'] = 'Người Dùng';
     }
 
@@ -15,7 +15,7 @@ class User extends CommonController {
         $this->_layout = 'admin';
         $this->_data['pageTitle'] = 'List User';
         $this->_data['page'] = 'index';
-        $this->_contentData['listUser'] = $this->UserModel->getListUserInfo();
+        $this->_contentData['listUser'] = $this->usermodel->getListUserInfo();
         $this->_data['content'] = $this->_contentData;
         $this->loadPage();
     }
@@ -34,7 +34,7 @@ class User extends CommonController {
         } else {//When user Login
             $username = $_POST['username'];
             $password = $_POST['password'];
-            $res = $this->UserModel->getUserInfo(NULL, $username, $password);
+            $res = $this->usermodel->getUserInfo(NULL, $username, $password);
             if ($res) {
                 if (mysql_num_rows($res) > 0) {
                     //Set user info to session
@@ -63,8 +63,8 @@ class User extends CommonController {
 
             $sql = "INSERT INTO USERS(username,password,email,fullname)
                 VALUES('" . $username . "', '" . md5($password) . "', '" . $email . "', '" . $fullname . "')";
-            if ($this->UserModel->Execute($sql)) {
-                $id = $this->UserModel->getIdMax();
+            if ($this->usermodel->Execute($sql)) {
+                $id = $this->usermodel->getIdMax();
                 redirect(site_url('user/index/' . $id));
             } else {
                 redirect(site_url('user/login'));
@@ -84,7 +84,7 @@ class User extends CommonController {
             $this->_layout = 'admin';
             $this->_data['pageTitle'] = 'Add User';
             $this->_data['page'] = 'add';
-            $this->_contentData['listRole'] = $this->UserModel->getListRole();
+            $this->_contentData['listRole'] = $this->usermodel->getListRole();
             $this->_data['content'] = $this->_contentData;
             $this->loadPage();
         } else {
@@ -93,7 +93,7 @@ class User extends CommonController {
             $data['fullname'] = $_POST['fullname'];
             $data['email'] = $_POST['email'];
             $data['role'] = $_POST['role'];
-            if ($this->UserModel->add($data)) {
+            if ($this->usermodel->add($data)) {
                 redirect(site_url('user/list'));
             } else {
                 redirect(site_url('user/add'));
@@ -106,8 +106,8 @@ class User extends CommonController {
             if (!isset($_POST) || empty($_POST)) {
                 $this->_data['pageTitle'] = 'Edit User';
                 $this->_data['page'] = 'edit';
-                $this->_contentData['userInfo'] = $this->UserModel->getUserInfoById($id);
-                $this->_contentData['listRole'] = $this->UserModel->getListRole();
+                $this->_contentData['userInfo'] = $this->usermodel->getUserInfoById($id);
+                $this->_contentData['listRole'] = $this->usermodel->getListRole();
                 $this->_data['content'] = $this->_contentData;
                 $this->loadPage();
             } else {
@@ -116,7 +116,7 @@ class User extends CommonController {
                 $data['email'] = $_POST['email'];
                 $data['role'] = $_POST['role'];
                 $data['id'] = $id;
-                if ($this->UserModel->update($data)) {
+                if ($this->usermodel->update($data)) {
                     redirect(site_url('user/index'));
                 } else {
                     echo 'Die when Edit User';
@@ -129,7 +129,7 @@ class User extends CommonController {
 
     function delete($id = NULL) {
         if (!empty($id)) {
-            if ($this->UserModel->delete($id)) {
+            if ($this->usermodel->delete($id)) {
                 redirect('user');
             } else {
                 echo 'Error SQL [DELETE user]';
@@ -144,7 +144,7 @@ class User extends CommonController {
             if (!isset($_POST) || empty($_POST)) {
                 $this->_data['pageTitle'] = 'UserCP';
                 $this->_data['page'] = 'usercp';
-                $this->_contentData['userInfo'] = $this->UserModel->getUserInfoById($id);
+                $this->_contentData['userInfo'] = $this->usermodel->getUserInfoById($id);
                 $this->_data['content'] = $this->_contentData;
                 $this->loadPage();
             } else {
@@ -153,7 +153,7 @@ class User extends CommonController {
                 $data['email'] = $_POST['email'];
                 $data['role'] = $_POST['role'];
                 $data['id'] = $id;
-                if ($this->UserModel->update($data)) {
+                if ($this->usermodel->update($data)) {
                     redirect(site_url('user/index'));
                 } else {
                     echo 'Die when Edit User';

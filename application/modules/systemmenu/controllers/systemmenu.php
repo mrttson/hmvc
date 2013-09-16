@@ -8,13 +8,13 @@ class Systemmenu extends CommonController {
         parent::__construct();
         $this->_contentData['moduleTitle'] = 'System Menu';
         $this->_layout = 'admin';
-        $this->load->Model('SystemmenuModel');
+        $this->load->Model('systemmenumodel');
     }
 
     function index() {
         $this->_data['pageTitle'] = 'System Menu';
         $this->_data['page'] = 'index';
-        $this->_contentData['listMenu'] = $this->SystemmenuModel->getListSystemMenu();
+        $this->_contentData['listMenu'] = $this->systemmenumodel->getListSystemMenu();
         $this->_data['content'] = $this->_contentData;
         $this->loadPage();
     }
@@ -23,7 +23,7 @@ class Systemmenu extends CommonController {
         if (!isset($_POST) || empty($_POST)) {
             $this->_data['pageTitle'] = 'Add Menu';
             $this->_data['page'] = 'add';
-            $this->_contentData['listParentMenu'] = $this->SystemmenuModel->getListParentMenu();
+            $this->_contentData['listParentMenu'] = $this->systemmenumodel->getListParentMenu();
             $this->_data['content'] = $this->_contentData;
             $this->loadPage();
         } else {
@@ -36,7 +36,7 @@ class Systemmenu extends CommonController {
             $uploadImgSuccess = $this->uploadImg($uploadFileInfo);
             if ($uploadImgSuccess) {
                 $data['icon_path'] = $uploadImgSuccess;
-                if ($this->SystemmenuModel->add($data)) {
+                if ($this->systemmenumodel->add($data)) {
                     redirect(site_url('systemmenu'));
                 } else {
                     echo 'Error when add systemmenu';
@@ -56,8 +56,8 @@ class Systemmenu extends CommonController {
             if (!isset($_POST) || empty($_POST)) {
                 $this->_data['pageTitle'] = 'Edit System Menu';
                 $this->_data['page'] = 'edit';
-                $this->_contentData['systemMenuInfo'] = $this->SystemmenuModel->getSystemMenuInfoById($id);
-                $this->_contentData['listParentMenu'] = $this->SystemmenuModel->getListParentMenu();
+                $this->_contentData['systemMenuInfo'] = $this->systemmenumodel->getSystemMenuInfoById($id);
+                $this->_contentData['listParentMenu'] = $this->systemmenumodel->getListParentMenu();
                 $this->_data['content'] = $this->_contentData;
                 $this->loadPage();
             } else {
@@ -75,7 +75,7 @@ class Systemmenu extends CommonController {
                 } else if ($uploadImgSuccess == NULL){
                     $data['icon_path'] = '';
                 }
-                if ($this->SystemmenuModel->update($data)) {
+                if ($this->systemmenumodel->update($data)) {
                     redirect(site_url('systemmenu'));
                 } else {
                     echo 'Die when Edit Systen Menu';
@@ -90,7 +90,7 @@ class Systemmenu extends CommonController {
 
     function delete($id = NULL) {
         if (!empty($id)) {
-            if ($this->SystemmenuModel->delete($id)) {
+            if ($this->systemmenumodel->delete($id)) {
                 redirect('systemmenu');
             } else {
                 echo 'Error SQL [DELETE systemmenu]';

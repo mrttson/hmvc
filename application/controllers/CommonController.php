@@ -21,7 +21,7 @@ class CommonController extends MX_Controller {
     public function __construct() {
         parent::__construct();
         //Load Model
-        $this->load->Model('CommonModel');
+        $this->load->model('commonmodel');
         //Load Library
         $this->load->library('session');
         //Load Helper
@@ -64,11 +64,11 @@ class CommonController extends MX_Controller {
     }
 
     function getAdminSideBar() {
-        return $this->CommonModel->getAdminSideBarData();
+        return $this->commonmodel->getAdminSideBarData();
     }
 
     function getFooter() {
-        return $this->CommonModel->getFooterData();
+        return $this->commonmodel->getFooterData();
     }
 
     function uploadImg($imgInfo) {

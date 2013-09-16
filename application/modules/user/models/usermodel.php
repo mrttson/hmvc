@@ -1,6 +1,6 @@
 <?php
 
-require_once(APPPATH . 'models/CommonModel.php');
+require_once(APPPATH . 'models/commonmodel.php');
 
 class UserModel extends CommonModel {
 
