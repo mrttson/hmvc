@@ -15,6 +15,7 @@ class Systemmenu extends CommonController {
         $this->_data['pageTitle'] = 'System Menu';
         $this->_data['page'] = 'index';
         $this->_contentData['listMenu'] = $this->systemmenumodel->getListSystemMenu();
+        $this->_contentData['listParentMenu'] = $this->systemmenumodel->getListParentMenu();
         $this->_data['content'] = $this->_contentData;
         $this->loadPage();
     }
@@ -100,6 +101,23 @@ class Systemmenu extends CommonController {
         }
     }
 
+    function ajaxGetSystemmenuInfoById(){
+        $req = $_POST['data'];
+        if ($req['sid']) {
+            $data = $this->systemmenumodel->getSystemMenuInfoById($req['sid']);
+        }
+        if ($data) {
+            $data['error'] = '0';
+            if (file_exists(PUBLIC_PATH . 'images/' . $data['icon_path'])) {
+                $data['icon_path'] = base_url() . 'public/images/' . $data['icon_path'];
+            } else {
+                $data['icon_path'] = base_url() . 'public/images/default_img_thumb.gif';
+            }
+            echo json_encode($data);
+        } else {
+            echo json_encode(array('error' => '0'));
+        }
+    }
 }
 
 ?>

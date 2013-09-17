@@ -130,9 +130,8 @@
                     </div> <!-- .field -->
                 </div> <!-- .field-group -->
 
-                <div id="errMsg" class="notify notify-success" style="display: none;">
-                    <a href="javascript:;" class="close">&times;</a>
-                    <h3>&nbsp;</h3>
+                <div id="errMsg" style="text-align: center; font-weight: bold;">
+                    <p>&nbsp;</p>
                 </div> <!-- .notify -->
 
                 <div class="field-group" id="ajaxLoader" style="display: none; text-align: center;">

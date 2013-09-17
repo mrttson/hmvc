@@ -15,9 +15,19 @@ class Myteam extends CommonController {
         $this->_layout = NULL;
         $this->_data['pageTitle'] = 'List User';
         $this->_data['page'] = 'index';
-        $this->_contentData['listUser'] = $this->myteammodel->getListUserInfo();
         $this->_data['content'] = $this->_contentData;
         $this->loadPage();
+    }
+    
+    function ajaxGetImg(){
+        $req = $_POST['data'];
+        $data = $this->myteammodel->getImg($req['id']);
+        if ($data){
+            $data['error'] = '0';
+            echo json_encode($data);
+        } else {
+            echo json_encode(array('error' => '1'));
+        }
     }
 
 }

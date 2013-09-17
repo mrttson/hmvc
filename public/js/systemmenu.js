@@ -12,14 +12,19 @@ $(function() {
                 success: function(res) {
                     res = JSON.parse(res);
                     if (res['error'] == '0') {
-                        document.getElementById("img_prev").src = res['icon_path'];
+                        $("#img_prev").attr('srt',res['icon_path']);
                         $('#systemmenu_id').val(res['id']);
                         $('#systemmenu_title').val(res['title']);
                         $('#systemmenu_url').val(res['url']);
                         $('#systemmenu_order').val(res['orderno']);
                         $('#parent_id').val(res['parent_id']);
                         $('#systemmenu_status').val(res['status']);
-                        $('#ajaxLoader').hide();
+                        //$('#ajaxLoader').hide();
+//                        $('#errMsg p').html('Success');
+//                        $('#errMsg p').fadeTo( "slow", 100 );
+//                        $('#errMsg p').fadeTo( "slow", 0 );
+                        $('#ajaxLoader').fadeTo( "slow", 100 );
+                        $('#ajaxLoader').fadeTo( "slow", 0 );
                     }
                 }
             });

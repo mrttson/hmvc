@@ -1,0 +1,46 @@
+ERROR - 2013-09-17 10:18:25 --> Severity: Notice  --> Undefined variable: listParentMenu C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 112
+ERROR - 2013-09-17 10:18:25 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 112
+ERROR - 2013-09-17 10:18:25 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:18:28 --> Severity: Notice  --> Undefined variable: listParentMenu C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 112
+ERROR - 2013-09-17 10:18:28 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 112
+ERROR - 2013-09-17 10:18:28 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:32:06 --> Severity: Notice  --> Undefined variable: listParentMenu C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 112
+ERROR - 2013-09-17 10:32:06 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 112
+ERROR - 2013-09-17 10:32:06 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:32:09 --> 404 Page Not Found --> systemmenu/ajaxGetSystemmenuInfoById
+ERROR - 2013-09-17 10:32:10 --> 404 Page Not Found --> systemmenu/ajaxGetSystemmenuInfoById
+ERROR - 2013-09-17 10:32:16 --> 404 Page Not Found --> systemmenu/ajaxGetSystemmenuInfoById
+ERROR - 2013-09-17 10:39:03 --> Severity: Notice  --> Undefined variable: listParentMenu C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 112
+ERROR - 2013-09-17 10:39:03 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 112
+ERROR - 2013-09-17 10:39:03 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:44:48 --> Severity: Notice  --> Undefined variable: listParentMenu C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 112
+ERROR - 2013-09-17 10:44:48 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 112
+ERROR - 2013-09-17 10:44:48 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:46:18 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:51:51 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:52:04 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:53:21 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:53:37 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:54:11 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:54:20 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:54:32 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:54:49 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:54:55 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:55:01 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:55:15 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:55:38 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:55:43 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:55:45 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:55:53 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:55:58 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:56:51 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:57:00 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:57:13 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:57:33 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:57:54 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 10:58:47 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 11:30:40 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 11:38:57 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 11:50:33 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-17 14:53:56 --> Severity: Warning  --> Missing argument 1 for Myteam::ajaxGetImg() C:\xampp\htdocs\hmvc\application\modules\myteam\controllers\myteam.php 22
+ERROR - 2013-09-17 14:54:21 --> Severity: Warning  --> Missing argument 1 for Myteam::ajaxGetImg() C:\xampp\htdocs\hmvc\application\modules\myteam\controllers\myteam.php 22
