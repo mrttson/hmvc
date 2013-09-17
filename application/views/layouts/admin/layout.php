@@ -55,6 +55,9 @@
         <div id="footer">
             <?php $this->load->view("layouts/admin/footer", $footer); ?>
         </div>
+        <!--<input type="hidden" id="mode" value="<?php echo $mode; ?>"/>-->
+        <input type="hidden" id="controller" value=""/>
+        <input type="hidden" id="action" value=""/>
         <script src="<?php echo base_url(); ?>public/js/all.js"></script>
         <script src="<?php echo base_url(); ?>public/js/layout.js"></script>
     </body>

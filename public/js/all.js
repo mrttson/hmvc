@@ -16063,8 +16063,8 @@ if (!document.createElement("canvas").getContext)
 /**
  * --------------------------------------------------------------------
  * Tooltip plugin for the jQuery-Plugin "Visualize"
- * Tolltip by Iraê Carvalho, irae@irae.pro.br, http://irae.pro.br/en/
- * Copyright (c) 2010 Iraê Carvalho
+ * Tolltip by Iraï¿½ Carvalho, irae@irae.pro.br, http://irae.pro.br/en/
+ * Copyright (c) 2010 Iraï¿½ Carvalho
  * Dual licensed under the MIT (filamentgroup.com/examples/mit-license.txt) and GPL (filamentgroup.com/examples/gpl-license.txt) licenses.
  * 	
  * Visualize plugin by Scott Jehl, scott@filamentgroup.com
@@ -29642,7 +29642,7 @@ $(function ()
         $(document).unbind('layout.resize');
     }
 
-    $('.uniformForm').find("select, input:checkbox, input:radio, input:file").uniform();
+    $('.uniformForm').find("input:checkbox, input:radio, input:file").uniform();
 
     $('.validateForm').validationEngine();
 
