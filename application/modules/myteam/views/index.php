@@ -53,15 +53,15 @@
                 //getImg(teamIndex['son']);
 
                 $('#album1').click(function() {
-                    getImg(teamIndex['thu']);
+                    getImg(teamIndex['son']);
                 });
 
                 $('#album2').click(function() {
-                    getImg(teamIndex['hue']);
+                    getImg(teamIndex['thu']);
                 });
 
                 $('#album3').click(function() {
-                    getImg(teamIndex['van']);
+                    getImg(teamIndex['hue']);
                 });
 
                 $('#thu2').click(function() {
@@ -91,7 +91,7 @@
             body {
                 font-family:Arial;
                 font-size:12px;
-                background:#FFF;
+                background:#1d1d1d;
             }
             .example-desc {
                 margin:3px 0;
@@ -106,7 +106,8 @@
                 position:relative;
                 clear:both;
                 overflow:hidden;
-                background:gray;
+                border: 1px solid #FFF;
+                background-color: #000;
             }
             /*            #carousel img {
                             visibility:hidden;  hide images until carousel can handle them 
@@ -116,14 +117,14 @@
     </head>
     <body>
         <div id="carousel">
-            <div style="text-align: center;">
-                <img src="<?php echo base_url(); ?>public/images/ajax-loader.gif" style="display: block;"/>
-            </div>
         </div>
-        <a href="#" id="album1" style="font-size: 20px;">Album 1</a><br/>
-        <a href="#" id="album2" style="font-size: 20px;">Album 2</a><br/>
-        <a href="#" id="album3" style="font-size: 20px;">Album 3</a><br/>
-        <a href="#" id="thu2" style="font-size: 20px;">Reload</a>
+        <a href="javascript:;" id="album1" style="font-size: 20px;">Album 1</a><br/>
+        <a href="javascript:;" id="album2" style="font-size: 20px;">Album 2</a><br/>
+        <a href="javascript:;" id="album3" style="font-size: 20px;">Album 3</a><br/>
+        <a href="javascript:;" id="thu2" style="font-size: 20px;">Reload</a>
     </body>
 </html>
 
+<style>
+    a { background-repeat: repeat}
+</style>

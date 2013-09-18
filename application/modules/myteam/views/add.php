@@ -1,79 +1,89 @@
 <div id="contentHeader">
-    <h1><?php echo $moduleTitle; ?></h1>
+    <h1>Gallery View</h1>
 </div> <!-- #contentHeader -->	
 
 <div class="container">
 
+    <div class="grid-24">
 
-    <div class="grid-16">
+        <div class="widget">
 
-        <form method="POST" action="<?php echo site_url('systemmenu/add'); ?>" class="form uniformForm" enctype="multipart/form-data">					
+            <div class="widget-header">
+                <span class="icon-image"></span>
+                <h3>Gallery</h3>
+            </div>
 
-            <div class="widget">
+            <div class="widget-content">
 
-                <div class="widget-header">
-                    <span class="icon-article"></span>
-                    <h3><?php echo $pageTitle; ?></h3>
-                </div> <!-- .widget-header -->
+                <br />
 
-                <div class="widget-content">
+                <ul class="gallery">
 
-                    <div class="field-group">
-                        <label>Title:</label>
-                        <div class="field">
-                            <input type="text" name="title" id="title" size="50" class="" />			
+                    <li>
+                        <img alt="" src="images/gallery/rain_small.jpg">
+
+                        <div class="actions">	
+                            <a class="btn btn-primary btn-small lightbox" href="images/gallery/rain_large.jpg">View</a>
+                            <a href="javascript:;" class="btn btn-tertiary btn-small  delete">Delete</a>
                         </div>
-                    </div> <!-- .field-group -->
+                    </li>
 
-                    <div class="field-group">
-                        <label>URL:</label>
-                        <div class="field">
-                            <input type="text" name="url" id="url" size="50" class="" />			
+
+                    <li>
+                        <img alt="" src="images/gallery/crayons_small.jpg">
+
+                        <div class="actions">	
+                            <a class="btn btn-primary btn-small lightbox" href="images/gallery/crayons_large.jpg">View</a>
+                            <a href="javascript:;" class="btn btn-tertiary btn-small  delete">Delete</a>
                         </div>
-                    </div> <!-- .field-group -->
+                    </li>
 
-                    <div class="field-group">		
-                        <label>Parent Menu:</label>
+                    <li>
+                        <img alt="" src="images/gallery/rain_small.jpg">
 
-                        <div class="field">
-                            <select name="parent_id" id="parent_id" style="width: 383px;">
-                                <option value="0" selected="selected">&nbsp;</option>
-                                <?php
-                                foreach ($listParentMenu as $parentMenu) {
-                                    echo '<option value="' . $parentMenu['id'] . '">' . $parentMenu['title'] . '</option>';
-                                }
-                                ?>
-                            </select>
-                        </div>		
-                    </div> <!-- .field-group -->
-                    
-                    <div class="field-group">
-                        <label>Order:</label>
-                        <div class="field">
-                            <input type="text" name="orderno" id="orderno" size="50" class="" />			
+                        <div class="actions">	
+                            <a class="btn btn-primary btn-small lightbox" href="images/gallery/rain_large.jpg">View</a>
+                            <a href="javascript:;" class="btn btn-tertiary btn-small  delete">Delete</a>
                         </div>
-                    </div> <!-- .field-group -->
-                    
-                    <div class="field-group">
-                        <label>Icon:</label>
-                        <div class="field">
-                            <input type='file' name="icon_path" id="icon_path" size="50" />
-                            <img id="img_prev" src="<?php echo base_url() . 'public/images/default_img_thumb.gif'; ?>" alt="your image" width="50px" height="50px" style="position: relative; top: 10px;"/>
+                    </li>
+
+                    <li>
+                        <img alt="" src="images/gallery/coins_small.jpg">
+
+                        <div class="actions">	
+                            <a class="btn btn-primary btn-small lightbox" href="images/gallery/coins_large.jpg">View</a>
+                            <a href="javascript:;" class="btn btn-tertiary btn-small  delete">Delete</a>
                         </div>
-                    </div> <!-- .field-group -->
+                    </li>
 
-                    <div class="field-group">		
-                        <label for="cfpassword">Status:</label>
+                    <li>
+                        <img alt="" src="images/gallery/crayons_small.jpg">
 
-                        <div class="field">
-                            <input type="text" name="status" id="status" size="50" />
-                        </div>		
-                    </div> <!-- .field-group -->
-                    <input class="btn btn-small btn-blue" type="submit" value="Save"/>
-                    <a href="<?php echo site_url('systemmenu'); ?>"><button type="button" id="btn_systemmenu_add_back" class="btn btn-small btn-teal">&nbsp;Back&nbsp;</button></a>
-                </div> <!-- .widget-content -->
+                        <div class="actions">	
+                            <a class="btn btn-primary btn-small lightbox" href="images/gallery/crayons_large.jpg">View</a>
+                            <a href="javascript:;" class="btn btn-tertiary btn-small  delete">Delete</a>
+                        </div>
+                    </li>
 
-            </div> <!-- .widget -->
-        </form>
-    </div>
-</div>
+                    <li>
+                        <img alt="" src="images/gallery/coins_small.jpg">
+
+                        <div class="actions">	
+                            <a class="btn btn-primary btn-small lightbox" href="images/gallery/coins_large.jpg">View</a>
+                            <a href="javascript:;" class="btn btn-tertiary btn-small  delete">Delete</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div><!-- .grid -->
+</div> <!-- .container -->
+<script>
+
+    $(function() {
+        $('.lightbox').lightBox();
+    });
+
+</script>
