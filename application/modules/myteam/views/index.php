@@ -3,8 +3,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>TTVD</title>
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public/css/myteam.css" />
         <script type="text/javascript" src="<?php echo base_url(); ?>public/js/jquery-1.7.2.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/js/jquery.waterwheelCarousel.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>public/js/sliding_effect.js"></script>
         <script type="text/javascript">
             var teamIndex = {
                 'son': '0',
@@ -21,6 +23,7 @@
 
             //Get img member
             function getImg(index) {
+                var sStatus = false;
                 $.ajax({
                     datatype: 'json',
                     url: "myteam/ajaxGetImg",
@@ -34,6 +37,9 @@
                     },
                     success: function(res) {
                         res = JSON.parse(res);
+                        if (res['errror'] = '0'){
+                            sStatus = true;
+                        }
                         var htmlImg = '';
                         $('#carousel').html('');
                         for (var key in res) {
@@ -45,23 +51,16 @@
 
                     }
                 });
-                //$("#carousel").waterwheelCarousel();
             }
 
             $(document).ready(function() {
 
                 //getImg(teamIndex['son']);
 
-                $('#album1').click(function() {
-                    getImg(teamIndex['son']);
-                });
-
-                $('#album2').click(function() {
-                    getImg(teamIndex['thu']);
-                });
-
-                $('#album3').click(function() {
-                    getImg(teamIndex['hue']);
+                $('.album').click(function() {
+                    //getImg(teamIndex['son']);
+                    
+                    alert($(this).attr('rel'));
                 });
 
                 $('#thu2').click(function() {
@@ -80,51 +79,26 @@
 //                setInterval(function() {
 //                    //carousel.next()
 //                }, 2000);
-
-
-
-
             });
         </script>
-
-        <style type="text/css">
-            body {
-                font-family:Arial;
-                font-size:12px;
-                background:#1d1d1d;
-            }
-            .example-desc {
-                margin:3px 0;
-                padding:5px;
-            }
-
-            #carousel {
-                border-radius: 6px;
-                width:100%;
-                border:1px solid #222;
-                height:300px;
-                position:relative;
-                clear:both;
-                overflow:hidden;
-                border: 1px solid #FFF;
-                background-color: #000;
-            }
-            /*            #carousel img {
-                            visibility:hidden;  hide images until carousel can handle them 
-                            cursor:pointer;  otherwise it's not as obvious items can be clicked 
-                        }*/
-        </style>
     </head>
     <body>
         <div id="carousel">
+            <!-- slide show Image -->
         </div>
-        <a href="javascript:;" id="album1" style="font-size: 20px;">Album 1</a><br/>
-        <a href="javascript:;" id="album2" style="font-size: 20px;">Album 2</a><br/>
-        <a href="javascript:;" id="album3" style="font-size: 20px;">Album 3</a><br/>
-        <a href="javascript:;" id="thu2" style="font-size: 20px;">Reload</a>
+        <div id="mInfo">
+            <div id="navigation-block" class="div1">
+                <ul id="sliding-navigation">
+                    <li class="sliding-element"><h3>Teammate</h3></li>
+                    <li class="sliding-element album" rel="1"><a href="javascript:;">Album 1</a></li>
+                    <li class="sliding-element album" rel="2"><a href="javascript:;">Album 2</a></li>
+                    <li class="sliding-element album" rel="3"><a href="javascript:;">Album 3</a></li>
+                </ul>
+            </div>
+            <div id = "chatBox" style="float: right;">
+                <textarea></textarea>
+                <button id="send_btn">Send</button>
+            </div>
+        </div>
     </body>
 </html>
-
-<style>
-    a { background-repeat: repeat}
-</style>

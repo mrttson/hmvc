@@ -13,11 +13,14 @@ class MyteamModel extends CommonModel {
                     img_name
                 FROM myteam_img
                 WHERE mid = '".$id."'";
-        return $data = $this->getData($sql);
+        return $this->getData($sql);
     }
     
     function getListMemberInfo(){
-        
+        $sql = "SELECT
+                    id, `name`, avatar
+                FROM myteam";
+        return $this->getData($sql);
     }
     
 }

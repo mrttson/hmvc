@@ -18,28 +18,39 @@ class Myteam extends CommonController {
         $this->_data['content'] = $this->_contentData;
         $this->loadPage();
     }
-    
-    function ajaxGetImg(){
+
+    function ajaxGetImg() {
         $req = $_POST['data'];
         $data = $this->myteammodel->getImg($req);
-        if ($data){
+        if ($data) {
             $data['error'] = '0';
             echo json_encode($data);
         } else {
             echo json_encode(array('error' => '1'));
         }
     }
-    
-    function add($mName = NULL){
-        if ($mName == NULL){
-            $this->_layout='admin';
-            $this->_data['pageTitle'] = 'Member List';
-            $this->_data['page'] = 'add';
-            $this->_data['listMemberInfo'] = $this->myteammodel->getListMemberInfo();
-            $this->_data['content'] = $this->_contentData;
-            $this->loadPage();
+
+    function getTeamList (){
+        $data = $this->myteammodel->getListMemberInfo();
+        foreach ($data as $key => $rowData){
+            if (file_exists(PUBLIC_PATH . 'images/' . $rowData['avatar'])) {
+                $data[$key]['avatar'] = base_url() . 'public/images/' . $rowData['avatar'];
+            } else {
+                $data[$key]['avatar'] = base_url() . 'public/images/default_img_thumb.gif';
+            }
         }
+        return $data;
+    }
+            
+    function teamlist() {
+        $this->_layout = 'admin';
+        $this->_data['pageTitle'] = 'Member List';
+        $this->_data['page'] = 'teamlist';
+        $this->_data['listMemberInfo'] = $this->getTeamList();
+        $this->_data['content'] = $this->_contentData;
+        $this->loadPage();
     }
 
 }
+
 ?>
