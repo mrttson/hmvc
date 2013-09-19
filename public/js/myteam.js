@@ -1,25 +1,23 @@
 $(function() {
     $(document).ready(function() {
 
-        //Show product info when click on row
-        $('#product_tbl tbody tr').click(function() {
-            var pId = $(this).attr('pid');
-            var data = {'pId': pId};
-            $('#product_tbl tbody tr.chosen').removeClass('chosen');
+        $('#myteam_tbl tbody tr').click(function() {
+            var mid = $(this).attr('mid');
+            var data = {'mid': mid};
+            $('#myteam_tbl tbody tr.chosen').removeClass('chosen');
             $(this).addClass('chosen');
             $.ajax({
                 datatype: 'json',
-                url: "product/ajaxGetProductInfoById",
+                url: "myteam/ajaxGetMemberInfo",
                 type: "POST",
                 data: {data: data},
                 success: function(res) {
                     res = JSON.parse(res);
-                    $('#img_prev').attr('src',res['image_path']);
-                    //document.getElementById("img_prev").src = res['image_path'];
-                    $('#product_id').val(res['id']);
-                    $('#product_name').val(res['name']);
-                    $('#product_id').val(res['id']);
-                    $('#product_status').val(res['status']);
+                    $('#img_prev').attr('src',res['info']['avatar']);
+                    $('#name').val(res['info']['name']);
+                    for (var key in res['album']){
+                        $('#album').append('<img src="' +res['album'][key]['img_name']+ '" style="height: 100px; margin: 2px;"/>');
+                    }
                 }
             });
         });

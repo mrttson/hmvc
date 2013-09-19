@@ -30,9 +30,9 @@ class Myteam extends CommonController {
         }
     }
 
-    function getTeamList (){
+    function getTeamList() {
         $data = $this->myteammodel->getListMemberInfo();
-        foreach ($data as $key => $rowData){
+        foreach ($data as $key => $rowData) {
             if (file_exists(PUBLIC_PATH . 'images/' . $rowData['avatar'])) {
                 $data[$key]['avatar'] = base_url() . 'public/images/' . $rowData['avatar'];
             } else {
@@ -41,7 +41,31 @@ class Myteam extends CommonController {
         }
         return $data;
     }
-            
+
+    function ajaxGetMemberInfo() {
+        $req = $_POST['data'];
+        $data = $this->myteammodel->getMemberInfoById($req['mid']);
+        if ($data['info'] == FALSE || $data['album'] == FALSE) {
+            $data['error'] = '1';
+        } else {
+            $data['error'] = '0';
+            if (file_exists(PUBLIC_PATH . 'images/' . $data['info']['avatar'])) {
+                $data['info']['avatar'] = base_url() . 'public/images/' . $data['info']['avatar'];
+            } else {
+                $data['info']['avatar'] = base_url() . 'public/images/default_img_thumb.gif';
+            }
+            foreach ($data['album'] as $key => $rowData) {
+                if (file_exists(PUBLIC_PATH . 'images/' . $rowData['img_name'])) {
+                    $data['album'][$key]['img_name'] = base_url() . 'public/images/' . $rowData['img_name'];
+                } else {
+                    $data['album'][$key]['img_name'] = base_url() . 'public/images/default_img_thumb.gif';
+                }
+            }
+        }
+
+        echo json_encode($data);
+    }
+
     function teamlist() {
         $this->_layout = 'admin';
         $this->_data['pageTitle'] = 'Member List';

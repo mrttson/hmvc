@@ -236,3 +236,74 @@ ERROR - 2013-09-19 17:41:22 --> 404 Page Not Found -->
 ERROR - 2013-09-19 17:42:52 --> 404 Page Not Found --> 
 ERROR - 2013-09-19 17:43:22 --> 404 Page Not Found --> 
 ERROR - 2013-09-19 17:43:52 --> 404 Page Not Found --> 
+ERROR - 2013-09-19 18:05:55 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:06:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:06:30 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:06:41 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:08:05 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:10:11 --> Severity: Notice  --> Undefined variable: listImg C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 73
+ERROR - 2013-09-19 18:10:11 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 73
+ERROR - 2013-09-19 18:10:11 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:12:25 --> Severity: Notice  --> Undefined variable: listImg C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 73
+ERROR - 2013-09-19 18:12:25 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 73
+ERROR - 2013-09-19 18:12:25 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:12:46 --> Severity: Notice  --> Undefined variable: listImg C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 73
+ERROR - 2013-09-19 18:12:46 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 73
+ERROR - 2013-09-19 18:12:46 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:18:28 --> Severity: Notice  --> Undefined variable: listImg C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 73
+ERROR - 2013-09-19 18:18:28 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 73
+ERROR - 2013-09-19 18:18:28 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:18:40 --> Severity: Notice  --> Undefined variable: listImg C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 73
+ERROR - 2013-09-19 18:18:40 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 73
+ERROR - 2013-09-19 18:18:40 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:19:17 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:19:17 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:19:23 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:19:23 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:19:47 --> Severity: Notice  --> Undefined variable: listImg C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 73
+ERROR - 2013-09-19 18:19:47 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 73
+ERROR - 2013-09-19 18:19:47 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:19:55 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:19:55 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:30:19 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:30:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:31:01 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:31:01 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:31:57 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:31:57 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:31:59 --> 404 Page Not Found --> myteam/ajaxGetListImg
+ERROR - 2013-09-19 18:32:18 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:32:18 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:32:19 --> Severity: Notice  --> Undefined variable: sqlAlbuml C:\xampp\htdocs\hmvc\application\modules\myteam\models\myteammodel.php 36
+ERROR - 2013-09-19 18:32:19 --> Invalid query: 
+ERROR - 2013-09-19 18:32:46 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:32:46 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:35:23 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:35:23 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:35:48 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:35:48 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:37:11 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:37:11 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:41:02 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:41:02 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:44:43 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:44:43 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:45:34 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:45:34 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:46:19 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:46:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:46:35 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:46:35 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:46:49 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:46:49 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:52:28 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:52:28 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:56:15 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:56:15 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:56:36 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:56:36 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:56:37 --> 404 Page Not Found --> myteam/undefined
+ERROR - 2013-09-19 18:56:59 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:56:59 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-19 18:57:35 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-19 18:57:35 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58

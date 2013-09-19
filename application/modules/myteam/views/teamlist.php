@@ -10,7 +10,7 @@
                 <h3><?php echo $pageTitle; ?></h3>
             </div>
             <div class="widget-content">
-                <table class="table table-bordered table-striped" id ="product_tbl">
+                <table class="table table-bordered table-striped" id ="myteam_tbl">
                     <thead>
                         <tr>
                             <th>Id</th>
@@ -22,7 +22,7 @@
                         <?php
                         foreach ($listMemberInfo as $memberInfo) {
                             ?>
-                            <tr pid="<?php echo $memberInfo['id']; ?>">
+                            <tr mid="<?php echo $memberInfo['id']; ?>">
                                 <td rel="mid"><?php echo $memberInfo['id']; ?></td>
                                 <td rel="avatar" style="text-align: center;">
                                     <img class="avatar" src="<?php echo $memberInfo['avatar']; ?>" alt="your image" width="50px" height="50px"/>
@@ -62,27 +62,20 @@
                 <div class="field-group">
                     <label for="file_name">Name</label>
                     <div class="field">
-                        <input type="text" name="file_name" id="product_name" size="50"/>
+                        <input type="text" id="name" size="50"/>
                     </div> <!-- .field -->
                 </div> <!-- .field-group -->
 
                 <div class="field-group">
-                    <label for="file_name">Name</label>
-                    <div class="field" style="border: 1px solid #000; width: 100%; height: 200px; overflow: scroll; padding: 10px 0px;">
-                        <ul class="gallery">
-                            <li>
-                                <img alt="" src="images/gallery/rain_small.jpg">
-                                <div class="actions">	
-                                    <a href="javascript:;" class="btn btn-tertiary btn-small  delete">Delete</a>
-                                </div>
-                            </li>
-                            <li>
-                                <img alt="" src="images/gallery/crayons_small.jpg">
-                                <div class="actions">	
-                                    
-                                </div>
-                            </li>
-                        </ul>
+                    <label for="file_name">Album</label>
+                    <div class="field" id="album" style="border: 1px solid #000; width: 100%; height: 200px; overflow: scroll; padding: 10px 0px; text-align: center;">
+                        <?php
+//                        foreach ($listImg as $img) {
+                            ?>
+                        <!--<img src="<?php echo $img; ?>" style="height: 100px;"/>-->
+                            <?php
+//                        }
+                        ?>
                     </div> <!-- .field -->
                 </div> <!-- .field-group -->
 
@@ -102,10 +95,4 @@
 
     </div> <!-- .grid -->
 </div> <!-- .container -->
-<script>
-
-    $(function() {
-        $('.lightbox').lightBox();
-    });
-
-</script>
+<script type="text/javascript" src="<?php echo base_url(); ?>public/js/myteam.js"></script>
