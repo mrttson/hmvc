@@ -20,7 +20,7 @@
                 'chinh': '8',
                 'nguyet': '9'
             };
-
+            var intervalEvent = 0;
             //Get img member
             function getImg(index) {
                 var sStatus = false;
@@ -30,24 +30,30 @@
                     type: "POST",
                     data: {data: index},
                     complete: function() {
-                        var carousel = $("#carousel").waterwheelCarousel();
-                        setInterval(function() {
-                            carousel.next()
-                        }, 2000);
+                        if (sStatus == true) {
+                            var carousel = $("#carousel").waterwheelCarousel();
+                            intervalID = setInterval(function() {
+                                carousel.next();
+                            }, 2000);
+                        } else {
+                            if (intervalID != 0) {
+                                clearInterval(intervalID);
+                            }
+                        }
                     },
                     success: function(res) {
                         res = JSON.parse(res);
-                        if (res['errror'] = '0'){
-                            sStatus = true;
-                        }
-                        var htmlImg = '';
                         $('#carousel').html('');
-                        for (var key in res) {
-                            if (key != 'error') {
-                                var img_name = res[key]['img_name'];
-                                $('#carousel').append('<a href="#"><img src="<?php echo base_url(); ?>public/images/myteam/' + img_name + '" /></a>');
+                        if (res['error'] == '0') {
+                            sStatus = true;
+                            for (var key in res) {
+                                if (key != 'error') {
+                                    var img_name = res[key]['img_name'];
+                                    $('#carousel').append('<a href="#"><img src="<?php echo base_url(); ?>public/images/myteam/' + img_name + '" /></a>');
+                                }
                             }
                         }
+
 
                     }
                 });
@@ -58,12 +64,10 @@
                 //getImg(teamIndex['son']);
 
                 $('.album').click(function() {
-                    //getImg(teamIndex['son']);
-                    
-                    alert($(this).attr('rel'));
+                    getImg(teamIndex[$(this).attr('rel')]);
                 });
 
-                $('#thu2').click(function() {
+                $('.reload').click(function() {
                     var carousel = $("#carousel").waterwheelCarousel();
                     carousel.reload();
                     return false;
@@ -90,9 +94,10 @@
             <div id="navigation-block" class="div1">
                 <ul id="sliding-navigation">
                     <li class="sliding-element"><h3>Teammate</h3></li>
-                    <li class="sliding-element album" rel="1"><a href="javascript:;">Album 1</a></li>
-                    <li class="sliding-element album" rel="2"><a href="javascript:;">Album 2</a></li>
-                    <li class="sliding-element album" rel="3"><a href="javascript:;">Album 3</a></li>
+                    <li class="sliding-element album" rel="son"><a href="javascript:;">Album 1</a></li>
+                    <li class="sliding-element album" rel="thu"><a href="javascript:;">Album 2</a></li>
+                    <li class="sliding-element album" rel="hue"><a href="javascript:;">Album 3</a></li>
+                    <li class="sliding-element reload"><a href="javascript:;">RELOAD</a></li>
                 </ul>
             </div>
             <div id = "chatBox" style="float: right;">
