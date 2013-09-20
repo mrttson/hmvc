@@ -648,3 +648,6 @@ ERROR - 2013-09-20 15:03:16 --> 404 Page Not Found -->
 ERROR - 2013-09-20 15:05:45 --> 404 Page Not Found --> 
 ERROR - 2013-09-20 15:06:14 --> 404 Page Not Found --> 
 ERROR - 2013-09-20 15:06:17 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 16:26:48 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 16:35:23 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 16:35:24 --> 404 Page Not Found --> myteam/public

@@ -62,8 +62,8 @@ class Myteam extends CommonController {
                 $data['info']['avatar'] = base_url() . 'public/images/default_img_thumb.gif';
             }
             foreach ($data['album'] as $key => $rowData) {
-                if (file_exists(PUBLIC_PATH . 'images/myteam/' . $rowData['img_name'])) {
-                    $data['album'][$key]['img_name'] = base_url() . 'public/images/myteam/' . $rowData['img_name'];
+                if (file_exists(PUBLIC_PATH . 'images/' . $rowData['img_name'])) {
+                    $data['album'][$key]['img_name'] = base_url() . 'public/images/' . $rowData['img_name'];
                 } else {
                     $data['album'][$key]['img_name'] = base_url() . 'public/images/default_img_thumb.gif';
                 }
