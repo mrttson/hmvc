@@ -87,39 +87,7 @@
                                         </tr>
                                     </thead>
                                     <tbody id="album">
-                                        <tr pid="" style="text-align: center;">
-                                            <td rel="pid">
-                                                <input type="checkbox" name="checkbox" id="checkbox1" value="1" />
-                                            </td>
-                                            <td rel="image_path">
-                                                <a>Delete</a>
-                                            </td>
-                                            <td rel="pname">
-                                                <img class="product_image" src="<?php echo base_url() . 'public/images/Array.jpg'; ?>" alt="your image" style="height: 100px;"/>
-                                            </td>
-                                        </tr>
-                                        <tr pid="" style="text-align: center;">
-                                            <td rel="pid">
-                                                <input type="checkbox" name="checkbox" id="checkbox1" value="1" />
-                                            </td>
-                                            <td rel="image_path">
-                                                <a>Delete</a>
-                                            </td>
-                                            <td rel="pname">
-                                                <img class="product_image" src="<?php echo base_url() . 'public/images/Array.jpg'; ?>" alt="your image" style="height: 100px;"/>
-                                            </td>
-                                        </tr>
-                                        <tr pid="" style="text-align: center;">
-                                            <td rel="pid">
-                                                <input type="checkbox" name="checkbox" id="checkbox1" value="1" />
-                                            </td>
-                                            <td rel="image_path">
-                                                <a>Delete</a>
-                                            </td>
-                                            <td rel="pname">
-                                                <img class="product_image" src="<?php echo base_url() . 'public/images/Array.jpg'; ?>" alt="your image" style="height: 100px;"/>
-                                            </td>
-                                        </tr>
+                                        
                                     </tbody>
                                 </table>
                                 <div class="field">

@@ -20,7 +20,7 @@
                 'chinh': '8',
                 'nguyet': '9'
             };
-            var intervalEvent = 0;
+            var intervalID = 0;
             //Get img member
             function getImg(index) {
                 var sStatus = false;
@@ -29,7 +29,7 @@
                     url: "myteam/ajaxGetImg",
                     type: "POST",
                     data: {data: index},
-                    complete: function() {
+                    complete: setInterval(function() {
                         if (sStatus == true) {
                             var carousel = $("#carousel").waterwheelCarousel();
                             intervalID = setInterval(function() {
@@ -40,26 +40,31 @@
                                 clearInterval(intervalID);
                             }
                         }
-                    },
+                    }, 2000),
                     success: function(res) {
                         res = JSON.parse(res);
+                        console.log(res);
                         $('#carousel').html('');
                         if (res['error'] == '0') {
                             sStatus = true;
-                            for (var key in res) {
+                            for (var key in res['image']) {
                                 if (key != 'error') {
-                                    var img_name = res[key]['img_name'];
-                                    $('#carousel').append('<a href="#"><img src="<?php echo base_url(); ?>public/images/myteam/' + img_name + '" /></a>');
+                                    var img_name = res['image'][key];
+                                    $('#carousel').append('<a href="#"><img class="newIMG" src="' + img_name + '" /></a>');
+                                    $('#carousel .newIMG').load(function() {
+                                        $(this).hide();
+                                    });
                                 }
                             }
                         }
-
-
                     }
                 });
             }
 
+
             $(document).ready(function() {
+
+
 
                 //getImg(teamIndex['son']);
 

@@ -21,9 +21,16 @@ class Myteam extends CommonController {
 
     function ajaxGetImg() {
         $req = $_POST['data'];
-        $data = $this->myteammodel->getImg($req);
+        $data['image'] = $this->myteammodel->getImg($req);
         if ($data) {
             $data['error'] = '0';
+            foreach ($data['image'] as $key => $imgName) {
+                if (file_exists(PUBLIC_PATH . 'images/' . $imgName)) {
+                    $data['image'][$key] = base_url() . 'public/images/' . $imgName;
+                } else {
+                    $data['image'][$key] = base_url() . 'public/images/default_img_thumb.gif';
+                }
+            }
             echo json_encode($data);
         } else {
             echo json_encode(array('error' => '1'));
@@ -55,8 +62,8 @@ class Myteam extends CommonController {
                 $data['info']['avatar'] = base_url() . 'public/images/default_img_thumb.gif';
             }
             foreach ($data['album'] as $key => $rowData) {
-                if (file_exists(PUBLIC_PATH . 'images/' . $rowData['img_name'])) {
-                    $data['album'][$key]['img_name'] = base_url() . 'public/images/' . $rowData['img_name'];
+                if (file_exists(PUBLIC_PATH . 'images/myteam/' . $rowData['img_name'])) {
+                    $data['album'][$key]['img_name'] = base_url() . 'public/images/myteam/' . $rowData['img_name'];
                 } else {
                     $data['album'][$key]['img_name'] = base_url() . 'public/images/default_img_thumb.gif';
                 }

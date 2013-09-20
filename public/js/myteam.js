@@ -37,12 +37,15 @@ $(function() {
             });
         });
 
-
-        formdata = false;
-        if (window.FormData) {
-            formdata = new FormData();
+        function clearFileInputField(tagId) {
+            document.getElementById(tagId).innerHTML = document.getElementById(tagId).innerHTML;
         }
+
         $('#album_upload').change(function() {
+            formdata = false;
+            if (window.FormData) {
+                formdata = new FormData();
+            }
             var i = 0, len = this.files.length, file;
             var mid = $('#mid').val();
             if (mid != '') {
@@ -61,6 +64,10 @@ $(function() {
                         url: "myteam/ajaxUploadAlbum",
                         type: "POST",
                         data: formdata,
+                        complete: function() {
+                            $('#ajaxLoader').hide();
+                            clearFileInputField('album_upload');
+                        },
                         processData: false,
                         contentType: false,
                         success: function(res) {

@@ -41,6 +41,7 @@ class MyteamModel extends CommonModel {
         $sql = "INSERT INTO 
                     myteam_img(img_name,mid) 
                 VALUES ";
+        //var_dump($data['album']);die();
         foreach ($data['album'] as $key => $imgName){
             $sql .= "('". $imgName ."','". $data['mid'] ."'),";
         }
