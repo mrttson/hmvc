@@ -29,7 +29,7 @@
                     url: "myteam/ajaxGetImg",
                     type: "POST",
                     data: {data: index},
-                    complete: setInterval(function() {
+                    complete: function() {
                         if (sStatus == true) {
                             var carousel = $("#carousel").waterwheelCarousel();
                             intervalID = setInterval(function() {
@@ -40,7 +40,7 @@
                                 clearInterval(intervalID);
                             }
                         }
-                    }, 2000),
+                    },
                     success: function(res) {
                         res = JSON.parse(res);
                         console.log(res);
@@ -50,24 +50,23 @@
                             for (var key in res['image']) {
                                 if (key != 'error') {
                                     var img_name = res['image'][key];
-                                    $('#carousel').append('<a href="#"><img class="newIMG" src="' + img_name + '" /></a>');
+                                    console.log(img_name);
+                                    $('#carousel').append('<a href="#"><img width="320px" height="180px" class="newIMG" src="' + img_name + '" /></a>');
                                     $('#carousel .newIMG').load(function() {
-                                        $(this).hide();
+                                        $('#loading_status').html('loading');
                                     });
                                 }
+                                setTimeout(function() {
+                                    
+                                }, 5000);
                             }
                         }
                     }
                 });
             }
 
-
             $(document).ready(function() {
-
-
-
                 //getImg(teamIndex['son']);
-
                 $('.album').click(function() {
                     getImg(teamIndex[$(this).attr('rel')]);
                 });
@@ -77,17 +76,6 @@
                     carousel.reload();
                     return false;
                 });
-                //var carousel = $("#carousel").waterwheelCarousel();
-//                $('#son').bind('click', function() {
-//                    carousel.reload();
-//                    return false;
-//                });
-//                $('#thu2').click(function() {
-//                    $('#carousel').html('');
-//                });
-//                setInterval(function() {
-//                    //carousel.next()
-//                }, 2000);
             });
         </script>
     </head>
@@ -106,7 +94,7 @@
                 </ul>
             </div>
             <div id = "chatBox" style="float: right;">
-                <textarea></textarea>
+                <textarea id="loading_status"></textarea>
                 <button id="send_btn">Send</button>
             </div>
         </div>

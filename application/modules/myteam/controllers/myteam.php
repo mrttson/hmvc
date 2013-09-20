@@ -24,9 +24,9 @@ class Myteam extends CommonController {
         $data['image'] = $this->myteammodel->getImg($req);
         if ($data) {
             $data['error'] = '0';
-            foreach ($data['image'] as $key => $imgName) {
-                if (file_exists(PUBLIC_PATH . 'images/' . $imgName)) {
-                    $data['image'][$key] = base_url() . 'public/images/' . $imgName;
+            foreach ($data['image'] as $key => $img) {
+                if (file_exists(PUBLIC_PATH . 'images/' . $img['img_name'])) {
+                    $data['image'][$key] = base_url() . 'public/images/' . $img['img_name'];
                 } else {
                     $data['image'][$key] = base_url() . 'public/images/default_img_thumb.gif';
                 }
