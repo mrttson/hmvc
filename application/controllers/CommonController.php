@@ -75,7 +75,7 @@ class CommonController extends MX_Controller {
         if ($imgInfo['size'] != 0) {
             $temp = explode(".", $imgInfo["name"]);
             $extension = end($temp);
-            if ($imgInfo["size"] < 2000000) {
+            if ($imgInfo["size"] < 10000000) {
                 if ($imgInfo["error"] > 0) {
                     return FALSE;
                 } else {
@@ -87,13 +87,25 @@ class CommonController extends MX_Controller {
                     return $fileName;
                 }
             } else {
-                echo 'Error Size Image upload >5MB';
-                sleep(5);
-                echo FALSE;
+                return;
+                NULL;
             }
         } else {
             return NULL;
         }
+    }
+
+    function uploadMultiImg($albumInfo) {
+        $arrImgName = array();
+        foreach ($albumInfo["images"]["error"] as $key => $error) {
+            if ($error == UPLOAD_ERR_OK) {
+                $name = $albumInfo["images"]["name"][$key];
+                $fileName = $_SERVER['REQUEST_TIME'] . '_' . $albumInfo['images']['name'][$key];
+                move_uploaded_file($albumInfo["images"]["tmp_name"][$key], UPLOAD_FILE_PATH . $fileName);
+                $arrImgName[] = $fileName;
+            }
+        }
+        return $arrImgName;
     }
 
 }

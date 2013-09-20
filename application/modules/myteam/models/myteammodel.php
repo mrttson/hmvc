@@ -36,6 +36,17 @@ class MyteamModel extends CommonModel {
         $data['album'] = $this->getData($sqlAlbum);
         return $data;
     }
+    
+    function updateAlbum($data) {
+        $sql = "INSERT INTO 
+                    myteam_img(img_name,mid) 
+                VALUES ";
+        foreach ($data['album'] as $key => $imgName){
+            $sql .= "('". $imgName ."','". $data['mid'] ."'),";
+        }
+        $sql = trim($sql, ",");
+        return $this->Execute($sql);
+    }
 
 }
 

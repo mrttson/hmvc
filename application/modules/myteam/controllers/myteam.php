@@ -66,6 +66,25 @@ class Myteam extends CommonController {
         echo json_encode($data);
     }
 
+    function ajaxUploadAlbum() {
+        $albumInfo = $_FILES;
+        $data['album'] = $this->uploadMultiImg($albumInfo);
+        $data['mid'] = $_POST['mid'];
+        if ($this->myteammodel->updateAlbum($data)) {
+            $data['error'] = '0';
+            foreach ($data['album'] as $key => $imgName) {
+                if (file_exists(PUBLIC_PATH . 'images/' . $imgName)) {
+                    $data['album'][$key] = base_url() . 'public/images/' . $imgName;
+                } else {
+                    $data['album'][$key] = base_url() . 'public/images/default_img_thumb.gif';
+                }
+            }
+        } else {
+            $data['error'] = '1';
+        }
+        echo json_encode($data);
+    }
+
     function teamlist() {
         $this->_layout = 'admin';
         $this->_data['pageTitle'] = 'Member List';

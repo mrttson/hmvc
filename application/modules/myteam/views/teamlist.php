@@ -60,6 +60,13 @@
                 </div> <!-- .field-group -->
 
                 <div class="field-group">
+                    <label for="file_name">ID</label>
+                    <div class="field">
+                        <input type="text" id="mid" size="50"/>
+                    </div> <!-- .field -->
+                </div> <!-- .field-group -->
+                
+                <div class="field-group">
                     <label for="file_name">Name</label>
                     <div class="field">
                         <input type="text" id="name" size="50"/>
@@ -68,17 +75,68 @@
 
                 <div class="field-group">
                     <label for="file_name">Album</label>
-                    <div class="field" id="album" style="border: 1px solid #000; width: 100%; height: 200px; overflow: scroll; padding: 10px 0px; text-align: center;">
-                        <?php
-//                        foreach ($listImg as $img) {
-                            ?>
-                        <!--<img src="<?php echo $img; ?>" style="height: 100px;"/>-->
-                            <?php
-//                        }
-                        ?>
+                    <div class="field" style="width: 100%; height: 400px;">
+                        <div class="widget widget-table" style="height: 100%; overflow: scroll;">
+                            <div class="widget-content">
+                                <table class="table table-bordered table-striped" id ="product_tbl">
+                                    <thead>
+                                        <tr>
+                                            <th>&nbsp;</th>
+                                            <th>&nbsp;</th>
+                                            <th>Image</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="album">
+                                        <tr pid="" style="text-align: center;">
+                                            <td rel="pid">
+                                                <input type="checkbox" name="checkbox" id="checkbox1" value="1" />
+                                            </td>
+                                            <td rel="image_path">
+                                                <a>Delete</a>
+                                            </td>
+                                            <td rel="pname">
+                                                <img class="product_image" src="<?php echo base_url() . 'public/images/Array.jpg'; ?>" alt="your image" style="height: 100px;"/>
+                                            </td>
+                                        </tr>
+                                        <tr pid="" style="text-align: center;">
+                                            <td rel="pid">
+                                                <input type="checkbox" name="checkbox" id="checkbox1" value="1" />
+                                            </td>
+                                            <td rel="image_path">
+                                                <a>Delete</a>
+                                            </td>
+                                            <td rel="pname">
+                                                <img class="product_image" src="<?php echo base_url() . 'public/images/Array.jpg'; ?>" alt="your image" style="height: 100px;"/>
+                                            </td>
+                                        </tr>
+                                        <tr pid="" style="text-align: center;">
+                                            <td rel="pid">
+                                                <input type="checkbox" name="checkbox" id="checkbox1" value="1" />
+                                            </td>
+                                            <td rel="image_path">
+                                                <a>Delete</a>
+                                            </td>
+                                            <td rel="pname">
+                                                <img class="product_image" src="<?php echo base_url() . 'public/images/Array.jpg'; ?>" alt="your image" style="height: 100px;"/>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="field">
+
+                                </div> <!-- .field -->
+                            </div> <!-- .widget-content -->
+
+                        </div> <!-- .widget -->
                     </div> <!-- .field -->
                 </div> <!-- .field-group -->
-
+                <div class="field-group">
+                    <div style="text-align: center;">
+                        <div class="field">
+                            <input type="file" name="album_upload" id="album_upload" multiple/>
+                        </div> <!-- .field -->
+                    </div>
+                </div> <!-- .field-group -->    
                 <div class="field-group" id="ajaxLoader" style="display: none; text-align: center;">
                     <div class="field">
                         <img src="<?php echo base_url() . 'public/images/loader.gif'; ?>" alt="your image" style="max-width: 100%; height: 100%; text-align: center"/>
@@ -87,6 +145,7 @@
 
                 <div class="actions" style="text-align: center;">
                     <button type="button" class="btn btn-primary">Create New</button>
+                    <button type="button" class="btn btn-primary">Delete Selected</button>
                 </div> <!-- .actions -->
 
 

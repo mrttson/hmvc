@@ -307,3 +307,237 @@ ERROR - 2013-09-19 18:56:59 --> Severity: Notice  --> Undefined variable: img C:
 ERROR - 2013-09-19 18:56:59 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
 ERROR - 2013-09-19 18:57:35 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
 ERROR - 2013-09-19 18:57:35 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:17:38 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-20 10:17:39 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:17:39 --> 404 Page Not Found --> myteam/public
+ERROR - 2013-09-20 10:25:23 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 75
+ERROR - 2013-09-20 10:25:23 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:31:13 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 89
+ERROR - 2013-09-20 10:31:13 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:31:39 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 89
+ERROR - 2013-09-20 10:31:39 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:35:32 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 89
+ERROR - 2013-09-20 10:35:32 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:35:34 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 89
+ERROR - 2013-09-20 10:35:34 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:35:51 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 89
+ERROR - 2013-09-20 10:35:51 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:36:13 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 89
+ERROR - 2013-09-20 10:36:13 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:38:13 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 92
+ERROR - 2013-09-20 10:38:13 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:38:13 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:38:33 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 92
+ERROR - 2013-09-20 10:38:33 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:38:34 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:39:04 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 92
+ERROR - 2013-09-20 10:39:04 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:39:04 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:39:30 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 92
+ERROR - 2013-09-20 10:39:30 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:39:30 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:39:54 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 92
+ERROR - 2013-09-20 10:39:54 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:39:54 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:40:17 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 92
+ERROR - 2013-09-20 10:40:17 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:40:17 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:41:44 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 92
+ERROR - 2013-09-20 10:41:44 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:41:44 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:41:46 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 92
+ERROR - 2013-09-20 10:41:46 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:41:46 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:42:48 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 89
+ERROR - 2013-09-20 10:42:48 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:42:48 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:42:59 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 89
+ERROR - 2013-09-20 10:42:59 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:42:59 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:44:40 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 89
+ERROR - 2013-09-20 10:44:40 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:44:40 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:45:43 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 89
+ERROR - 2013-09-20 10:45:43 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:45:43 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:47:58 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 107
+ERROR - 2013-09-20 10:47:58 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:47:58 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:49:06 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 102
+ERROR - 2013-09-20 10:49:06 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:49:06 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:49:33 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 94
+ERROR - 2013-09-20 10:49:33 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:49:33 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:49:49 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 92
+ERROR - 2013-09-20 10:49:49 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:49:49 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:50:16 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 90
+ERROR - 2013-09-20 10:50:16 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:50:16 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:57:27 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 113
+ERROR - 2013-09-20 10:57:27 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:57:27 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:57:55 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 108
+ERROR - 2013-09-20 10:57:55 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:57:55 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:58:39 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 106
+ERROR - 2013-09-20 10:58:39 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:58:39 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:58:59 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 106
+ERROR - 2013-09-20 10:58:59 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:58:59 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:59:09 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 106
+ERROR - 2013-09-20 10:59:09 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:59:09 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 10:59:29 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 102
+ERROR - 2013-09-20 10:59:29 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 10:59:29 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 11:00:31 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 102
+ERROR - 2013-09-20 11:00:31 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:00:31 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 11:01:21 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 102
+ERROR - 2013-09-20 11:01:21 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:01:21 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 11:01:31 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 102
+ERROR - 2013-09-20 11:01:31 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:01:31 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 11:01:35 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 102
+ERROR - 2013-09-20 11:01:35 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:01:36 --> 404 Page Not Found --> 
+ERROR - 2013-09-20 11:02:08 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:02:08 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:02:31 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:02:31 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:03:47 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:03:47 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:04:01 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:04:01 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:04:27 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:04:27 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:04:29 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:04:29 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:04:37 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:04:37 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:04:38 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:04:38 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:05:03 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:05:03 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:05:09 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:05:09 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:05:14 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:05:14 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:05:40 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:05:40 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:06:05 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:06:05 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:06:24 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 99
+ERROR - 2013-09-20 11:06:24 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:06:58 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 102
+ERROR - 2013-09-20 11:06:58 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:07:19 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 102
+ERROR - 2013-09-20 11:07:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:07:42 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 102
+ERROR - 2013-09-20 11:07:42 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:07:57 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 102
+ERROR - 2013-09-20 11:07:57 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:08:08 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 124
+ERROR - 2013-09-20 11:08:08 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:08:25 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 124
+ERROR - 2013-09-20 11:08:25 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:12:06 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 124
+ERROR - 2013-09-20 11:12:06 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:12:56 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 124
+ERROR - 2013-09-20 11:12:56 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:13:10 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 124
+ERROR - 2013-09-20 11:13:10 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:13:34 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 124
+ERROR - 2013-09-20 11:13:34 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:13:41 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 124
+ERROR - 2013-09-20 11:13:41 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:14:00 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 124
+ERROR - 2013-09-20 11:14:00 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:14:50 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 124
+ERROR - 2013-09-20 11:14:50 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:16:11 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 127
+ERROR - 2013-09-20 11:16:11 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:16:19 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 128
+ERROR - 2013-09-20 11:16:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:16:57 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 138
+ERROR - 2013-09-20 11:16:57 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:18:14 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 138
+ERROR - 2013-09-20 11:18:14 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:18:29 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 138
+ERROR - 2013-09-20 11:18:29 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:18:54 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 127
+ERROR - 2013-09-20 11:18:54 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:19:15 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 127
+ERROR - 2013-09-20 11:19:15 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:19:22 --> Severity: Notice  --> Undefined variable: img C:\xampp\htdocs\hmvc\application\modules\myteam\views\teamlist.php 127
+ERROR - 2013-09-20 11:19:22 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:23:09 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:23:49 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:24:00 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:26:59 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:27:30 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:27:42 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:28:02 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:31:25 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:58:20 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 11:59:33 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:00:10 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:01:02 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:01:47 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:01:49 --> Severity: Notice  --> Undefined index: images C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 100
+ERROR - 2013-09-20 12:01:49 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 100
+ERROR - 2013-09-20 12:02:05 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined index: size C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 75
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined variable: key C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 102
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined index:  C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 102
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined index: size C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 75
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined variable: key C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 102
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined index:  C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 102
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined index: size C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 75
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined variable: key C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 102
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined index:  C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 102
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined index: size C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 75
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined variable: key C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 102
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined index:  C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 102
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined index: size C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 75
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined variable: key C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 102
+ERROR - 2013-09-20 12:02:08 --> Severity: Notice  --> Undefined index:  C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 102
+ERROR - 2013-09-20 12:03:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:03:35 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:06:53 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:06:58 --> Severity: Warning  --> move_uploaded_file(uploads/Koala.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 103
+ERROR - 2013-09-20 12:06:58 --> Severity: Warning  --> move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\xampp\tmp\phpD7CD.tmp' to 'uploads/Koala.jpg' C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 103
+ERROR - 2013-09-20 12:06:58 --> Severity: Warning  --> move_uploaded_file(uploads/Lighthouse.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 103
+ERROR - 2013-09-20 12:06:58 --> Severity: Warning  --> move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'C:\xampp\tmp\phpD7DD.tmp' to 'uploads/Lighthouse.jpg' C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 103
+ERROR - 2013-09-20 12:07:43 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:08:25 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:09:24 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:09:54 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:11:54 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:20:55 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:23:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:24:21 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:26:30 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:26:59 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:28:43 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:40:51 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:41:43 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:44:41 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:45:21 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:45:38 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:45:48 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:46:18 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 12:57:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 13:02:29 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 14:01:53 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 14:06:04 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 14:06:39 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 14:06:49 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 14:08:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 14:10:06 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 14:10:54 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 14:11:08 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58

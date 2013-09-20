@@ -12,99 +12,84 @@ $(function() {
                 type: "POST",
                 data: {data: data},
                 success: function(res) {
+                    $('#album').html('');
                     res = JSON.parse(res);
-                    $('#img_prev').attr('src',res['info']['avatar']);
+                    $('#img_prev').attr('src', res['info']['avatar']);
+                    $('#mid').val(res['info']['id']);
                     $('#name').val(res['info']['name']);
-                    for (var key in res['album']){
-                        $('#album').append('<img src="' +res['album'][key]['img_name']+ '" style="height: 100px; margin: 2px;"/>');
+                    for (var key in res['album']) {
+                        var htmlString = '<tr pid="" style="text-align: center;">'
+                                + '<td rel="pid">'
+                                + '<input type="checkbox" name="checkbox" class="newcheckbox" id="checkbox1" value="1" />'
+                                + '</td>'
+                                + '<td rel="image_path">'
+                                + '<a>Delete</a>'
+                                + '</td>'
+                                + '<td rel="pname">'
+                                + '<img class="product_image" src="' + res['album'][key]['img_name'] + '" alt="your image" style="height: 100px;"/>'
+                                + '</td>'
+                                + '</tr>';
+                        $('#album').append(htmlString);
+                        $('.newcheckbox').uniform();
+                        $('.newcheckbox').removeClass('newcheckbox');
                     }
                 }
             });
         });
 
-        //Update product info
-        function ajaxUpdate() {
-            $('#ajaxLoader').show();
-            var pId = $('#product_id').val();
-            var pName = $('#product_name').val();
-            var pCatId = $('#product_cat').val();
-            var pStatus = $('#product_status').val();
-            if (pId > 0) {
-                var data = {
-                    'pId': pId,
-                    'pName': pName,
-                    'pCatId': pCatId,
-                    'pStatus': pStatus
-                };
-                $.ajax({
-                    datatype: 'json',
-                    url: "product/ajaxUpdate",
-                    type: "POST",
-                    data: {data: data},
-                    success: function(res) {
-                        data2 = JSON.parse(res);
-                        if (data2['error'] == '0') {
-                            $('#product_tbl tbody tr.chosen td[rel=id]').html(data2['id']);
-                            $('#product_tbl tbody tr.chosen td[rel=image_path] img').attr('src', data2['image_path']);
-                            $('#product_tbl tbody tr.chosen td[rel=pname]').html(data2['name']);
-                            $('#product_tbl tbody tr.chosen td[rel=title]').html(data2['title']);
-                        }
-                        $('#ajaxLoader').hide();
-                    }
-                });
-            }
+
+        formdata = false;
+        if (window.FormData) {
+            formdata = new FormData();
         }
-
-        $('#product_name').change(function() {
-            ajaxUpdate();
-        });
-        $('#product_cat').change(function() {
-            ajaxUpdate();
-        });
-        $('#product_status').change(function() {
-            ajaxUpdate();
-        });
-
-        //Update Img product
-        function ajaxUploadImg(Object) {
-            $('#ajaxLoader').show();
-            var formdata = new FormData();
-            var file = Object.files[0];
-            var pId = $('#product_id').val();
-            if (pId != '') {
-                if (!!file.type.match(/image.*/)) {
-                    if (formdata) {
-                        formdata.append("image", file);
-                        formdata.append("pId", pId);
+        $('#album_upload').change(function() {
+            var i = 0, len = this.files.length, file;
+            var mid = $('#mid').val();
+            if (mid != '') {
+                $('#ajaxLoader').show();
+                for (; i < len; i++) {
+                    file = this.files[i];
+                    if (!!file.type.match(/image.*/)) {
+                        if (formdata) {
+                            formdata.append('mid', mid);
+                            formdata.append("images[]", file);
+                        }
                     }
                 }
-
                 if (formdata) {
                     $.ajax({
-                        url: "product/ajaxUpdateImgProduct",
+                        url: "myteam/ajaxUploadAlbum",
                         type: "POST",
                         data: formdata,
                         processData: false,
                         contentType: false,
                         success: function(res) {
-                            var data2 = JSON.parse(res);
-                            if (data2['error'] == '0') {
-                                $('#product_tbl tbody tr.chosen td[rel=image_path] img').attr('src', data2['image_path']);
+                            res = JSON.parse(res);
+                            if (res['error'] == '0') {
+                                res['album'].forEach(function(entry) {
+                                    var htmlString = '<tr pid="" style="text-align: center;">'
+                                            + '<td rel="pid">'
+                                            + '<input type="checkbox" name="checkbox" class="newcheckbox" id="checkbox1" value="1" />'
+                                            + '</td>'
+                                            + '<td rel="image_path">'
+                                            + '<a>Delete</a>'
+                                            + '</td>'
+                                            + '<td rel="pname">'
+                                            + '<img class="product_image" src="' + entry + '" alt="your image" style="height: 100px;"/>'
+                                            + '</td>'
+                                            + '</tr>';
+                                    $('#album').append(htmlString);
+                                    $('.newcheckbox').uniform();
+                                    $('.newcheckbox').removeClass('newcheckbox');
+                                })
                             }
-                            $('#ajaxLoader').hide();
                         }
                     });
                 }
             } else {
+                alert('Please choose member');
                 return false;
             }
-        }
-
-        $('#icon_path').change(function() {
-            ajaxUploadImg(this);
         });
-
-
-
     });
 });
