@@ -20,6 +20,7 @@ class Myteam extends CommonController {
     }
 
     function ajaxGetImg() {
+        sleep(1);
         $req = $_POST['data'];
         $data['image'] = $this->myteammodel->getImg($req);
         if ($data) {

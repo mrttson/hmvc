@@ -23,44 +23,42 @@
             var intervalID = 0;
             //Get img member
             function getImg(index) {
-                var sStatus = false;
+                $('#ajaxLoader').css('display','block');
+                var imgcount = 0;
                 $.ajax({
                     datatype: 'json',
                     url: "myteam/ajaxGetImg",
                     type: "POST",
                     data: {data: index},
                     complete: function() {
-                        if (sStatus == true) {
+                        if (imgcount > 0) {
                             var carousel = $("#carousel").waterwheelCarousel();
+                            clearInterval(intervalID);
                             intervalID = setInterval(function() {
                                 carousel.next();
                             }, 2000);
                         } else {
-                            if (intervalID != 0) {
-                                clearInterval(intervalID);
-                            }
+                            return false;
                         }
+                        
                     },
                     success: function(res) {
                         res = JSON.parse(res);
                         console.log(res);
                         $('#carousel').html('');
                         if (res['error'] == '0') {
-                            sStatus = true;
                             for (var key in res['image']) {
                                 if (key != 'error') {
+                                    imgcount++;
                                     var img_name = res['image'][key];
-                                    console.log(img_name);
-                                    $('#carousel').append('<a href="#"><img width="320px" height="180px" class="newIMG" src="' + img_name + '" /></a>');
-                                    $('#carousel .newIMG').load(function() {
-                                        $('#loading_status').html('loading');
+                                    $('#carousel').append('<a href="#"><img class="imgNew" width="320px" height="180px" class="newIMG" src="' + img_name + '" /></a>');
+                                    $('#carousel .imgNew').load(function() {
+                                        
                                     });
                                 }
-                                setTimeout(function() {
-                                    
-                                }, 5000);
                             }
                         }
+                        $('#ajaxLoader').css('display','none');
                     }
                 });
             }
@@ -96,7 +94,11 @@
             <div id = "chatBox" style="float: right;">
                 <textarea id="loading_status"></textarea>
                 <button id="send_btn">Send</button>
+                <div id="ajaxLoader" style="display: none;">
+                    <img src="<?php echo base_url() . 'public/images/ajax-loader.gif'; ?>"/>
+                </div>
             </div>
+
         </div>
     </body>
 </html>
