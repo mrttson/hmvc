@@ -23,6 +23,7 @@
             var intervalID = 0;
             //Get img member
             function getImg(index) {
+                clearInterval(intervalID);
                 $('#ajaxLoader').css('display','block');
                 var imgcount = 0;
                 $.ajax({
@@ -33,7 +34,6 @@
                     complete: function() {
                         if (imgcount > 0) {
                             var carousel = $("#carousel").waterwheelCarousel();
-                            clearInterval(intervalID);
                             intervalID = setInterval(function() {
                                 carousel.next();
                             }, 2000);
