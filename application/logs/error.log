@@ -11,3 +11,238 @@ ERROR - 2013-09-20 18:13:11 --> Severity: Notice  --> Undefined variable: mode C
 ERROR - 2013-09-20 18:13:16 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
 ERROR - 2013-09-20 18:13:31 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
 ERROR - 2013-09-20 18:14:05 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 21:59:53 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-20 21:59:54 --> 404 Page Not Found --> myteam/public
+ERROR - 2013-09-21 19:57:26 --> 404 Page Not Found --> 
+ERROR - 2013-09-21 19:57:29 --> 404 Page Not Found --> 
+ERROR - 2013-09-21 19:57:34 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 20:08:30 --> Severity: Notice  --> Undefined variable: base_url C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 44
+ERROR - 2013-09-21 20:08:30 --> Severity: Notice  --> Undefined variable: total_rows C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 45
+ERROR - 2013-09-21 20:08:30 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 20:09:23 --> Severity: Notice  --> Undefined variable: base_url C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 44
+ERROR - 2013-09-21 20:09:23 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 20:11:11 --> Severity: Notice  --> Undefined variable: base_url C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 44
+ERROR - 2013-09-21 20:19:47 --> 404 Page Not Found --> test/index
+ERROR - 2013-09-21 20:20:25 --> 404 Page Not Found --> test/index
+ERROR - 2013-09-21 20:33:46 --> Severity: Notice  --> Undefined property: CI::$db C:\xampp\htdocs\hmvc\system\core\Model.php 51
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$CountryID C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 22
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$Country C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 23
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$CountryID C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 22
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$Country C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 23
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$CountryID C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 22
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$Country C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 23
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$CountryID C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 22
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$Country C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 23
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$CountryID C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 22
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$Country C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 23
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$CountryID C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 22
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$Country C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 23
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$CountryID C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 22
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$Country C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 23
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$CountryID C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 22
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$Country C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 23
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$CountryID C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 22
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$Country C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 23
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$CountryID C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 22
+ERROR - 2013-09-21 20:35:17 --> Severity: Notice  --> Undefined property: stdClass::$Country C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 23
+ERROR - 2013-09-21 20:36:46 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 20:36:53 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 20:37:03 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 20:38:22 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 20:38:26 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 20:38:42 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 20:38:50 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 20:40:07 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 21:05:54 --> 404 Page Not Found --> pagination/20
+ERROR - 2013-09-21 21:08:17 --> 404 Page Not Found --> pagination/add
+ERROR - 2013-09-21 21:08:21 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 21:18:01 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 21:18:06 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 21:18:14 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 21:18:54 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 21:21:25 --> 404 Page Not Found --> pagination/add
+ERROR - 2013-09-21 21:23:23 --> 404 Page Not Found --> pagination/10
+ERROR - 2013-09-21 21:23:26 --> Severity: Notice  --> Undefined variable: page C:\xampp\htdocs\hmvc\application\modules\pagination\controllers\pagination.php 23
+ERROR - 2013-09-21 21:27:17 --> Severity: Notice  --> Undefined variable: config C:\xampp\htdocs\hmvc\application\modules\pagination\controllers\pagination.php 21
+ERROR - 2013-09-21 21:27:17 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 19
+ERROR - 2013-09-21 21:27:24 --> Severity: Notice  --> Undefined index:  per_page C:\xampp\htdocs\hmvc\application\modules\pagination\controllers\pagination.php 21
+ERROR - 2013-09-21 21:27:24 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 19
+ERROR - 2013-09-21 21:27:25 --> Severity: Notice  --> Undefined index:  per_page C:\xampp\htdocs\hmvc\application\modules\pagination\controllers\pagination.php 21
+ERROR - 2013-09-21 21:27:25 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 19
+ERROR - 2013-09-21 21:29:42 --> Severity: Notice  --> Undefined variable: _paginationConfig C:\xampp\htdocs\hmvc\application\modules\pagination\controllers\pagination.php 20
+ERROR - 2013-09-21 21:29:42 --> Severity: Notice  --> Undefined variable: _paginationConfig C:\xampp\htdocs\hmvc\application\modules\pagination\controllers\pagination.php 24
+ERROR - 2013-09-21 21:29:42 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 19
+ERROR - 2013-09-21 21:29:55 --> Severity: Notice  --> Undefined variable: _paginationConfig C:\xampp\htdocs\hmvc\application\modules\pagination\controllers\pagination.php 24
+ERROR - 2013-09-21 21:29:55 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 19
+ERROR - 2013-09-21 21:30:02 --> Severity: Notice  --> Undefined index:  per_page C:\xampp\htdocs\hmvc\application\modules\pagination\controllers\pagination.php 24
+ERROR - 2013-09-21 21:30:02 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 19
+ERROR - 2013-09-21 21:30:03 --> Severity: Notice  --> Undefined index:  per_page C:\xampp\htdocs\hmvc\application\modules\pagination\controllers\pagination.php 24
+ERROR - 2013-09-21 21:30:03 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\pagination\views\pagination.php 19
+ERROR - 2013-09-21 21:33:33 --> 404 Page Not Found --> pagination/2
+ERROR - 2013-09-21 21:36:06 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:36:33 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:36:35 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:36:36 --> 404 Page Not Found --> user/public
+ERROR - 2013-09-21 21:44:11 --> Severity: Notice  --> Undefined variable: limit C:\xampp\htdocs\hmvc\application\modules\user\models\usermodel.php 68
+ERROR - 2013-09-21 21:44:11 --> Severity: Notice  --> Undefined variable: start C:\xampp\htdocs\hmvc\application\modules\user\models\usermodel.php 68
+ERROR - 2013-09-21 21:44:11 --> Severity: Notice  --> Undefined property: CI::$Countries_Model C:\xampp\htdocs\hmvc\application\third_party\MX\Controller.php 58
+ERROR - 2013-09-21 21:44:19 --> Severity: Notice  --> Undefined property: CI::$Countries_Model C:\xampp\htdocs\hmvc\application\third_party\MX\Controller.php 58
+ERROR - 2013-09-21 21:44:54 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:45:40 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:46:03 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:47:43 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:47:55 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:47:59 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:48:34 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:48:44 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:48:54 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:48:56 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:49:00 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:49:05 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:49:45 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'page1,10' at line 5
+ERROR - 2013-09-21 21:50:10 --> 404 Page Not Found --> user/page1
+ERROR - 2013-09-21 21:50:12 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:51:09 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:51:23 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:51:29 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:51:32 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:51:41 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:51:48 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:52:58 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:53:00 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:53:05 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:53:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:53:53 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:54:00 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:56:21 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:56:53 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:56:57 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:57:00 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:57:06 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:57:09 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:57:15 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:57:25 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:57:37 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:57:39 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:57:43 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:57:45 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:57:47 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:57:50 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 21:57:53 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:00:21 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:00:25 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:00:27 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:00:30 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:01:39 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:01:43 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:01:45 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:02:59 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:03:03 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:03:51 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:03:53 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:03:55 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:03:58 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:04:01 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:04:24 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:04:57 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:06:25 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:06:27 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:06:29 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:06:33 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:06:35 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:06:37 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:06:39 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:06:48 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:06:50 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:06:53 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:17:35 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:24:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:24:32 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:26:08 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:26:13 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:26:14 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:26:16 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:26:18 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:26:20 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:26:50 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:26:56 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:26:57 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:26:59 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:27:01 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:27:04 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:27:20 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:27:28 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:27:33 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:27:55 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:28:09 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:28:15 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:28:31 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:28:53 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:29:02 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:29:04 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:29:05 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:29:08 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:29:13 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:29:27 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:29:42 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:29:47 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:29:49 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:29:49 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:30:02 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:30:08 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:30:24 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:30:26 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:30:29 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:30:32 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:31:55 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:32:25 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:32:25 --> 404 Page Not Found --> systemmenu/public
+ERROR - 2013-09-21 22:38:16 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:38:16 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:38:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:38:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:38:22 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:38:26 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:38:28 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:41:32 --> Severity: Notice  --> Undefined property: CI::$usermodel C:\xampp\htdocs\hmvc\application\third_party\MX\Controller.php 58
+ERROR - 2013-09-21 22:43:44 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 31
+ERROR - 2013-09-21 22:43:44 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:43:48 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:43:56 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 31
+ERROR - 2013-09-21 22:43:56 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:44:00 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:44:05 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:44:10 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:46:24 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 31
+ERROR - 2013-09-21 22:46:24 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:47:05 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 32
+ERROR - 2013-09-21 22:47:05 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:47:13 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 32
+ERROR - 2013-09-21 22:47:13 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:47:56 --> Severity: Notice  --> Undefined variable: menu C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 34
+ERROR - 2013-09-21 22:47:56 --> Severity: Notice  --> Undefined variable: menu C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 35
+ERROR - 2013-09-21 22:47:56 --> Severity: Notice  --> Undefined variable: title C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 43
+ERROR - 2013-09-21 22:47:56 --> Severity: Notice  --> Undefined variable: menu C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 44
+ERROR - 2013-09-21 22:47:56 --> Severity: Notice  --> Undefined variable: menu C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 45
+ERROR - 2013-09-21 22:47:56 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:48:01 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\systemmenu\views\index.php 32
+ERROR - 2013-09-21 22:48:01 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:48:43 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:48:48 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:48:51 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:48:56 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:49:45 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:49:46 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:49:46 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:49:49 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:54:16 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:54:22 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:54:25 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:55:03 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:55:13 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:55:16 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:55:19 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:55:21 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:55:29 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:57:01 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58
+ERROR - 2013-09-21 22:57:03 --> Severity: Notice  --> Undefined variable: mode C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 58

@@ -12,9 +12,21 @@ class Systemmenu extends CommonController {
     }
 
     function index() {
+        //Layout
         $this->_data['pageTitle'] = 'System Menu';
         $this->_data['page'] = 'index';
-        $this->_contentData['listMenu'] = $this->systemmenumodel->getListSystemMenu();
+        
+        //Pagination
+        $this->_paginationConfig["base_url"] = base_url() . "systemmenu";
+        $this->_paginationConfig["total_rows"] = $this->systemmenumodel->getCountAll();
+        $this->pagination->initialize($this->_paginationConfig);
+        $page = ($this->uri->segment(2)) ? $this->uri->segment(2) : 1;
+        $this->_contentData["links"] = $this->pagination->create_links();
+        $start = ($page-1)*$this->_paginationConfig["per_page"];
+        $limit = $this->_paginationConfig["per_page"];
+        
+        //Data
+        $this->_contentData['listMenu'] = $this->systemmenumodel->getListSystemMenu($start, $limit);
         $this->_contentData['listParentMenu'] = $this->systemmenumodel->getListParentMenu();
         $this->_data['content'] = $this->_contentData;
         $this->loadPage();

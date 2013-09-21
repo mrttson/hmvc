@@ -28,31 +28,35 @@
                     </thead>
                     <tbody>
                         <?php
-                        foreach ($listMenu as $menu) {
-                            ?>
-                            <tr sId="<?php echo $menu['id']; ?>">
-                                <td><?php echo $menu['id']; ?></td>
-                                <?php
-                                if ($menu['parent_id'] == '0') {
-                                    $title = '<h4>' . $menu['title'] . '</h4>';
-                                } else {
-                                    $title = $menu['title'];
-                                }
+                        if ($listMenu && count($listMenu) > 0) {
+                            foreach ($listMenu as $menu) {
                                 ?>
-                                <td><?php echo $title; ?></td>
-                                <td><?php echo $menu['parent_title']; ?></td>
-                                <td><?php echo $menu['url']; ?></td>
+                                <tr sId="<?php echo $menu['id']; ?>">
+                                    <td><?php echo $menu['id']; ?></td>
+                                    <?php
+                                    if ($menu['parent_id'] == '0') {
+                                        $title = '<h4>' . $menu['title'] . '</h4>';
+                                    } else {
+                                        $title = $menu['title'];
+                                    }
+                                    ?>
+                                    <td><?php echo $title; ?></td>
+                                    <td><?php echo $menu['parent_title']; ?></td>
+                                    <td><?php echo $menu['url']; ?></td>
 
-                            </tr>
-                            <?php
+                                </tr>
+                                <?php
+                            }
                         }
                         ?>
                     </tbody>
                 </table>
 
             </div> <!-- .widget-content -->
-
         </div> <!-- .widget -->
+        <div class="pagination" style="text-align: center;">
+            <?php echo $links; ?>
+        </div> <!-- .widget -->	
     </div>
     <div class="grid-8">
 

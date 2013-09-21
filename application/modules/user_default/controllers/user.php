@@ -12,22 +12,10 @@ class User extends CommonController {
     }
 
     function index() {
-        //Layout
         $this->_layout = 'admin';
         $this->_data['pageTitle'] = 'List User';
         $this->_data['page'] = 'index';
-        
-        //Pagination
-        $this->_paginationConfig["base_url"] = base_url() . "user";
-        $this->_paginationConfig["total_rows"] = $this->usermodel->getCountAll();
-        $this->pagination->initialize($this->_paginationConfig);
-        $page = ($this->uri->segment(2)) ? $this->uri->segment(2) : 1;
-        $this->_contentData["links"] = $this->pagination->create_links();
-        $start = ($page-1)*$this->_paginationConfig["per_page"];
-        $limit = $this->_paginationConfig["per_page"];
-
-        //Data
-        $this->_contentData['listUser'] = $this->usermodel->getListUserInfo($start, $limit);
+        $this->_contentData['listUser'] = $this->usermodel->getListUserInfo();
         $this->_data['content'] = $this->_contentData;
         $this->loadPage();
     }

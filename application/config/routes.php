@@ -38,7 +38,9 @@
 |
 */
 
-$route['default_controller'] = "systemmenu";
+$route['default_controller'] = "pagination";
+$route['user/(:num)'] = "user";
+$route['systemmenu/(:num)'] = "systemmenu";
 $route['404_override'] = '';
 
 

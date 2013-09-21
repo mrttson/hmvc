@@ -17,6 +17,7 @@ class CommonController extends MX_Controller {
     public $_data = array();
     public $_userInfo = array();
     public $_contentData = array();
+    public $_paginationConfig = array();
 
     public function __construct() {
         parent::__construct();
@@ -24,6 +25,7 @@ class CommonController extends MX_Controller {
         $this->load->model('commonmodel');
         //Load Library
         $this->load->library('session');
+        $this->load->library('pagination');
         //Load Helper
         $this->load->helper('url');
 
@@ -35,6 +37,15 @@ class CommonController extends MX_Controller {
         $this->_data['topNav'] = '';
         $this->_data['quickNav'] = '';
         $this->_data['footer'] = $this->getFooter();
+
+        //Prepairing Default Pagination
+        $this->_paginationConfig["per_page"] = 10;
+        $this->_paginationConfig["uri_segment"] = 2;
+        $this->_paginationConfig['use_page_numbers'] = TRUE;
+        $this->_paginationConfig['first_tag_open'] = $_paginationConfig['last_tag_open'] = $_paginationConfig['next_tag_open'] = $_paginationConfig['prev_tag_open'] = $_paginationConfig['num_tag_open'] = '';
+        $this->_paginationConfig['first_tag_close'] = $_paginationConfig['last_tag_close'] = $_paginationConfig['next_tag_close'] = $_paginationConfig['prev_tag_close'] = $_paginationConfig['num_tag_close'] = '';
+        $this->_paginationConfig['cur_tag_open'] = '<a href="javascript:;" class="selected">';
+        $this->_paginationConfig['cur_tag_close'] = '</a>';
     }
 
     function loadPage() {

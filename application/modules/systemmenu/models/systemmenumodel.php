@@ -45,20 +45,25 @@ class SystemmenuModel extends CommonModel {
         }
     }
 
-    function getListSystemMenu() {
+    function getListSystemMenu($start, $limit) {
         $sql = "SELECT 
                     s1.id, s1.title, s1.url, s1.parent_id, s2.title as parent_title, s1.orderno, s1.icon_path, s1.`status`
                 FROM 
                     systemmenu s1
                 LEFT JOIN systemmenu s2 ON s1.parent_id = s2.id
                 ORDER BY 
-                    s1.parent_id ASC, s1.orderno ASC";
+                    s1.parent_id ASC, s1.orderno ASC
+                LIMIT ". $start .",". $limit;
         $res = $this->getData($sql);
         if ($res) {
             return $res;
         } else {
             return FALSE;
         }
+    }
+    
+    function getCountAll() {
+        return $this->db->count_all('systemmenu');
     }
 
     function update($data) {

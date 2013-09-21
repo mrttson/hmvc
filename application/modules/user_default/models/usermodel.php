@@ -19,10 +19,6 @@ class UserModel extends CommonModel {
             return FALSE;
         }
     }
-    
-    function getCountAll() {
-        return $this->db->count_all('users');
-    }
 
     function getUserInfoById($id = NULL) {
         if (!empty($id)) {
@@ -60,12 +56,11 @@ class UserModel extends CommonModel {
         }
     }
 
-    function getListUserInfo($start, $limit) {
+    function getListUserInfo() {
         $sql = "SELECT 
                     u.id, u.username, u.fullname, u.email, r.role_name
                 FROM users u
-                LEFT JOIN roles r ON u.role = r.id
-                LIMIT ". $start .",". $limit;
+                LEFT JOIN roles r ON u.role = r.id";
         $res = $this->getData($sql);
         if ($res) {
             return $res;
