@@ -1,0 +1,63 @@
+
+body { background: #222; font: 12px/1.7em arial, sans-serif; margin: 75px; }
+
+#register { 
+/*    width: 400px; 
+    position: absolute; 
+    left: 50%; 
+    margin-left: -200px; */
+    margin: 0px 20% auto;
+}
+
+#register h1
+{
+	background: url(../images/logo.png) no-repeat 0 0;
+	width: 215px;
+	height: 32px;
+	line-height: 800px;
+	overflow: hidden;
+	margin: 0 auto .75em;	
+}
+
+#register_panel
+{
+	background: #FFF;
+	width: 100%;
+	border: 1px solid #CCC;
+	overflow: hidden;
+	
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	box-shadow: 1px 1px 1px rgba(0,0,0,.6);
+}
+
+#register_panel .register_fields { padding: 22px 15px 15px; }
+	#register_panel .register_fields input { width: 100%; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#register_panel .field { margin-bottom: 1.75em; }
+	#register_panel .field:last-child { margin-bottom: .85em; }
+	
+	#register_panel .field label { font-weight: bold; color: #555; display: block; position: relative; } 	
+		#register_panel .field label small { position: absolute; right: 0; top: -2px; }
+			#register_panel .field label small a { color: #999; }
+
+#register .register_actions { background: #E8E8E8; width: auto; padding: 12px 15px; border-top: 1px dotted #CCC; text-align: center;}
+#register_form_errorloc a {
+    text-decoration: none;
+}
+
+#register_form_errorloc ul li {
+    list-style: none;
+}
+
+
+@media (max-width: 480px) {#register {
+		width: 90%; 
+		
+		margin-left: -45%;
+	}
+}
