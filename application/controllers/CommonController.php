@@ -89,33 +89,37 @@ class CommonController extends MX_Controller {
      * $theight: thumbnail height
      * */
     function uploadImg($imgInfo, $folder = NULL, $twidth = NULL, $theight = NULL) {
+        $data = array();
+        $folderPath = NULL;
         if ($imgInfo['size'] != 0 && $imgInfo["size"] < 10000000 && $imgInfo["error"] == 0) { //Check condition to upload
-            $data = array();
-            $folderPath = NULL;
             $thumbfolderPath = UPLOAD_FILE_PATH . 'thumb_images/';
-            /*====================Create Directory====================*/
+            //$this->log($thumbfolderPath);
+            /* ====================Create Directory==================== */
             // Create images folder if not exist
             if (is_null($folder)) {
                 if (!is_dir(UPLOAD_FILE_PATH . 'images/')) {
                     mkdir(UPLOAD_FILE_PATH . 'images/', 0777, true);
-                    $folderPath = UPLOAD_FILE_PATH . 'images/';
                 }
+                $folderPath = UPLOAD_FILE_PATH . 'images/';
             } else {
                 if (!is_dir(UPLOAD_FILE_PATH . $folder)) {
                     mkdir(UPLOAD_FILE_PATH . $folder, 0777, true);
-                    $folderPath = UPLOAD_FILE_PATH . $folder;                }
+                }
+                $folderPath = UPLOAD_FILE_PATH . $folder;
             }
             // Create thumb_iamges folder if not exist
             if (!is_dir($thumbfolderPath)) {
                 mkdir($thumbfolderPath, 0777, true);
             }
-            /*=========================================================*/
-            
-            
+            /* ========================================================= */
+
+
             if ($twidth == NULL || $theight == NULL) {
-                /*====================Begin upload image without thumbnail================*/
+                /* ====================Begin upload image without thumbnail================ */
                 $imageName = $_SERVER['REQUEST_TIME'] . '_' . $imgInfo['name'];
                 $imagePath = $folderPath . $imageName;
+                $this->log('FOLDER PATH: ' . $folderPath);
+                $this->log('IMG PATH: ' . $imagePath);
                 // Move file
                 if (move_uploaded_file($imgInfo["tmp_name"], $imagePath)) {
                     $data['imagePath'] = $imagePath;
@@ -124,24 +128,23 @@ class CommonController extends MX_Controller {
                 } else {
                     return NULL;
                 }
-                /*=========================================================================*/
-                
+                /* ========================================================================= */
             } else {
-                /*====================Begin upload image with thumbnail====================*/
+                /* ====================Begin upload image with thumbnail==================== */
                 // Path to file
                 $imageName = $_SERVER['REQUEST_TIME'] . '_' . $imgInfo['name'];
                 $imagePath = $folderPath . $imageName;
-
+                $this->log('IMG PATH: ' . $imagePath);
                 // Move file to $folderPath
                 if (move_uploaded_file($imgInfo['tmp_name'], $imagePath)) {
                     $thumbName = $_SERVER['REQUEST_TIME'] . '_thumb_' . $imgInfo['name'];
                     $thumbPath = $thumbfolderPath . $thumbName;
-                    
+
                     // Load the images
                     list($width, $height) = getimagesize($imagePath);
                     $thumb = imagecreatetruecolor($twidth, $theight);
                     $image = imagecreatefromjpeg($imagePath);
-                    
+
                     // Resize the $thumb image.
                     imagecopyresized($thumb, $image, 0, 0, 0, 0, $twidth, $theight, $width, $height);
 
@@ -155,7 +158,7 @@ class CommonController extends MX_Controller {
                 } else {
                     return NULL;
                 }
-                /*============================================================================*/
+                /* ============================================================================ */
             }
         } else {
             return NULL;
