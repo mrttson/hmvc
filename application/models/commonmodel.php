@@ -111,6 +111,22 @@ class CommonModel extends CI_Model {
         return $res;
     }
 
+    function saveImg($data) {
+        $imgPath = $data['imagePath'];
+        $thumbPath = $data['thumbPath'];
+        if (empty($imgPath) || is_null($imgPath) || !file_exists($imgPath)){
+            return FALSE;
+        } else {
+            $sql = sprintf("INSERT INTO images(img_path, thumb_path) 
+                    VALUES ('%s','%s')", mysql_real_escape_string($imgPath), mysql_real_escape_string($thumbPath));
+            if ($this->Execute($sql)){
+                return $this->getIdMax('images');
+            } else {
+                return FALSE;
+            }
+        }
+    }
+    
 }
 
 ?>

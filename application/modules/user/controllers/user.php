@@ -129,13 +129,13 @@ class User extends CommonController {
                 $data['role'] = $_POST['role'];
                 $data['id'] = $id;
                 if ($this->usermodel->update($data)) {
-                    redirect(site_url('user/index'));
+                    redirect(site_url('user'));
                 } else {
                     echo 'Die when Edit User';
                 }
             }
         } else {
-            redirect(site_url('user/index'));
+            redirect(site_url('user'));
         }
     }
 
@@ -166,13 +166,13 @@ class User extends CommonController {
                 $data['role'] = $_POST['role'];
                 $data['id'] = $id;
                 if ($this->usermodel->update($data)) {
-                    redirect(site_url('user/index'));
+                    redirect(site_url('user'));
                 } else {
                     echo 'Die when Edit User';
                 }
             }
         } else {
-            redirect(site_url('user/index'));
+            redirect(site_url('user'));
         }
     }
 

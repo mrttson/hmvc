@@ -82,24 +82,94 @@ class CommonController extends MX_Controller {
         return $this->commonmodel->getFooterData();
     }
 
-    function uploadImg($imgInfo) {
-        if ($imgInfo['size'] != 0) {
-            $temp = explode(".", $imgInfo["name"]);
-            $extension = end($temp);
-            if ($imgInfo["size"] < 10000000) {
-                if ($imgInfo["error"] > 0) {
-                    return FALSE;
-                } else {
-                    if (!file_exists(base_url() . 'public/images')) {
-                        mkdir(base_url() . 'public/images', 0777, true);
-                    }
-                    $fileName = $_SERVER['REQUEST_TIME'] . '_' . $imgInfo['name'];
-                    move_uploaded_file($imgInfo["tmp_name"], UPLOAD_FILE_PATH . $fileName);
-                    return $fileName;
+    //Upload 1 image
+    /**
+     * $folder: path to folder start from public/images/
+     * $twidth: thumbnail width
+     * $theight: thumbnail height
+     * */
+    function uploadImg($imgInfo, $folder = NULL, $twidth = NULL, $theight = NULL) {
+        $data = array();
+        $folderPath = NULL;
+        if ($imgInfo['size'] != 0 && $imgInfo["size"] < 10000000 && $imgInfo["error"] == 0) { //Check condition to upload
+            $thumbfolderPath = UPLOAD_FILE_PATH . 'thumb_images/';
+            //$this->log($thumbfolderPath);
+            /* ====================Create Directory==================== */
+            // Create images folder if not exist
+            if (is_null($folder)) {
+                if (!is_dir(UPLOAD_FILE_PATH . 'images/')) {
+                    mkdir(UPLOAD_FILE_PATH . 'images/', 0777, true);
                 }
+                $folderPath = UPLOAD_FILE_PATH . 'images/';
             } else {
-                return;
-                NULL;
+                if (!is_dir(UPLOAD_FILE_PATH . $folder)) {
+                    mkdir(UPLOAD_FILE_PATH . $folder, 0777, true);
+                }
+                $folderPath = UPLOAD_FILE_PATH . $folder;
+            }
+            // Create thumb_iamges folder if not exist
+            if (!is_dir($thumbfolderPath)) {
+                mkdir($thumbfolderPath, 0777, true);
+            }
+            /* ========================================================= */
+
+
+            if ($twidth == NULL || $theight == NULL) {
+                /* ====================Begin upload image without thumbnail================ */
+                $imageName = $_SERVER['REQUEST_TIME'] . '_' . $imgInfo['name'];
+                $imagePath = $folderPath . $imageName;
+                $this->log('FOLDER PATH: ' . $folderPath);
+                $this->log('IMG PATH: ' . $imagePath);
+                // Move file
+                if (move_uploaded_file($imgInfo["tmp_name"], $imagePath)) {
+                    $data['imagePath'] = $imagePath;
+                    $data['thumbPath'] = '';
+                    $id = $this->commonmodel->saveImg($data);
+                    if ($id) {
+                        $this->log('UPLOAD SUCCESS. RETURN ID: '. $id);
+                        return $id;
+                    } else {
+                        return NULL;
+                    }
+                } else {
+                    return NULL;
+                }
+                /* ========================================================================= */
+            } else {
+                /* ====================Begin upload image with thumbnail==================== */
+                // Path to file
+                $imageName = $_SERVER['REQUEST_TIME'] . '_' . $imgInfo['name'];
+                $imagePath = $folderPath . $imageName;
+                $this->log('IMG PATH: ' . $imagePath);
+                // Move file to $folderPath
+                if (move_uploaded_file($imgInfo['tmp_name'], $imagePath)) {
+                    $thumbName = $_SERVER['REQUEST_TIME'] . '_thumb_' . $imgInfo['name'];
+                    $thumbPath = $thumbfolderPath . $thumbName;
+
+                    // Load the images
+                    list($width, $height) = getimagesize($imagePath);
+                    $thumb = imagecreatetruecolor($twidth, $theight);
+                    $image = imagecreatefromjpeg($imagePath);
+
+                    // Resize the $thumb image.
+                    imagecopyresized($thumb, $image, 0, 0, 0, 0, $twidth, $theight, $width, $height);
+
+                    // Save the Thumbnail
+                    imagejpeg($thumb, $thumbPath, 100);
+
+                    $data['imagePath'] = $imagePath;
+                    $data['thumbPath'] = $thumbPath;
+                    $id = $this->commonmodel->saveImg($data);
+                    if ($id) {
+                        $this->log('UPLOAD SUCCESS. RETURN ID: '. $id);
+                        return $id;
+                    } else {
+                        return NULL;
+                    }
+                } else {
+                    return NULL;
+                }
+                /* ============================================================================ */
             }
         } else {
             return NULL;
