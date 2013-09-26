@@ -117,9 +117,13 @@ class CommonModel extends CI_Model {
         if (empty($imgPath) || is_null($imgPath) || !file_exists(base_url() . $imgPath)){
             return FALSE;
         } else {
-            $sql = "INSERT INTO images(img_path, thumb_path) 
-                    VALUES ('%s','%s')";
-            
+            $sql = sprintf("INSERT INTO images(img_path, thumb_path) 
+                    VALUES ('%s','%s')", mysql_real_escape_string($imgPath), mysql_real_escape_string($thumbPath));
+            if ($this->Execute($sql)){
+                return $this->getIdMax('images');
+            } else {
+                return FALSE;
+            }
         }
     }
     

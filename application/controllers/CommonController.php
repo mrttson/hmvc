@@ -124,7 +124,13 @@ class CommonController extends MX_Controller {
                 if (move_uploaded_file($imgInfo["tmp_name"], $imagePath)) {
                     $data['imagePath'] = $imagePath;
                     $data['thumbPath'] = '';
-                    return $data;
+                    $id = $this->commonmodel->saveImg($data);
+                    if ($id) {
+                        $this->log('ID: '. $id);
+                        return $id;
+                    } else {
+                        return NULL;
+                    }
                 } else {
                     return NULL;
                 }
@@ -153,8 +159,13 @@ class CommonController extends MX_Controller {
 
                     $data['imagePath'] = $imagePath;
                     $data['thumbPath'] = $thumbPath;
-                    //$this->commonmodel->saveImg($data);
-                    return $data;
+                    $id = $this->commonmodel->saveImg($data);
+                    if ($id) {
+                        $this->log('ID: '. $id);
+                        return $id;
+                    } else {
+                        return NULL;
+                    }
                 } else {
                     return NULL;
                 }
