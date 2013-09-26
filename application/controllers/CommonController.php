@@ -126,7 +126,7 @@ class CommonController extends MX_Controller {
                     $data['thumbPath'] = '';
                     $id = $this->commonmodel->saveImg($data);
                     if ($id) {
-                        $this->log('ID: '. $id);
+                        $this->log('UPLOAD SUCCESS. RETURN ID: '. $id);
                         return $id;
                     } else {
                         return NULL;
@@ -161,7 +161,7 @@ class CommonController extends MX_Controller {
                     $data['thumbPath'] = $thumbPath;
                     $id = $this->commonmodel->saveImg($data);
                     if ($id) {
-                        $this->log('ID: '. $id);
+                        $this->log('UPLOAD SUCCESS. RETURN ID: '. $id);
                         return $id;
                     } else {
                         return NULL;

@@ -112,9 +112,9 @@ class CommonModel extends CI_Model {
     }
 
     function saveImg($data) {
-        $imgPath = $data['image_path'];
-        $thumbPath = $data['thumb_path'];
-        if (empty($imgPath) || is_null($imgPath) || !file_exists(base_url() . $imgPath)){
+        $imgPath = $data['imagePath'];
+        $thumbPath = $data['thumbPath'];
+        if (empty($imgPath) || is_null($imgPath) || !file_exists($imgPath)){
             return FALSE;
         } else {
             $sql = sprintf("INSERT INTO images(img_path, thumb_path) 
