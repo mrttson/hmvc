@@ -82,6 +82,46 @@ class CommonController extends MX_Controller {
         return $this->commonmodel->getFooterData();
     }
 
+    function createThumb($imgPath, $twidth, $theight) {
+        $imgDetails = getimagesize($imgPath);
+
+        $width = $imgDetails[0];
+        $height = $imgDetails[1];
+        $imgType = $imgDetails[2];
+
+        if ($width > $height) {
+            $new_width = $twidth;
+            $new_height = intval($height * $new_width / $width);
+        } else {
+            $new_height = $theight;
+            $new_width = intval($width * $new_height / $height);
+        }
+        $this->log('NEW_HEIGHT: ' . $new_height . '-----------' . 'NEW_WIDTH: ' . $new_width);
+        if ($imgType == IMAGETYPE_GIF) {
+            $imgSaveType = "ImageGIF";
+            $imgcreatefrom = "ImageCreateFromGIF";
+        } else if ($imgType == IMAGETYPE_JPEG) {
+            $imgSaveType = "ImageJPEG";
+            $imgcreatefrom = "ImageCreateFromJPEG";
+        } else if ($imgType == IMAGETYPE_PNG) {
+            $imgSaveType = "ImagePNG";
+            $imgcreatefrom = "ImageCreateFromPNG";
+        }
+        if ($imgSaveType) {
+            $thumbName = 'thumb_' . basename($imgPath);
+            $thumbfolderPath = UPLOAD_FILE_PATH . 'thumb_images/';
+            $thumbPath = $thumbfolderPath . $thumbName;
+            $image = $imgcreatefrom($imgPath);
+            $thumb = imagecreatetruecolor($twidth, $theight);
+            imagecopyresized($thumb, $image, 0, 0, 0, 0, $new_width, $new_height, $width, $height);
+            if ($imgSaveType($thumb, $thumbPath)) {
+                return $thumbPath;
+            } else {
+                return NULL;
+            }
+        }
+    }
+
     //Upload 1 image
     /**
      * $folder: path to folder start from public/images/
@@ -126,7 +166,7 @@ class CommonController extends MX_Controller {
                     $data['thumbPath'] = '';
                     $id = $this->commonmodel->saveImg($data);
                     if ($id) {
-                        $this->log('UPLOAD SUCCESS. RETURN ID: '. $id);
+                        $this->log('UPLOAD SUCCESS. RETURN ID: ' . $id);
                         return $id;
                     } else {
                         return NULL;
@@ -143,25 +183,12 @@ class CommonController extends MX_Controller {
                 $this->log('IMG PATH: ' . $imagePath);
                 // Move file to $folderPath
                 if (move_uploaded_file($imgInfo['tmp_name'], $imagePath)) {
-                    $thumbName = $_SERVER['REQUEST_TIME'] . '_thumb_' . $imgInfo['name'];
-                    $thumbPath = $thumbfolderPath . $thumbName;
-
-                    // Load the images
-                    list($width, $height) = getimagesize($imagePath);
-                    $thumb = imagecreatetruecolor($twidth, $theight);
-                    $image = imagecreatefromjpeg($imagePath);
-
-                    // Resize the $thumb image.
-                    imagecopyresized($thumb, $image, 0, 0, 0, 0, $twidth, $theight, $width, $height);
-
-                    // Save the Thumbnail
-                    imagejpeg($thumb, $thumbPath, 100);
-
+                    $this->createThumb($imagePath, 200, 200);
                     $data['imagePath'] = $imagePath;
-                    $data['thumbPath'] = $thumbPath;
+                    //$data['thumbPath'] = $thumbPath;
                     $id = $this->commonmodel->saveImg($data);
                     if ($id) {
-                        $this->log('UPLOAD SUCCESS. RETURN ID: '. $id);
+                        $this->log('UPLOAD SUCCESS. RETURN ID: ' . $id);
                         return $id;
                     } else {
                         return NULL;
