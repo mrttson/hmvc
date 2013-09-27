@@ -152,7 +152,7 @@ class Product extends CommonController {
     function ajaxUpdateImgProduct() {
         sleep(1);
         $imgInfo = $_FILES['image'];
-        $uploadImgSuccess = $this->uploadImg($imgInfo);
+        $uploadImgSuccess = $this->uploadImg($imgInfo, NULL, 100, 100);
         $data['pId'] = $_POST['pId'];
         if ($uploadImgSuccess && $uploadImgSuccess != NULL) {
             $data['image_path'] = $uploadImgSuccess;
