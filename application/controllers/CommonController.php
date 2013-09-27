@@ -82,17 +82,13 @@ class CommonController extends MX_Controller {
         return $this->commonmodel->getFooterData();
     }
 
-    function createThumb($imgPath) {
+    function createThumb($imgPath, $twidth, $theight) {
         $imgDetails = getimagesize($imgPath);
-        
+
         $width = $imgDetails[0];
         $height = $imgDetails[1];
         $imgType = $imgDetails[2];
-        
-        $twidth = intval($width / 4);
-        $this->log('TWIDTH: '. $twidth);
-        $theight = intval($height / 4);
-        $this->log('THEIGHT: '. $theight);
+
         if ($width > $height) {
             $new_width = $twidth;
             $new_height = intval($height * $new_width / $width);
@@ -100,8 +96,7 @@ class CommonController extends MX_Controller {
             $new_height = $theight;
             $new_width = intval($width * $new_height / $height);
         }
-        $dest_x = intval(($twidth - $new_width) / 2);
-        $dest_y = intval(($theight - $new_height) / 2);
+        $this->log('NEW_HEIGHT: ' . $new_height . '-----------' . 'NEW_WIDTH: ' . $new_width);
         if ($imgType == IMAGETYPE_GIF) {
             $imgSaveType = "ImageGIF";
             $imgcreatefrom = "ImageCreateFromGIF";
@@ -119,7 +114,11 @@ class CommonController extends MX_Controller {
             $image = $imgcreatefrom($imgPath);
             $thumb = imagecreatetruecolor($twidth, $theight);
             imagecopyresized($thumb, $image, 0, 0, 0, 0, $new_width, $new_height, $width, $height);
-            $imgSaveType($thumb, $thumbPath);
+            if ($imgSaveType($thumb, $thumbPath)) {
+                return $thumbPath;
+            } else {
+                return NULL;
+            }
         }
     }
 
@@ -184,24 +183,7 @@ class CommonController extends MX_Controller {
                 $this->log('IMG PATH: ' . $imagePath);
                 // Move file to $folderPath
                 if (move_uploaded_file($imgInfo['tmp_name'], $imagePath)) {
-                    $this->createThumb($imagePath);
-                    //$this->
-//                    $thumbName = $_SERVER['REQUEST_TIME'] . '_thumb_' . $imgInfo['name'];
-//                    $thumbPath = $thumbfolderPath . $thumbName;
-//
-//                    // Load the images
-//                    list($width, $height) = getimagesize($imagePath);
-//                    $twidth = ($twidth > $width) ? $width : $twidth;
-//                    $theight = ($theight > $height) ? $height : $theight;
-//                    $thumb = imagecreatetruecolor($twidth, $theight);
-//                    $image = imagecreatefromjpeg($imagePath);
-//
-//                    // Resize the $thumb image.
-//                    imagecopyresized($thumb, $image, 0, 0, 0, 0, $twidth, $theight, $width, $height);
-//
-//                    // Save the Thumbnail
-//                    imagejpeg($thumb, $thumbPath, 100);
-
+                    $this->createThumb($imagePath, 200, 200);
                     $data['imagePath'] = $imagePath;
                     //$data['thumbPath'] = $thumbPath;
                     $id = $this->commonmodel->saveImg($data);
