@@ -90,3 +90,9 @@ ERROR - 2013-09-30 21:15:54 --> Severity: Notice  --> Undefined variable: header
 ERROR - 2013-09-30 21:16:04 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
 ERROR - 2013-09-30 21:16:15 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
 ERROR - 2013-09-30 21:16:16 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 22:41:28 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 22:41:37 --> IMG PATH: public/images/images/1380552096_Penguins.jpg
+ERROR - 2013-09-30 22:41:37 --> Severity: Notice  --> Undefined index:  thumbPath C:\xampp\htdocs\hmvc\application\models\commonmodel.php 116
+ERROR - 2013-09-30 22:41:37 --> UPLOAD SUCCESS. RETURN ID: 14
+ERROR - 2013-09-30 22:44:32 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 22:44:37 --> IMG PATH: public/images/images/1380552276_Tulips.jpg

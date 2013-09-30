@@ -112,6 +112,7 @@ class CommonModel extends CI_Model {
     }
 
     function saveImg($data) {
+        var_dump($data);die();
         $imgPath = $data['imagePath'];
         $thumbPath = $data['thumbPath'];
         if (empty($imgPath) || is_null($imgPath) || !file_exists($imgPath)){
