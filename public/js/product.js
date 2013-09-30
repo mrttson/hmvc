@@ -89,6 +89,7 @@ $(function() {
                         processData: false,
                         contentType: false,
                         success: function(res) {
+                            console.log(res);
                             var data2 = JSON.parse(res);
                             if (data2['error'] == '0') {
                                 $('#product_tbl tbody tr.chosen td[rel=image_path] img').attr('src', data2['image_path']);

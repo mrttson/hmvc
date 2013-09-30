@@ -36,10 +36,10 @@
                                 <td rel="image_path" style="text-align: center;">
                                     <?php
                                     $srcImg = "";
-//                                    var_dump(!empty($product['image_path']));
+//                                    var_dump(($product));die();
 //                                    var_dump(file_exists(PUBLIC_PATH . 'images/' . $product['image_path']));die();
-                                    if (!empty($product['image_path']) && file_exists(PUBLIC_PATH . 'images/' . $product['image_path'])) {
-                                        $srcImg = base_url() . 'public/images/' . $product['image_path'];
+                                    if (!empty($product['image_path']) && file_exists($product['image_path'])) {
+                                        $srcImg = base_url() . $product['image_path'];
                                     } else {
                                         $srcImg = base_url() . 'public/images/default_img_thumb.gif';
                                     }

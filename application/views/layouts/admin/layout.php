@@ -11,19 +11,6 @@
         <script src="<?php echo base_url(); ?>public/js/jquery-1.7.2.js"></script>
 
     </head>
-    <?php
-
-    function getImgPath($curentFilePath, $imgName) {
-        $cPath = str_replace('\\', '/', $curentFilePath);
-        $nPath = str_replace(APP_FOLDER_PATH, '', $cPath);
-        $arr = explode("/", $nPath);
-        for ($i = 0; $i < count($arr); $i++) {
-            $arr[$i] = '..';
-        }
-        $res = implode('/', $arr);
-        return $res . '/public/images/' . $imgName;
-    }
-    ?>
     <body>
         <div id="wrapper">
             <div id="header">

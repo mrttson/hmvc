@@ -2,7 +2,7 @@
 
 require_once(APPPATH . 'models/commonmodel.php');
 
-class ProductModel extends CommonModel {
+class sanphammodel extends CommonModel {
 
     public function __construct() {
         parent::__construct();
@@ -130,10 +130,9 @@ class ProductModel extends CommonModel {
      */
     function getListProduct() {
         $sql = "SELECT 
-                    p.id, p.`name`, p.`desc`, p.attrs, i.img_path as image_path, p.`status`, pc.title
+                    p.id, p.`name`, p.`desc`, p.attrs, p.image_path, p.`status`, pc.title
                 FROM product p
-                LEFT JOIN product_category pc ON p.category_id = pc.id
-                LEFT JOIN images i ON p.img_id = i.id";
+                LEFT JOIN product_category pc ON p.category_id = pc.id";
         $res = $this->getData($sql);
         if ($res) {
             return $res;
@@ -170,14 +169,12 @@ class ProductModel extends CommonModel {
      */
     function getProductInfoById($id) {
         $sql = "SELECT 
-                    p.id, p.`name`, p.`desc`, p.attrs, i.img_path as image_path, p.`status`, pc.title
+                    p.id, p.`name`, p.`desc`, p.attrs, p.image_path, p.`status`, pc.title
                 FROM product p
                 LEFT JOIN product_category pc ON p.category_id = pc.id
-                LEFT JOIN images i ON p.img_id = i.id
                 WHERE 
                     p.id = '" . $id . "'";
         $res = $this->get1Row($sql);
-        //var_dump($res);die();
         if ($res) {
             return $res;
         } else {

@@ -32,7 +32,7 @@ class CommonController extends MX_Controller {
         //User info
         //Prepairing Layout
         $this->_data['sideBar'] = $this->getAdminSideBar();
-        $this->_data['header'] = '';
+        $this->_data['banner'] = '';
         $this->_data['search'] = '';
         $this->_data['topNav'] = '';
         $this->_data['quickNav'] = '';
@@ -82,6 +82,16 @@ class CommonController extends MX_Controller {
         return $this->commonmodel->getFooterData();
     }
 
+    /*
+     * Create thumbnails
+     * params: $imgPath: Path to image
+     * 
+     * $twidth: thumb width
+     * $theight: thumb height
+     * 
+     * return: $thumbPath or NULL
+     */
+
     function createThumb($imgPath, $twidth, $theight) {
         $imgDetails = getimagesize($imgPath);
 
@@ -96,7 +106,7 @@ class CommonController extends MX_Controller {
             $new_height = $theight;
             $new_width = intval($width * $new_height / $height);
         }
-        $this->log('NEW_HEIGHT: ' . $new_height . '-----------' . 'NEW_WIDTH: ' . $new_width);
+
         if ($imgType == IMAGETYPE_GIF) {
             $imgSaveType = "ImageGIF";
             $imgcreatefrom = "ImageCreateFromGIF";
@@ -203,17 +213,22 @@ class CommonController extends MX_Controller {
         }
     }
 
-    function uploadMultiImg($albumInfo) {
-        $arrImgName = array();
-        foreach ($albumInfo["images"]["error"] as $key => $error) {
-            if ($error == UPLOAD_ERR_OK) {
-                $name = $albumInfo["images"]["name"][$key];
-                $fileName = $_SERVER['REQUEST_TIME'] . '_' . $albumInfo['images']['name'][$key];
-                move_uploaded_file($albumInfo["images"]["tmp_name"][$key], UPLOAD_FILE_PATH . $fileName);
-                $arrImgName[] = $fileName;
+    function uploadMultiImg($albumInfo, $folder = NULL, $twidth = NULL, $theight = NULL) {
+        $arrImgRes = array();
+        $countImg = count($albumInfo['images']['name']);
+        $imgInfo = array();
+        for ($i = 0; $i < $countImg; $i++) {
+            if ($albumInfo['images']['error'][$i] == UPLOAD_ERR_OK) {
+                $imgInfo['name'] = $albumInfo['images']['name'][$i];
+                $imgInfo['type'] = $albumInfo['images']['type'][$i];
+                $imgInfo['tmp_name'] = $albumInfo['images']['tmp_name'][$i];
+                $imgInfo['size'] = $albumInfo['images']['size'][$i];
+                $imgInfo['error'] = $albumInfo['images']['error'][$i];
+                $id = $this->uploadImg($imgInfo, $folder, $twidth, $theight);
+                $arrImgRes[] = $id;
             }
         }
-        return $arrImgName;
+        return $arrImgRes;
     }
 
 }

@@ -1,0 +1,92 @@
+ERROR - 2013-09-29 00:50:18 --> 404 Page Not Found --> myteam/public
+ERROR - 2013-09-29 07:23:54 --> 404 Page Not Found --> myteam/public
+ERROR - 2013-09-29 07:35:16 --> Array
+ERROR - 2013-09-29 13:11:27 --> 404 Page Not Found --> myteam/public
+ERROR - 2013-09-29 13:27:52 --> Severity: Notice  --> Undefined index:  size C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 144
+ERROR - 2013-09-29 13:27:52 --> Severity: Notice  --> Undefined index:  size C:\xampp\htdocs\hmvc\application\controllers\CommonController.php 144
+ERROR - 2013-09-29 13:29:10 --> FOLDER PATH: public/images/images/
+ERROR - 2013-09-29 13:29:10 --> IMG PATH: public/images/images/1380432550_Koala.jpg
+ERROR - 2013-09-29 13:29:10 --> UPLOAD SUCCESS. RETURN ID: 4
+ERROR - 2013-09-29 13:29:10 --> FOLDER PATH: public/images/images/
+ERROR - 2013-09-29 13:29:10 --> IMG PATH: public/images/images/1380432550_Lighthouse.jpg
+ERROR - 2013-09-29 13:29:10 --> UPLOAD SUCCESS. RETURN ID: 5
+ERROR - 2013-09-29 13:29:36 --> FOLDER PATH: public/images/images/
+ERROR - 2013-09-29 13:29:36 --> IMG PATH: public/images/images/1380432576_Tulips.jpg
+ERROR - 2013-09-29 13:29:36 --> UPLOAD SUCCESS. RETURN ID: 6
+ERROR - 2013-09-30 15:02:43 --> 404 Page Not Found --> product/public
+ERROR - 2013-09-30 15:03:25 --> 404 Page Not Found --> product/edit
+ERROR - 2013-09-30 16:05:47 --> 404 Page Not Found --> systemmenu/public
+ERROR - 2013-09-30 16:40:41 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 30
+ERROR - 2013-09-30 16:41:42 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 30
+ERROR - 2013-09-30 16:51:58 --> 404 Page Not Found --> 
+ERROR - 2013-09-30 17:10:47 --> Severity: Warning  --> include(template/banner.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\xampp\htdocs\hmvc\application\views\layouts\mypham\layout.php 61
+ERROR - 2013-09-30 17:10:47 --> Severity: Warning  --> include() [<a href='function.include'>function.include</a>]: Failed opening 'template/banner.php' for inclusion (include_path='.;C:\xampp\php\pear\') C:\xampp\htdocs\hmvc\application\views\layouts\mypham\layout.php 61
+ERROR - 2013-09-30 17:10:47 --> Severity: Warning  --> include(template/menu.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\xampp\htdocs\hmvc\application\views\layouts\mypham\layout.php 65
+ERROR - 2013-09-30 17:10:47 --> Severity: Warning  --> include() [<a href='function.include'>function.include</a>]: Failed opening 'template/menu.php' for inclusion (include_path='.;C:\xampp\php\pear\') C:\xampp\htdocs\hmvc\application\views\layouts\mypham\layout.php 65
+ERROR - 2013-09-30 17:10:47 --> Severity: Warning  --> include(template/slide.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\xampp\htdocs\hmvc\application\views\layouts\mypham\layout.php 69
+ERROR - 2013-09-30 17:10:47 --> Severity: Warning  --> include() [<a href='function.include'>function.include</a>]: Failed opening 'template/slide.php' for inclusion (include_path='.;C:\xampp\php\pear\') C:\xampp\htdocs\hmvc\application\views\layouts\mypham\layout.php 69
+ERROR - 2013-09-30 17:10:47 --> Severity: Warning  --> include(template/_content.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory C:\xampp\htdocs\hmvc\application\views\layouts\mypham\layout.php 73
+ERROR - 2013-09-30 17:10:47 --> Severity: Warning  --> include() [<a href='function.include'>function.include</a>]: Failed opening 'template/_content.php' for inclusion (include_path='.;C:\xampp\php\pear\') C:\xampp\htdocs\hmvc\application\views\layouts\mypham\layout.php 73
+ERROR - 2013-09-30 20:46:50 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 20:47:02 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 20:47:07 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 20:47:32 --> IMG PATH: public/images/images/1380545251_Tulips.jpg
+ERROR - 2013-09-30 20:47:32 --> Severity: Notice  --> Undefined index:  thumbPath C:\xampp\htdocs\hmvc\application\models\commonmodel.php 116
+ERROR - 2013-09-30 20:47:32 --> UPLOAD SUCCESS. RETURN ID: 7
+ERROR - 2013-09-30 20:47:37 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 20:48:52 --> IMG PATH: public/images/images/1380545331_Penguins.jpg
+ERROR - 2013-09-30 20:48:52 --> Severity: Notice  --> Undefined index:  thumbPath C:\xampp\htdocs\hmvc\application\models\commonmodel.php 116
+ERROR - 2013-09-30 20:48:52 --> UPLOAD SUCCESS. RETURN ID: 8
+ERROR - 2013-09-30 20:54:59 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 20:55:02 --> Severity: Notice  --> Undefined index:  image_path C:\xampp\htdocs\hmvc\application\modules\product\controllers\product.php 106
+ERROR - 2013-09-30 20:55:02 --> Severity: Notice  --> Undefined index:  image_path C:\xampp\htdocs\hmvc\application\modules\product\controllers\product.php 107
+ERROR - 2013-09-30 20:55:27 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 20:55:29 --> Severity: Notice  --> Undefined index:  image_path C:\xampp\htdocs\hmvc\application\modules\product\controllers\product.php 106
+ERROR - 2013-09-30 20:55:29 --> Severity: Notice  --> Undefined index:  image_path C:\xampp\htdocs\hmvc\application\modules\product\controllers\product.php 107
+ERROR - 2013-09-30 20:55:29 --> Severity: Notice  --> Undefined index:  image_path C:\xampp\htdocs\hmvc\application\modules\product\controllers\product.php 106
+ERROR - 2013-09-30 20:55:29 --> Severity: Notice  --> Undefined index:  image_path C:\xampp\htdocs\hmvc\application\modules\product\controllers\product.php 107
+ERROR - 2013-09-30 20:56:04 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 20:57:57 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 20:58:42 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 20:58:53 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 20:59:29 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:00:56 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:01:05 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:02:55 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:02:58 --> 404 Page Not Found --> 
+ERROR - 2013-09-30 21:04:08 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:04:10 --> 404 Page Not Found --> 
+ERROR - 2013-09-30 21:04:51 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:05:19 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:06:45 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:07:23 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:07:46 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:09:31 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:09:43 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:09:51 --> IMG PATH: public/images/images/1380546590_Tulips.jpg
+ERROR - 2013-09-30 21:09:51 --> Severity: Notice  --> Undefined index:  thumbPath C:\xampp\htdocs\hmvc\application\models\commonmodel.php 116
+ERROR - 2013-09-30 21:09:51 --> UPLOAD SUCCESS. RETURN ID: 9
+ERROR - 2013-09-30 21:10:48 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:10:54 --> IMG PATH: public/images/images/1380546652_Jellyfish.jpg
+ERROR - 2013-09-30 21:10:54 --> Severity: Notice  --> Undefined index:  thumbPath C:\xampp\htdocs\hmvc\application\models\commonmodel.php 116
+ERROR - 2013-09-30 21:10:54 --> UPLOAD SUCCESS. RETURN ID: 10
+ERROR - 2013-09-30 21:11:52 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:11:58 --> IMG PATH: public/images/images/1380546717_Tulips.jpg
+ERROR - 2013-09-30 21:11:58 --> Severity: Notice  --> Undefined index:  thumbPath C:\xampp\htdocs\hmvc\application\models\commonmodel.php 116
+ERROR - 2013-09-30 21:11:58 --> UPLOAD SUCCESS. RETURN ID: 11
+ERROR - 2013-09-30 21:12:14 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:12:19 --> IMG PATH: public/images/images/1380546738_Hydrangeas.jpg
+ERROR - 2013-09-30 21:12:19 --> Severity: Notice  --> Undefined index:  thumbPath C:\xampp\htdocs\hmvc\application\models\commonmodel.php 116
+ERROR - 2013-09-30 21:12:19 --> UPLOAD SUCCESS. RETURN ID: 12
+ERROR - 2013-09-30 21:12:40 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:12:45 --> IMG PATH: public/images/images/1380546764_Tulips.jpg
+ERROR - 2013-09-30 21:12:45 --> Severity: Notice  --> Undefined index:  thumbPath C:\xampp\htdocs\hmvc\application\models\commonmodel.php 116
+ERROR - 2013-09-30 21:12:45 --> UPLOAD SUCCESS. RETURN ID: 13
+ERROR - 2013-09-30 21:15:43 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:15:44 --> 404 Page Not Found --> product/public
+ERROR - 2013-09-30 21:15:48 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:15:48 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:15:54 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:16:04 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:16:15 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17
+ERROR - 2013-09-30 21:16:16 --> Severity: Notice  --> Undefined variable: header C:\xampp\htdocs\hmvc\application\views\layouts\admin\layout.php 17

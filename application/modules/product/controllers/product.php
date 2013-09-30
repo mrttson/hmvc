@@ -103,8 +103,8 @@ class Product extends CommonController {
         }
         if ($data) {
             $data['error'] = '0';
-            if (file_exists(PUBLIC_PATH . 'images/' . $data['image_path'])) {
-                $data['image_path'] = base_url() . 'public/images/' . $data['image_path'];
+            if (file_exists($data['image_path'])) {
+                $data['image_path'] = base_url() . $data['image_path'];
             } else {
                 $data['image_path'] = base_url() . 'public/images/default_img_thumb.gif';
             }
@@ -160,8 +160,8 @@ class Product extends CommonController {
             if ($pid > 0) {
                 $pInfo = $this->productmodel->getProductInfoById($pid);
                 $pInfo['error'] = '0';
-                if (file_exists(PUBLIC_PATH . 'images/' . $pInfo['image_path'])) {
-                    $pInfo['image_path'] = base_url() . 'public/images/' . $data['image_path'];
+                if (file_exists($pInfo['image_path'])) {
+                    $pInfo['image_path'] = base_url() . $data['image_path'];
                 } else {
                     $pInfo['image_path'] = base_url() . 'public/images/default_img_thumb.gif';
                 }

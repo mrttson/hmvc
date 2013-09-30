@@ -91,8 +91,7 @@ class Systemmenu extends CommonController {
                 if ($this->systemmenumodel->update($data)) {
                     redirect(site_url('systemmenu'));
                 } else {
-                    echo 'Die when Edit Systen Menu';
-                    sleep(5);
+                    //echo 'Die when Edit Systen Menu';
                     redirect('systemmenu');
                 }
             }
