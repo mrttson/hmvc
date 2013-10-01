@@ -130,9 +130,10 @@ class sanphammodel extends CommonModel {
      */
     function getListProduct() {
         $sql = "SELECT 
-                    p.id, p.`name`, p.`desc`, p.attrs, p.image_path, p.`status`, pc.title
+                    p.id, p.`name`, p.`desc`, p.attrs, i.img_path as image_path, p.`status`, pc.title
                 FROM product p
-                LEFT JOIN product_category pc ON p.category_id = pc.id";
+                LEFT JOIN product_category pc ON p.category_id = pc.id
+                LEFT JOIN images ON p.img_id = i.id";
         $res = $this->getData($sql);
         if ($res) {
             return $res;

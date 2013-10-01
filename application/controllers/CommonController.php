@@ -98,7 +98,8 @@ class CommonController extends MX_Controller {
         $width = $imgDetails[0];
         $height = $imgDetails[1];
         $imgType = $imgDetails[2];
-
+        $new_width = 0;
+        $new_height = 0;
         if ($width > $height) {
             $new_width = $twidth;
             $new_height = intval($height * $new_width / $width);
@@ -107,6 +108,7 @@ class CommonController extends MX_Controller {
             $new_width = intval($width * $new_height / $height);
         }
 
+        $this->log($width.'--'.$height.'---'.$new_width.'----'.$new_height);
         if ($imgType == IMAGETYPE_GIF) {
             $imgSaveType = "ImageGIF";
             $imgcreatefrom = "ImageCreateFromGIF";
@@ -122,7 +124,7 @@ class CommonController extends MX_Controller {
             $thumbfolderPath = UPLOAD_FILE_PATH . 'thumb_images/';
             $thumbPath = $thumbfolderPath . $thumbName;
             $image = $imgcreatefrom($imgPath);
-            $thumb = imagecreatetruecolor($twidth, $theight);
+            $thumb = imagecreatetruecolor($new_width, $new_height);
             imagecopyresized($thumb, $image, 0, 0, 0, 0, $new_width, $new_height, $width, $height);
             if ($imgSaveType($thumb, $thumbPath)) {
                 return $thumbPath;
@@ -138,7 +140,7 @@ class CommonController extends MX_Controller {
      * $twidth: thumbnail width
      * $theight: thumbnail height
      * */
-    function uploadImg($imgInfo, $folder = NULL, $twidth = NULL, $theight = NULL) {
+    function uploadImg($imgInfo, $folder = NULL, $twidth = 150, $theight = 150) {
         $data = array();
         $folderPath = NULL;
         if ($imgInfo['size'] != 0 && $imgInfo["size"] < 10000000 && $imgInfo["error"] == 0) { //Check condition to upload
@@ -168,8 +170,6 @@ class CommonController extends MX_Controller {
                 /* ====================Begin upload image without thumbnail================ */
                 $imageName = $_SERVER['REQUEST_TIME'] . '_' . $imgInfo['name'];
                 $imagePath = $folderPath . $imageName;
-                $this->log('FOLDER PATH: ' . $folderPath);
-                $this->log('IMG PATH: ' . $imagePath);
                 // Move file
                 if (move_uploaded_file($imgInfo["tmp_name"], $imagePath)) {
                     $data['imagePath'] = $imagePath;
@@ -193,9 +193,9 @@ class CommonController extends MX_Controller {
                 $this->log('IMG PATH: ' . $imagePath);
                 // Move file to $folderPath
                 if (move_uploaded_file($imgInfo['tmp_name'], $imagePath)) {
-                    $this->createThumb($imagePath, 200, 200);
+                    $thumbPath = $this->createThumb($imagePath, $twidth, $theight);
                     $data['imagePath'] = $imagePath;
-                    //$data['thumbPath'] = $thumbPath;
+                    $data['thumbPath'] = $thumbPath;
                     $id = $this->commonmodel->saveImg($data);
                     if ($id) {
                         $this->log('UPLOAD SUCCESS. RETURN ID: ' . $id);

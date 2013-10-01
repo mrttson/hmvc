@@ -130,7 +130,7 @@ class ProductModel extends CommonModel {
      */
     function getListProduct() {
         $sql = "SELECT 
-                    p.id, p.`name`, p.`desc`, p.attrs, i.img_path as image_path, p.`status`, pc.title
+                    p.id, p.`name`, p.`desc`, p.attrs, i.thumb_path as image_path, p.`status`, pc.title
                 FROM product p
                 LEFT JOIN product_category pc ON p.category_id = pc.id
                 LEFT JOIN images i ON p.img_id = i.id";
@@ -170,14 +170,13 @@ class ProductModel extends CommonModel {
      */
     function getProductInfoById($id) {
         $sql = "SELECT 
-                    p.id, p.`name`, p.`desc`, p.attrs, i.img_path as image_path, p.`status`, pc.title
+                    p.id, p.`name`, p.`desc`, p.attrs, i.thumb_path, i.img_path as image_path, p.`status`, pc.title
                 FROM product p
                 LEFT JOIN product_category pc ON p.category_id = pc.id
                 LEFT JOIN images i ON p.img_id = i.id
                 WHERE 
                     p.id = '" . $id . "'";
         $res = $this->get1Row($sql);
-        //var_dump($res);die();
         if ($res) {
             return $res;
         } else {
@@ -215,7 +214,7 @@ class ProductModel extends CommonModel {
     function updateImgProduct($data) {
         $sql = "UPDATE product 
                 SET 
-                    image_path = '" . $data['image_path'] . "'
+                    img_id = '" . $data['img_id'] . "'
                 WHERE
                     id='" . $data['pId'] . "'";
         if ($this->Execute($sql)) {

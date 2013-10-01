@@ -15,7 +15,6 @@ $(function() {
                 success: function(res) {
                     res = JSON.parse(res);
                     $('#img_prev').attr('src',res['image_path']);
-                    //document.getElementById("img_prev").src = res['image_path'];
                     $('#product_id').val(res['id']);
                     $('#product_name').val(res['name']);
                     $('#product_id').val(res['id']);
@@ -92,7 +91,7 @@ $(function() {
                             console.log(res);
                             var data2 = JSON.parse(res);
                             if (data2['error'] == '0') {
-                                $('#product_tbl tbody tr.chosen td[rel=image_path] img').attr('src', data2['image_path']);
+                                $('#product_tbl tbody tr.chosen td[rel=image_path] img').attr('src', data2['thumb_path']);
                             }
                             $('#ajaxLoader').hide();
                         }

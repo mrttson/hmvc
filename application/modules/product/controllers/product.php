@@ -108,6 +108,11 @@ class Product extends CommonController {
             } else {
                 $data['image_path'] = base_url() . 'public/images/default_img_thumb.gif';
             }
+            if (file_exists($data['thumb_path'])) {
+                $data['thumb_path'] = base_url() . $data['thumb_path'];
+            } else {
+                $data['thumb_path'] = base_url() . 'public/images/default_img_thumb.gif';
+            }
             echo json_encode($data);
         } else {
             echo json_encode(array('error' => '0'));
@@ -152,24 +157,29 @@ class Product extends CommonController {
     function ajaxUpdateImgProduct() {
         sleep(1);
         $imgInfo = $_FILES['image'];
-        $uploadImgSuccess = $this->uploadImg($imgInfo, NULL, 100, 100);
+        $idImg = $this->uploadImg($imgInfo, NULL, 100, 100);
         $data['pId'] = $_POST['pId'];
-        if ($uploadImgSuccess && $uploadImgSuccess != NULL) {
-            $data['image_path'] = $uploadImgSuccess;
+        if ($idImg && $idImg != NULL) {
+            $data['img_id'] = $idImg;
             $pid = $this->productmodel->updateImgProduct($data);
             if ($pid > 0) {
                 $pInfo = $this->productmodel->getProductInfoById($pid);
                 $pInfo['error'] = '0';
                 if (file_exists($pInfo['image_path'])) {
-                    $pInfo['image_path'] = base_url() . $data['image_path'];
+                    $pInfo['image_path'] = base_url() . $pInfo['image_path'];
                 } else {
                     $pInfo['image_path'] = base_url() . 'public/images/default_img_thumb.gif';
+                }
+                if (file_exists($pInfo['thumb_path'])) {
+                    $pInfo['thumb_path'] = base_url() . $pInfo['thumb_path'];
+                } else {
+                    $pInfo['thumb_path'] = base_url() . 'public/images/default_img_thumb.gif';
                 }
                 echo json_encode($pInfo);
             } else {
                 echo json_encode(array('error' => '1'));
             }
-        } else if ($uploadImgSuccess == NULL) {
+        } else if ($idImg == NULL) {
             echo json_encode(array('error' => '1'));
         }
     }
