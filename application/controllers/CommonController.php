@@ -32,7 +32,7 @@ class CommonController extends MX_Controller {
         //User info
         //Prepairing Layout
         $this->_data['sideBar'] = $this->getAdminSideBar();
-        $this->_data['banner'] = '';
+        $this->_data['header'] = '';
         $this->_data['search'] = '';
         $this->_data['topNav'] = '';
         $this->_data['quickNav'] = '';

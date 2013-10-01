@@ -15,6 +15,7 @@ class Myteam extends CommonController {
         $this->_layout = NULL;
         $this->_data['pageTitle'] = 'Member Show';
         $this->_data['page'] = 'index';
+        $this->_contentData['listMember'] = $this->myteammodel->getListMemberInfo();
         $this->_data['content'] = $this->_contentData;
         $this->loadPage();
     }
@@ -46,7 +47,7 @@ class Myteam extends CommonController {
     function getTeamList() {
         $data = $this->myteammodel->getListMemberInfo();
         foreach ($data as $key => $rowData) {
-            if (file_exists(PUBLIC_PATH . 'images/' . $rowData['avatar'])) {
+            if (file_exists($rowData['avatar'])) {
                 $data[$key]['avatar'] = base_url() . $rowData['avatar'];
             } else {
                 $data[$key]['avatar'] = base_url() . 'public/images/default_img_thumb.gif';
@@ -67,6 +68,7 @@ class Myteam extends CommonController {
             } else {
                 $data['info']['avatar'] = base_url() . 'public/images/default_img_thumb.gif';
             }
+            var_dump($data);die();
             foreach ($data['album'] as $key => $rowData) {
                 if (file_exists($rowData['img_path'])) {
                     $data['album'][$key]['img_path'] = base_url() . $rowData['img_path'];

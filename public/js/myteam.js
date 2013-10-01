@@ -58,7 +58,7 @@ $(function() {
 
         //getImg(teamIndex['son']);
         $('.album').click(function() {
-            getImg(teamIndex[$(this).attr('rel')]);
+            getImg($(this).attr('mid'));
         });
 
         $('.reload').click(function() {
@@ -69,39 +69,41 @@ $(function() {
 
         //Team list page
         $('#myteam_tbl tbody tr').click(function() {
-            var mid = $(this).attr('mid');
-            var data = {'mid': mid};
-            $('#myteam_tbl tbody tr.chosen').removeClass('chosen');
-            $(this).addClass('chosen');
-            $.ajax({
-                datatype: 'json',
-                url: "myteam/ajaxGetMemberInfo",
-                type: "POST",
-                data: {data: data},
-                success: function(res) {
-                    $('#album').html('');
-                    res = JSON.parse(res);
-                    $('#img_prev').attr('src', res['info']['avatar']);
-                    $('#mid').val(res['info']['id']);
-                    $('#name').val(res['info']['name']);
-                    for (var key in res['album']) {
-                        var htmlString = '<tr pid="" style="text-align: center;">'
-                                + '<td rel="pid">'
-                                + '<input type="checkbox" name="checkbox" class="newcheckbox" id="checkbox1" value="1" />'
-                                + '</td>'
-                                + '<td rel="image_path">'
-                                + '<a>Delete</a>'
-                                + '</td>'
-                                + '<td rel="pname">'
-                                + '<img class="product_image" src="' + res['album'][key]['thumb_path'] + '" alt="your image" style="height: 100px;"/>'
-                                + '</td>'
-                                + '</tr>';
-                        $('#album').append(htmlString);
-                        $('.newcheckbox').uniform();
-                        $('.newcheckbox').removeClass('newcheckbox');
+            if (!$(this).hasClass('chosen')) {
+                var mid = $(this).attr('mid');
+                var data = {'mid': mid};
+                $('#myteam_tbl tbody tr.chosen').removeClass('chosen');
+                $(this).addClass('chosen');
+                $.ajax({
+                    datatype: 'json',
+                    url: "myteam/ajaxGetMemberInfo",
+                    type: "POST",
+                    data: {data: data},
+                    success: function(res) {
+                        $('#album').html('');
+                        res = JSON.parse(res);
+                        $('#img_prev').attr('src', res['info']['avatar']);
+                        $('#mid').val(res['info']['id']);
+                        $('#name').val(res['info']['name']);
+                        for (var key in res['album']) {
+                            var htmlString = '<tr pid="" style="text-align: center;">'
+                                    + '<td rel="pid">'
+                                    + '<input type="checkbox" name="checkbox" class="newcheckbox" id="checkbox1" value="1" />'
+                                    + '</td>'
+                                    + '<td rel="image_path">'
+                                    + '<a>Delete</a>'
+                                    + '</td>'
+                                    + '<td rel="pname">'
+                                    + '<img class="product_image" src="' + res['album'][key]['thumb_path'] + '" alt="your image" style="height: 100px;"/>'
+                                    + '</td>'
+                                    + '</tr>';
+                            $('#album').append(htmlString);
+                            $('.newcheckbox').uniform();
+                            $('.newcheckbox').removeClass('newcheckbox');
+                        }
                     }
-                }
-            });
+                });
+            }
         });
 
         function clearFileInputField(tagId) {

@@ -13,14 +13,17 @@ class MyteamModel extends CommonModel {
                     mi.id, i.img_path, i.thumb_path
                 FROM myteam_img mi
                 LEFT JOIN images i ON mi.img_id = i.id
-                WHERE mi.mid = '" . $id . "'";
+                WHERE mi.mid = '" . $id . "'
+                ORDER BY mi.id
+                LIMIT 10";
         return $this->getData($sql);
     }
 
     function getListMemberInfo() {
         $sql = "SELECT
-                    id, `name`, avatar
-                FROM myteam";
+                    m.id, m.`name`, i.img_path as avatar, i.thumb_path
+                FROM myteam m
+                LEFT JOIN images i ON m.avatar = i.id";
         return $this->getData($sql);
     }
 
