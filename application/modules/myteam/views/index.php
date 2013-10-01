@@ -7,74 +7,9 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>public/js/jquery-1.7.2.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/js/jquery.waterwheelCarousel.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/js/sliding_effect.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>public/js/myteam.js"></script>
         <script type="text/javascript">
-            var teamIndex = {
-                'son': '0',
-                'thu': '1',
-                'hue': '2',
-                'van': '3',
-                'phuong': '4',
-                'lam': '5',
-                'duy': '6',
-                'thao': '7',
-                'chinh': '8',
-                'nguyet': '9'
-            };
-            var intervalID = 0;
-            //Get img member
-            function getImg(index) {
-                clearInterval(intervalID);
-                $('#ajaxLoader').css('display','block');
-                var imgcount = 0;
-                $.ajax({
-                    datatype: 'json',
-                    url: "myteam/ajaxGetImg",
-                    type: "POST",
-                    data: {data: index},
-                    complete: function() {
-                        if (imgcount > 0) {
-                            var carousel = $("#carousel").waterwheelCarousel();
-                            intervalID = setInterval(function() {
-                                carousel.next();
-                            }, 2000);
-                        } else {
-                            return false;
-                        }
-                        
-                    },
-                    success: function(res) {
-                        res = JSON.parse(res);
-                        console.log(res);
-                        $('#carousel').html('');
-                        if (res['error'] == '0') {
-                            for (var key in res['image']) {
-                                if (key != 'error') {
-                                    imgcount++;
-                                    var img_name = res['image'][key];
-                                    $('#carousel').append('<a href="#"><img class="imgNew" width="320px" height="180px" class="newIMG" src="' + img_name + '" /></a>');
-                                    $('#carousel .imgNew').load(function() {
-                                        
-                                    });
-                                }
-                            }
-                        }
-                        $('#ajaxLoader').css('display','none');
-                    }
-                });
-            }
-
-            $(document).ready(function() {
-                //getImg(teamIndex['son']);
-                $('.album').click(function() {
-                    getImg(teamIndex[$(this).attr('rel')]);
-                });
-
-                $('.reload').click(function() {
-                    var carousel = $("#carousel").waterwheelCarousel();
-                    carousel.reload();
-                    return false;
-                });
-            });
+            
         </script>
     </head>
     <body>

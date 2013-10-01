@@ -26,10 +26,15 @@ class Myteam extends CommonController {
         if ($data) {
             $data['error'] = '0';
             foreach ($data['image'] as $key => $img) {
-                if (file_exists(PUBLIC_PATH . 'images/' . $img['img_name'])) {
-                    $data['image'][$key] = base_url() . 'public/images/' . $img['img_name'];
+                if (file_exists($img['thumb_path'])) {
+                    $data['image'][$key]['thumb_path'] = base_url() . $img['thumb_path'];
                 } else {
-                    $data['image'][$key] = base_url() . 'public/images/default_img_thumb.gif';
+                    $data['image'][$key]['thumb_path'] = base_url() . 'public/images/default_img_thumb.gif';
+                }
+                if (file_exists($img['img_path'])) {
+                    $data['image'][$key]['img_path'] = base_url() . $img['img_path'];
+                } else {
+                    $data['image'][$key]['img_path'] = base_url() . 'public/images/default_img_thumb.gif';
                 }
             }
             echo json_encode($data);

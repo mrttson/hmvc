@@ -140,7 +140,7 @@ class CommonController extends MX_Controller {
      * $twidth: thumbnail width
      * $theight: thumbnail height
      * */
-    function uploadImg($imgInfo, $folder = NULL, $twidth = 150, $theight = 150) {
+    function uploadImg($imgInfo, $folder = NULL, $twidth = NULL, $theight = NULL) {
         $data = array();
         $folderPath = NULL;
         if ($imgInfo['size'] != 0 && $imgInfo["size"] < 10000000 && $imgInfo["error"] == 0) { //Check condition to upload
@@ -213,7 +213,7 @@ class CommonController extends MX_Controller {
         }
     }
 
-    function uploadMultiImg($albumInfo, $folder = NULL, $twidth = 150, $theight = 150) {
+    function uploadMultiImg($albumInfo, $folder = NULL, $twidth = 250, $theight = 250) {
         $arrImgRes = array();
         $countImg = count($albumInfo['images']['name']);
         $imgInfo = array();

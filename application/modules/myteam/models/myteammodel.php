@@ -10,9 +10,10 @@ class MyteamModel extends CommonModel {
 
     function getImg($id) {
         $sql = "SELECT 
-                    img_name
-                FROM myteam_img
-                WHERE mid = '" . $id . "'";
+                    mi.id, i.img_path, i.thumb_path
+                FROM myteam_img mi
+                LEFT JOIN images i ON mi.img_id = i.id
+                WHERE mi.mid = '" . $id . "'";
         return $this->getData($sql);
     }
 
