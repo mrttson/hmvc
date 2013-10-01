@@ -59,7 +59,7 @@ class Myteam extends CommonController {
     function ajaxGetMemberInfo() {
         $req = $_POST['data'];
         $data = $this->myteammodel->getMemberInfoById($req['mid']);
-        if ($data['info'] == FALSE || $data['album'] == FALSE) {
+        if ($data['info'] == FALSE) {
             $data['error'] = '1';
         } else {
             $data['error'] = '0';
@@ -68,7 +68,7 @@ class Myteam extends CommonController {
             } else {
                 $data['info']['avatar'] = base_url() . 'public/images/default_img_thumb.gif';
             }
-            var_dump($data);die();
+            //var_dump($data);die();
             foreach ($data['album'] as $key => $rowData) {
                 if (file_exists($rowData['img_path'])) {
                     $data['album'][$key]['img_path'] = base_url() . $rowData['img_path'];
