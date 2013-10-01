@@ -127,6 +127,13 @@ class CommonModel extends CI_Model {
         }
     }
     
+    function getImageData($id){
+        $sql = "SELECT 
+                    id, img_path, thumb_path
+                FROM images
+                WHERE id = ".$id;
+        return $this->get1Row($sql);
+    }
 }
 
 ?>

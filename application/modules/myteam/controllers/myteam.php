@@ -42,7 +42,7 @@ class Myteam extends CommonController {
         $data = $this->myteammodel->getListMemberInfo();
         foreach ($data as $key => $rowData) {
             if (file_exists(PUBLIC_PATH . 'images/' . $rowData['avatar'])) {
-                $data[$key]['avatar'] = base_url() . 'public/images/' . $rowData['avatar'];
+                $data[$key]['avatar'] = base_url() . $rowData['avatar'];
             } else {
                 $data[$key]['avatar'] = base_url() . 'public/images/default_img_thumb.gif';
             }
@@ -57,16 +57,21 @@ class Myteam extends CommonController {
             $data['error'] = '1';
         } else {
             $data['error'] = '0';
-            if (file_exists(PUBLIC_PATH . 'images/' . $data['info']['avatar'])) {
-                $data['info']['avatar'] = base_url() . 'public/images/' . $data['info']['avatar'];
+            if (file_exists($data['info']['avatar'])) {
+                $data['info']['avatar'] = base_url() . $data['info']['avatar'];
             } else {
                 $data['info']['avatar'] = base_url() . 'public/images/default_img_thumb.gif';
             }
             foreach ($data['album'] as $key => $rowData) {
-                if (file_exists(PUBLIC_PATH . 'images/' . $rowData['img_name'])) {
-                    $data['album'][$key]['img_name'] = base_url() . 'public/images/' . $rowData['img_name'];
+                if (file_exists($rowData['img_path'])) {
+                    $data['album'][$key]['img_path'] = base_url() . $rowData['img_path'];
                 } else {
-                    $data['album'][$key]['img_name'] = base_url() . 'public/images/default_img_thumb.gif';
+                    $data['album'][$key]['img_path'] = base_url() . 'public/images/default_img_thumb.gif';
+                }
+                if (file_exists($rowData['thumb_path'])) {
+                    $data['album'][$key]['thumb_path'] = base_url() . $rowData['thumb_path'];
+                } else {
+                    $data['album'][$key]['thumb_path'] = base_url() . 'public/images/default_img_thumb.gif';
                 }
             }
         }
@@ -77,14 +82,18 @@ class Myteam extends CommonController {
     function ajaxUploadAlbum() {
         $albumInfo = $_FILES;
         $data['album'] = $this->uploadMultiImg($albumInfo);
+        //var_dump($data);die();
         $data['mid'] = $_POST['mid'];
         if ($this->myteammodel->updateAlbum($data)) {
             $data['error'] = '0';
-            foreach ($data['album'] as $key => $imgName) {
-                if (file_exists(PUBLIC_PATH . 'images/' . $imgName)) {
-                    $data['album'][$key] = base_url() . 'public/images/' . $imgName;
-                } else {
-                    $data['album'][$key] = base_url() . 'public/images/default_img_thumb.gif';
+            foreach ($data['album'] as $key => $imgId) {
+                $imgInfo = $this->getImageInfo($imgId);
+                if ($imgInfo) {
+                    if (file_exists($imgInfo['thumb_path'])) {
+                        $data['album'][$key] = base_url() . $imgInfo['thumb_path'];
+                    } else {
+                        $data['album'][$key] = base_url() . 'public/images/default_img_thumb.gif';
+                    }
                 }
             }
         } else {

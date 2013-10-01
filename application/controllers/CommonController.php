@@ -213,7 +213,7 @@ class CommonController extends MX_Controller {
         }
     }
 
-    function uploadMultiImg($albumInfo, $folder = NULL, $twidth = NULL, $theight = NULL) {
+    function uploadMultiImg($albumInfo, $folder = NULL, $twidth = 150, $theight = 150) {
         $arrImgRes = array();
         $countImg = count($albumInfo['images']['name']);
         $imgInfo = array();
@@ -231,6 +231,15 @@ class CommonController extends MX_Controller {
         return $arrImgRes;
     }
 
+    function getImageInfo($id) {
+        $data = $this->commonmodel->getImageData($id);
+        if ($data){
+            return $data;
+        } else {
+            return FALSE;
+        }
+    }
+    
 }
 
 ?>

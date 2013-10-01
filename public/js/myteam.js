@@ -26,7 +26,7 @@ $(function() {
                                 + '<a>Delete</a>'
                                 + '</td>'
                                 + '<td rel="pname">'
-                                + '<img class="product_image" src="' + res['album'][key]['img_name'] + '" alt="your image" style="height: 100px;"/>'
+                                + '<img class="product_image" src="' + res['album'][key]['thumb_path'] + '" alt="your image" style="height: 100px;"/>'
                                 + '</td>'
                                 + '</tr>';
                         $('#album').append(htmlString);
