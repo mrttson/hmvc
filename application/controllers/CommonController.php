@@ -157,7 +157,7 @@ class CommonController extends MX_Controller {
                 if (!is_dir(UPLOAD_FILE_PATH . $folder)) {
                     mkdir(UPLOAD_FILE_PATH . $folder, 0777, true);
                 }
-                $folderPath = UPLOAD_FILE_PATH . $folder;
+                $folderPath = UPLOAD_FILE_PATH . $folder . '/';
             }
             // Create thumb_iamges folder if not exist
             if (!is_dir($thumbfolderPath)) {

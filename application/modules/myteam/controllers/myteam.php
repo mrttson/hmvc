@@ -88,7 +88,7 @@ class Myteam extends CommonController {
 
     function ajaxUploadAlbum() {
         $albumInfo = $_FILES;
-        $data['album'] = $this->uploadMultiImg($albumInfo);
+        $data['album'] = $this->uploadMultiImg($albumInfo, 'Thu', 500, 500);
         //var_dump($data);die();
         $data['mid'] = $_POST['mid'];
         if ($this->myteammodel->updateAlbum($data)) {
