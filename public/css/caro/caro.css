@@ -1,0 +1,16 @@
+.cell {
+    width:30px;
+    height:30px;
+    text-align:center;
+}
+#msg {
+    color:red;
+    font-size:24pt;
+}
+#state {
+    width:500px;
+    height:100px;
+    color:green;
+    overflow:auto;
+    border:black solid 1px;
+}
