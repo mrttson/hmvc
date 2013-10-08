@@ -60,6 +60,7 @@ class CommonController extends MX_Controller {
     }
 
     function log($message) {
+        $message = var_export($message, TRUE);
         return log_message('error', $message);
     }
 
