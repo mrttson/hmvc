@@ -33,6 +33,7 @@
             ?>
         </select>
         <button id="sendDeal">Deal</button>
+        <button id="sendDeal2">Deal2</button>
         <button id="getPlayerWait">Reload</button>
         <div id="msg">Ready!</div>
         <div id="state"></div>

@@ -326,11 +326,13 @@ $(function() {
         });
 
         $("#sendDeal").click(function() {
+            ajaxWaitDeal.abort();//ajaxWait.abort();ajaxLogin.abort();
+
+        });
+
+        $('#sendDeal2').click(function() {
             var requestSuccess = false;
-            if ($('#listPlayerWait').val() != 0) {                
-                //ajaxWaitDeal.abort();ajaxWait.abort();ajaxLogin.abort();
-                var createRequestDeal = false;
-                var userIndex = $(this).val();
+            if ($('#listPlayerWait').val() != 0) {
                 var data = {
                     'requestToken': $('#token1').val(),
                     'recivedToken': $('#listPlayerWait').val(),
@@ -344,26 +346,23 @@ $(function() {
                     data: {data: data},
                     complete: function() {
                         if (requestSuccess == true) {
+                            var dealID = $('#dealId').val();
                             $.ajax({
+                                async: false,
                                 datatype: 'json',
                                 url: "caro/waittingResult",
                                 type: "POST",
-                                data: {data: data},
+                                data: {'dealID': dealID},
                                 complete: function() {
-
+                                    if (requestSuccess){
+                                        
+                                    }
                                 },
                                 success: function(res) {
                                     res = JSON.parse(res);
                                     console.log(res);
-                                    if (res['position'] == '') {
-                                        alert('Hết Giờ');
-                                        X = !X;
-                                    } else {
-                                        var pos = res['position'].split(",");
-                                        console.log(pos);
-                                        var r = pos[0];
-                                        var c = pos[1];
-                                        $("td[cell='" + r + "," + c + "']").trigger("click");
+                                    if (res['accept'] == '1'){
+                                        requestSuccess = true;
                                     }
                                 }
                             });
@@ -403,6 +402,7 @@ $(function() {
                         },
                         complete: function() {
                             ajaxWaitDeal = $.ajax({
+                                //async: false,
                                 datatype: 'json',
                                 url: "caro/waitDeal",
                                 type: "POST",

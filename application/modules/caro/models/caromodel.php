@@ -22,7 +22,6 @@ class CaroModel extends CommonModel {
     function addRequestDeal($param) {
         $sql = "INSERT INTO requestDeal(requestToken, recivedToken)
                 VALUES('" . $param['requestToken'] . "', '" . $param['recivedToken'] . "')";
-        var_dump($sql);die();
         if ($this->Execute($sql)) {
             return $this->getIdMax('requestDeal');
         } else {
@@ -82,6 +81,15 @@ class CaroModel extends CommonModel {
         }
     }
 
+    function getAcceptDeal($param) {
+        $sql = "SELECT result FROM requestdeal WHERE id = ".$param['dealID'];
+        $result = $this->get1Cell($sql);
+        if ($result !== FALSE){
+            return $result;
+        } else {
+            return FALSE;
+        }
+    }
 }
 
 ?>

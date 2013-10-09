@@ -110,6 +110,19 @@ class Caro extends CommonController {
         }
     }
 
+    function waittingResult() {
+        $req = $_POST;
+        $data = $this->caromodel->getAcceptDeal($req);
+        if ($data['result'] == '0'){
+            sleep(2);
+            return $this->waittingResult();
+        } else if ($data['result'] == '1'){
+            echo json_encode(array('accept' => '1'));
+        } else {
+            echo json_encode(array('accept' => '0'));
+        }
+        
+    }
 }
 
 ?>

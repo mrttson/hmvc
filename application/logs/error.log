@@ -1,0 +1,12 @@
+ERROR - 2013-10-08 21:32:51 --> 404 Page Not Found --> caro/waittingResult
+ERROR - 2013-10-08 21:45:04 --> 404 Page Not Found --> caro/waittingResult
+ERROR - 2013-10-08 22:51:43 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\caro\views\index.php 28
+ERROR - 2013-10-08 22:51:45 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\caro\views\index.php 28
+ERROR - 2013-10-08 22:51:50 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\caro\views\index.php 28
+ERROR - 2013-10-08 22:58:36 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\caro\views\index.php 28
+ERROR - 2013-10-08 22:58:38 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\caro\views\index.php 28
+ERROR - 2013-10-08 23:00:01 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\hmvc\application\modules\caro\views\index.php 28
+ERROR - 2013-10-08 23:10:51 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ERROR - 2013-10-08 23:11:30 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ERROR - 2013-10-08 23:11:57 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ERROR - 2013-10-08 23:12:11 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
