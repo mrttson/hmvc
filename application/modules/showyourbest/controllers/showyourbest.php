@@ -2,14 +2,13 @@
 
 require_once(APPPATH . 'controllers/CommonController.php');
 
-class SanPham extends CommonController {
+class ShowYourBest extends CommonController {
 
     function __construct() {
         parent::__construct();
         //set default Layout
-        $this->_layout = "mypham"; //Normal layout
+        $this->_layout = NULL;
         $this->_contentData['moduleTitle'] = '';
-        $this->load->Model('sanphammodel');
     }
 
     function index($catId = NULL) {

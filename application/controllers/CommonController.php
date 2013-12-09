@@ -64,10 +64,6 @@ class CommonController extends MX_Controller {
         return log_message('error', $message);
     }
 
-    function getUserInfo() {
-        
-    }
-
     function checkPermisson() {
         if (!isset($_SESSION['user_id'])) {
             $this->session->sess_destroy();
